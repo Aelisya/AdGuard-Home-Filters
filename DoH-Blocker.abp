@@ -1,9 +1,9 @@
 !
 ! Title: Aelisya's DoH Blocker
 ! Description: Filter composed of several other filters (NextDns bypass, flo-wer/doh-list, thiagocrepaldi/doh_servers, etc) and deduplicated and with Adblock Plus Syntax for DNS.
-! Homepage: https://github.com/michaelb-ae/Bypass-Filter-DOH-VPN-Proxy
-! License: https://github.com/michaelb-ae/Bypass-Filter-DOH-VPN-Proxy/blob/main/LICENSE
-! Last modified: 2020-12-03 23:55
+! Homepage: https://github.com/michaelb-ae/AdGuard-Home-Filters
+! License: https://github.com/michaelb-ae/AdGuard-Home-Filters/blob/main/LICENSE
+! Last modified: 2020-12-04 23:54
 !
 ||012proxy.ga^
 ||123-24.eport.gr^
