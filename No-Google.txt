@@ -3,7 +3,7 @@
 ! Description: Filter who block all Google's Domains with Adblock Plus Syntax for DNS.
 ! Homepage: https://github.com/michaelb-ae/AdGuardHome-NoGoogle
 ! License: https://github.com/michaelb-ae/AdGuardHome-NoGoogle/blob/main/LICENSE
-! Last modified: 2020-12-04 00:17
+! Last modified: 2020-12-04 22:29
 !
 ||*.google
 ||*.goog
