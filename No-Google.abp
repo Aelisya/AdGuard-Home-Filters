@@ -1,9 +1,9 @@
 !
 ! Title: Aelisya's No-Google
 ! Description: Filter who block all Google's Domains with Adblock Plus Syntax for DNS.
-! Homepage: https://github.com/michaelb-ae/AdGuardHome-NoGoogle
-! License: https://github.com/michaelb-ae/AdGuardHome-NoGoogle/blob/main/LICENSE
-! Last modified: 2020-12-04 22:29
+! Homepage: https://github.com/michaelb-ae/AdGuard-Home-Filters
+! License: https://github.com/michaelb-ae/AdGuard-Home-Filters/blob/main/LICENSE
+! Last modified: 2020-12-04 23:53
 !
 ||*.google
 ||*.goog
