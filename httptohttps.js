@@ -8,8 +8,8 @@
 // ==/UserScript==
 (function (w) {
     'use strict';
-    var secureProtocol = 'https';
-    if ( !w.location.protocol.startsWith(secureProtocol) ) {
-        w.location.href = w.location.href.replace(/^[^:]+/, secureProtocol);
+    var protocol = 'https';
+    if ( !w.location.protocol.startsWith(protocol) ) {
+        w.location.href = w.location.href.replace(/^[^:]+/, protocol);
     }
 })(window);
