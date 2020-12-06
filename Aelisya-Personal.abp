@@ -3,7 +3,7 @@
 ! Description: Filter composed of several filters i found usefull but not mandatory with Adblock Plus Syntax for DNS.
 ! Homepage: https://github.com/michaelb-ae/AdGuard-Home-Filters
 ! License: https://github.com/michaelb-ae/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2020-12-04 23:56
+! Last modified: 2020-12-07 00:11
 !
 ||*.asia^
 ||*.cn^
@@ -15,7 +15,6 @@
 ||grs.dbankcloud.*^
 ||sentry*^
 ||matomo*^
-||muscdn.com*^
 ||alipay.com^
 ||alitrip.com^
 ||avast.com^
@@ -26,18 +25,11 @@
 ||disquscdn.com^
 ||gravatar.com^
 ||hicloud.com^
-||hshh.org^
 ||huawei.com^
 ||huaweimobileservices.com^
-||moatads.com^
 ||polyfill.io^
-||qq.com^
-||sftapi.com^
-||taboola.com^
 ||taobao.com^
-||trafficjunky.com^
 ||kimanime.com^
-||theporndude.com^
 ||smooch.io^
 ||myheritage.com^
 ||addthis.com^
@@ -46,12 +38,10 @@
 ||privacy-mgmt.com^
 ||printfriendly.com^
 ||sdk.privacy-center.org^
-||pixel.wp.com^
 ||embed.tawk.to^
 ||teredo.ipv6.microsoft.com^
 ||adobedtm.com^
 ||swupmf.adobe.com^
-||readspeaker.com^
 ||nelreports.net^
 ||scorecardresearch.com^
 ||crashlytics.com^
@@ -62,16 +52,13 @@
 ||dpgmedia.*^
 ||tiwaz-777.blogspot.com^
 ||telemetry.microsoft.com^
-||addtoany.com^
 ||graph.facebook.com^
 ||2mdn.net^
 ||skimresources.com^
-||xiti.com^
 ||aticdn.net^
 ||aolcdn.com^
 ||s.w.org^
 ||sharethis.com^
-||cx.atdmt.com^
 ||rpxnow.com^
 !
 ! Services Blocker
