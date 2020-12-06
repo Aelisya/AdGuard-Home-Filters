@@ -1,0 +1,14 @@
+! Title: Adguard for iOS and Windows Bypass Mitigation List
+! Homepage: https://github.com/michaelb-ae/AdGuard-Home-Filters
+! Version: 1
+! Description: Includes a list of rules to prevent bypassing Adguard software for iOS and Windows.
+||*^$csp=prefetch-src 'none'
+$$link[rel="next"]
+$$link[rel="prefetch"]
+$$link[rel="preconnect"]
+$$link[rel="preload"]
+$$link[rel="dns-prefetch"]
+$$link[rel="pingback"]
+$$link[rel="subresource"]
+$$link[rel="prev"]
+$$link[rel="prerender"]
