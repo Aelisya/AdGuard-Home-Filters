@@ -1,0 +1,9 @@
+// ==UserScript==
+// @name TLS redirector
+// @namespace	https://github.com/michaelb-ae/AdGuard-Home-Filters
+// @description	Replace http with https, to make sure you're using the TLS version of a page.
+// @include	http://*/*
+// ==/UserScript==
+(function(){
+  location.href = location.href.replace(/http\:/, 'https:');
+})();
