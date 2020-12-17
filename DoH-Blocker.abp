@@ -1,10 +1,8 @@
-!
 ! Title: Aelisya's DoH Blocker
 ! Description: Filter composed of several other filters (NextDns bypass, flo-wer/doh-list, thiagocrepaldi/doh_servers, etc) and deduplicated and with Adblock Plus Syntax for DNS.
 ! Homepage: https://github.com/michaelb-ae/AdGuard-Home-Filters
 ! License: https://github.com/michaelb-ae/AdGuard-Home-Filters/blob/main/LICENSE
 ! Last modified: 2020-12-04 23:54
-!
 ||012proxy.ga^
 ||123-24.eport.gr^
 ||12vpx.com^
@@ -614,3 +612,24 @@
 ||zendproxy.com^
 ||zoogvpn.com^
 ||zpn.im^
+||rsocks.net^
+||touchvpn.net^
+||atlasvpn.com^
+||fastestvpn.com^
+||guardianapp.com^
+||guardianvpn.net^
+||guardian-vpn.com^
+||ininja.org^
+||safeguardianvpn.com^
+||vpn.appsverse.com^
+||vpn.mozilla.org^
+||vpn.net^
+||thebestvpn.com^
+||darknet.to^
+||onion.cab^
+||onion.city^
+||onion.direct^
+||onion.dog^
+||onion.sh^
+||onion.to^
+||onion.ws^
