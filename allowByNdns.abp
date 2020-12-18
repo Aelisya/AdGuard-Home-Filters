@@ -3,7 +3,8 @@
 ! Description: Filter composed of exeption who come from NextDns but edited by me (removed some) but not mandatory with Adblock Plus Syntax for DNS.
 ! Homepage: https://github.com/michaelb-ae/AdGuard-Home-Filters
 ! License: https://github.com/michaelb-ae/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2020-12-18 21:40
+! Last modified: 2020-12-18 22:29
+@@|cfg.gog.com
 @@||1drv.ms^
 @@||4shared.com^
 @@||archive.org^
