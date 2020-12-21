@@ -1,0 +1,15 @@
+  
+! Title: Aelisya's Allows for my dad
+! Description: Filter composed of exeption who come for my dad's Adguard Home (i don't recomand this white list at all !!) with Adblock Plus Syntax for DNS.
+! Homepage: https://github.com/michaelb-ae/AdGuard-Home-Filters
+! License: https://github.com/michaelb-ae/AdGuard-Home-Filters/blob/main/LICENSE
+! Last modified: 2020-12-18 22:29
+@@|www.breizh-info.com^
+@@|santenatureinnovation.com^
+@@|dns-family.adguard.com
+@@|www.facebook.com^
+@@|static.xx.fbcdn.net^
+@@|static.ak.facebook.com^
+@@|s-static.ak.facebook.com^
+@@|l.facebook.com^
+@@|edge-chat.facebook.com^
