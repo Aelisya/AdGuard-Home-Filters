@@ -2,7 +2,7 @@
 ! Description: Filter composed of several filters i found usefull but not mandatory with Adblock Plus Syntax for DNS.
 ! Homepage: https://github.com/michaelb-ae/AdGuard-Home-Filters
 ! License: https://github.com/michaelb-ae/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2020-12-26 23:59
+! Last modified: 2020-12-25 23:59
 !
 ! IDN Attack Protection
 !
@@ -25,6 +25,14 @@
 ! Forbid NTP on network (NTS is used by my server) other address (time.windows or time.apple are rewrited to link to my own nts)
 !
 ||ntp.org^
+!
+! Parked domains
+!
+||parkingcrew.net^
+||sedoparking.com^
+||bodis.com^
+||comingsoon.namebright.com^
+||expired.namebright.com^
 !
 ! TLD dangerous or in other caracter than latin one
 !
