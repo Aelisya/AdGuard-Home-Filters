@@ -21,6 +21,10 @@
 !
 ||*.arpa^
 !
+! Forbid NTP on network (NTS is used by my server) other address (time.windows or time.apple are rewrited to link to my own nts)
+!
+||ntp.org^
+!
 ! TLD dangerous or in other caracter than latin one
 !
 ||*.asia^
