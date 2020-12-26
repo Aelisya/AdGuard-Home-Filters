@@ -9,7 +9,7 @@
 // @include       http://*.www.bing.com/*
 // @include       https://*.www.bing.com/*
 // @run-at        document-start
-// @version       0.20191211155603
+// @version       1.20191211155603
 // ==/UserScript==
 (function() {var css = [
 	"@media (prefers-color-scheme: light) {",
