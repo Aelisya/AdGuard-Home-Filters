@@ -2,7 +2,7 @@
 ! Description: Filter composed of several filters i found usefull but not mandatory with Adblock Plus Syntax for DNS.
 ! Homepage: https://github.com/michaelb-ae/AdGuard-Home-Filters
 ! License: https://github.com/michaelb-ae/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2020-12-27 18:27
+! Last modified: 2020-12-28
 !
 ! IDN Attack Protection
 !
@@ -24,8 +24,6 @@
 !
 ! Parked domains
 !
-||parkingcrew.net^
-||sedoparking.com^
 ||bodis.com^
 ||comingsoon.namebright.com^
 ||expired.namebright.com^
@@ -196,10 +194,8 @@
 !
 ||wpad^
 ||chatango.com^
-||aes.orange.be^
 ||discord.gg^
-||events.gfe.nvidia.com^
-||grs.dbankcloud.*^
+||grs.dbankcloud.eu^
 ||sentry*^
 ||matomo*^
 ||alipay.com^
@@ -215,38 +211,20 @@
 ||huawei.com^
 ||huaweimobileservices.com^
 ||polyfill.io^
-||taobao.com^
 ||kimanime.com^
 ||smooch.io^
 ||myheritage.com^
-||addthis.com^
-||cxense.com^
 ||sirdata.io^
-||privacy-mgmt.com^
 ||printfriendly.com^
-||sdk.privacy-center.org^
-||embed.tawk.to^
 ||teredo.ipv6.microsoft.com^
-||adobedtm.com^
 ||swupmf.adobe.com^
-||nelreports.net^
-||scorecardresearch.com^
-||crashlytics.com^
-||outbrain.com^
-||connect.facebook.net^
 ||mychannels.video^
 ||persgroep.net^
 ||dpgmedia.*^
 ||tiwaz-777.blogspot.com^
-||telemetry.microsoft.com^
-||graph.facebook.com^
-||2mdn.net^
-||skimresources.com^
 ||aticdn.net^
 ||aolcdn.com^
 ||s.w.org^
-||sharethis.com^
-||rpxnow.com^
 ||ibytedtos.com^
 !
 ! Services Blocker
