@@ -8,9 +8,7 @@ This is the filter list i use
 - [ABP - Energized Social](https://block.energized.pro/extensions/social/formats/filter)
 - [ABP - Energized Xtreme](https://block.energized.pro/extensions/xtreme/formats/filter)
 - Aelisya's NSA BlockList from this repo
-- Aelisya's Bypass Protection from this repo
 - Aelisya's No Conspi or Fasho from this repo
-- Aelisya's No Google Light from this repo
 - Aelisya's Personal from this repo
 
 ## And the whitelist file ?
