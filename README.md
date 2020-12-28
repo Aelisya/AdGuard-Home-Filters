@@ -3,11 +3,10 @@ Many list with ABP Syntax for AdGuard Home DNS blocking.
 
 ## So you use AdGuard Home but what list must i use ?
 This is the filter list i use
-- [ABP - Energized Ultimate](https://block.energized.pro/ultimate/formats/filter)
+- [ABP - Energized Unified](https://block.energized.pro/unified/formats/filter)
 - [ABP - Energized Regional](https://block.energized.pro/extensions/regional/formats/filter)
 - [ABP - Energized Social](https://block.energized.pro/extensions/social/formats/filter)
 - [ABP - Energized Xtreme](https://block.energized.pro/extensions/xtreme/formats/filter)
-- [ABP - Energized Porn](https://block.energized.pro/porn/formats/filter)
 - Aelisya's NSA BlockList from this repo
 - Aelisya's Bypass Protection from this repo
 - Aelisya's No Conspi or Fasho from this repo
