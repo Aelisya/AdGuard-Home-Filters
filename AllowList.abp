@@ -10,8 +10,8 @@
 @@||mkklcdnv6.com^
 @@||feedburner.google.com^
 @@||feedproxy.google.com^
-@@||msedge.net
-@@||outlookmobile.com
+@@||msedge.net^
+@@||outlookmobile.com^
 @@|settingsfd-geo.trafficmanager.net^
 @@|edge.activity.windows.com^
 @@|www.breizh-info.com^
@@ -32,11 +32,12 @@
 @@|settings-win.data.microsoft.com^
 @@|slscr.update.microsoft.com^
 @@|fe3cr.delivery.mp.microsoft.com^
-@@|sls.update.microsoft.com.akadns.net
-@@|fe3.delivery.dsp.mp.microsoft.com.nsatc.net
+@@|sls.update.microsoft.com.akadns.net^
+@@|fe3.delivery.dsp.mp.microsoft.com.nsatc.net^
 @@|odinvzc.azureedge.net^
 @@|smp-device-content.apple.com^
 @@|settings.data.microsoft.com^
 @@|plus.l.google.com^
-@@|dns-family.adguard.com
-@@|go.microsoft.com
+@@|dns-family.adguard.com^
+@@|go.microsoft.com^
+@@|g.msn.com^
