@@ -10,6 +10,8 @@
 @@||mkklcdnv6.com^
 @@||feedburner.google.com^
 @@||feedproxy.google.com^
+@@||msedge.net
+@@||outlookmobile.com
 @@|settingsfd-geo.trafficmanager.net^
 @@|edge.activity.windows.com^
 @@|www.breizh-info.com^
@@ -33,10 +35,8 @@
 @@|sls.update.microsoft.com.akadns.net
 @@|fe3.delivery.dsp.mp.microsoft.com.nsatc.net
 @@|odinvzc.azureedge.net^
-@@|fp.msedge.net^
-@@|o-ring.msedge.net^
-@@|t-ring.msedge.net^
 @@|smp-device-content.apple.com^
 @@|settings.data.microsoft.com^
-@@|exo-ring.msedge.net^
-@@|a-ring-fallback.msedge.net^
+@@|plus.l.google.com^
+@@|dns-family.adguard.com
+@@|go.microsoft.com
