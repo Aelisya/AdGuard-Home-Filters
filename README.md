@@ -17,9 +17,10 @@ It's the whitelist i have generated for my network and the one of my parents, so
 For that i use AdGuard Unfiltered Dns.
 
 ## And for the protocol ?
-I use Dns over Quic because encryption is at a lower layer than Dns over HTTPS (and don't let the possibility to many treat that DoH expose us), and Quic is newer and take in account many treat than tcp can't have imagined it will have back in a day "quic://dns-unfiltered.adguard.com".
+I use Dns over Quic because encryption is at a lower layer than Dns over HTTPS (and don't let the possibility to many treat that DoH expose us), and Quic is newer and take in account many treat than tcp can't have imagined it will have back in a day.\
+quic://dns-unfiltered.adguard.com
 
 ## For the DNS priming servers ?
-For that i use DNS.WATCH servers who is reputed for their privacy and net neutrality
-2001:1608:10:25::1c04:b12f
+For that i use DNS.WATCH servers who is reputed for their privacy and net neutrality.\
+2001:1608:10:25::1c04:b12f\
 84.200.69.80
