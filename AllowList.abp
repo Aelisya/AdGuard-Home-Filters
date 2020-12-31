@@ -1,7 +1,7 @@
 ! Title: Aelisya's Personal WhiteList
 ! Homepage: https://github.com/michaelb-ae/AdGuard-Home-Filters
 ! License: https://github.com/michaelb-ae/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2020-12-28
+! Last modified: 2020-12-31
 @@||skype.com^
 @@||click.mlsend.com^
 @@||list-manage.com^
@@ -46,3 +46,4 @@
 @@|settings-ssl.xboxlive.com^
 @@|api.dds.microsoft.com^
 @@|manage.devcenter.microsoft.com^
+@@|ris.api.iris.microsoft.com^
