@@ -14,7 +14,12 @@ This is the filter list i use
 It's the whitelist i have generated for my network and the one of my parents, so for that you can inspire you from it but i will tell you to generate yourself your whitelist, but the list here generate many false positive so you must check if something break but when your have your whitelist you are protected from many treat.
 
 ## Ok and the upstream DNS ?
-For that i use quad9 who is the most Secure dns (in malware filtering), i tell that without any sources, check yourself.
+For that i use AdGuard Unfiltered Dns.
 
 ## And for the protocol ?
-I use Dns over TLS because encryption is at a lower layer than Dns over HTTPS (and don't let the possibility to many treat that DoH expose us), if quad9 let us use Dns over Quic i will go to it.
+I use Dns over Quic because encryption is at a lower layer than Dns over HTTPS (and don't let the possibility to many treat that DoH expose us), and Quic is newer and take in account many treat than tcp can't have imagined it will have back in a day "quic://dns-unfiltered.adguard.com".
+
+## For the DNS priming servers ?
+For that i use DNS.WATCH servers who is reputed for their privacy and net neutrality
+2001:1608:10:25::1c04:b12f
+84.200.69.80
