@@ -16,7 +16,7 @@
 
 * Include the relevant issue number if issue doesn't exist create one and iclude the number.
 
-* Before submitting, please read the [Pull request](https://github.com/michaelb-ae/AdGuard-Home-Filters/blob/master/PULL_REQUEST_TEMPLATE.md) guide to know more.
+* Before submitting, please read the [Pull request](https://github.com/michaelb-ae/AdGuard-Home-Filters/blob/main/PULL_REQUEST_TEMPLATE.md) guide to know more.
 
 #### **Did you fix whitespace, format code, or make a purely cosmetic patch?**
 
