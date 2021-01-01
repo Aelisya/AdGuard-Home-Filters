@@ -5,7 +5,6 @@ Many list with ABP Syntax for AdGuard Home DNS blocking.
 This is the filter list i use
 - [ABP - Energized Unified](https://block.energized.pro/unified/formats/filter)
 - [ABP - Energized Regional](https://block.energized.pro/extensions/regional/formats/filter)
-- [ABP - Energized Social](https://block.energized.pro/extensions/social/formats/filter)
 - [ABP - Energized Xtreme](https://block.energized.pro/extensions/xtreme/formats/filter)
 - Aelisya's No Conspi or Fasho from this repo
 - Aelisya's Personal from this repo
