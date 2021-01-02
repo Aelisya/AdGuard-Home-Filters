@@ -11,6 +11,10 @@
 @@||feedproxy.google.com^
 @@||msedge.net^
 @@||outlookmobile.com^
+@@||xx.fbcdn.net^
+@@||a-msedge.net^
+@@||data.msn.com^
+@@||data.microsoft.com^
 @@|settingsfd-geo.trafficmanager.net^
 @@|edge.activity.windows.com^
 @@|cdn.discordapp.com^
@@ -40,3 +44,5 @@
 @@|ris.api.iris.microsoft.com^
 @@|query.hicloud.com^
 @@|*-dnsotls-ds.metric.gstatic.com^
+@@|www.facebook.com^
+@@|oneocsp.microsoft.com^
