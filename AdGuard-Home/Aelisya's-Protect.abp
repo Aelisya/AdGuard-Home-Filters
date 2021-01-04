@@ -2,7 +2,7 @@
 ! Description: Filter composed of several filters i found usefull but not mandatory with Adblock Plus Syntax for DNS.
 ! Homepage: https://github.com/michaelb-ae/AdGuard-Home-Filters
 ! License: https://github.com/michaelb-ae/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-01-04
+! Last modified: 2021-01-05
 ! IDN Attack Protection
 !
 /.*?xn--.*/
@@ -229,6 +229,9 @@
 ||aolcdn.com^
 ||s.w.org^
 ||ibytedtos.com^
+||bing-amp.com^
+||*sentry*^
+||*bugsnag*^
 !
 ! Services Blocker
 !
