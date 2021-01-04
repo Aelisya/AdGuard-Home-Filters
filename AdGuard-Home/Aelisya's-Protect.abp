@@ -2,7 +2,7 @@
 ! Description: Filter composed of several filters i found usefull but not mandatory with Adblock Plus Syntax for DNS.
 ! Homepage: https://github.com/michaelb-ae/AdGuard-Home-Filters
 ! License: https://github.com/michaelb-ae/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2020-12-31
+! Last modified: 2021-01-04
 ! IDN Attack Protection
 !
 /.*?xn--.*/
@@ -258,9 +258,6 @@
 ||gotinder.com^
 ||tinder.com^
 ||tindersparks.com^
-||vimeo-video.*^
-||vimeo.*^
-||vimeocdn.com^
 ||zoom.*^
 ||zoomus.zendesk.com^
 !
