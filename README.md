@@ -20,6 +20,10 @@ I use Dns over Quic because encryption is at a lower layer than Dns over HTTPS (
 quic://dns-unfiltered.adguard.com
 
 ## For the DNS priming servers ?
-For that i use DNS.WATCH servers who is reputed for their privacy and net neutrality.\
-2001:1608:10:25::1c04:b12f\
-84.200.69.80
+For that i use AdGuard normal (secure) servers on ipv6 only (ipv4 must be in the past and ipv6 used as most a possible(don't do that in professional network on professional add an ipv4 fallback)).\
+2a10:50c0::ad1:ff\
+2a10:50c0::ad2:ff
+
+## Why using AdGuard DNS on Home ?
+I don't have problem with their DNS but i prefer an unfiltred upstream and add filter myself like that I and only I decide what is good and wat is not.\
+For the priming server i use the adblocker one, because my configuration router to connect itself to my isp (on the router) use clear dns so i use them too because using home in this case will cause a loop error if the network shut down (electricity problem for instance).
