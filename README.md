@@ -47,3 +47,8 @@ It let me control if my list are enough too, because today i have 0 blocked requ
 
 ## You enable parental control but i want to show adult website !
 I will recommand you to allow list them, since many adult website are infected with malware and viruses.
+
+## Source
+For Qanon list :
+- [Rimu's No-qanon](https://github.com/rimu/no-qanon)
+- [Antifa-n Blocklist](https://github.com/antifa-n/pihole/blob/master/blocklist.txt)
