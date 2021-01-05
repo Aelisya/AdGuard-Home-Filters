@@ -37,3 +37,7 @@ For that i use the ip cloudflare team show too.\
 
 ## Why cloudflare team ?
 Because it protect from DGA Domains and News domains, and this two type of domain hosts most of the bad guy, it block Child Abuse and don't have query limit (like NEXTDNS).
+
+## Why don't you use cloudflare team for all ?
+Because it don't block ADS and i use it only for blocking what i have told before.\
+It let me control if my list are enough too, because today i have 0 blocked request on the cloudflare for team dashboard, if it come to show a domain blocked, i will report the domain to all project i use to add it to the list i use.
