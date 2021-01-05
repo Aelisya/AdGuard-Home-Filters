@@ -2,8 +2,11 @@
 # AdGuard-Home-Filters
 Many list with ABP Syntax for AdGuard Home DNS blocking.
 
-## So you use AdGuard Home but what list must i use ?
-This is the filter list i use
+## AdGuard Home API
+I have enabled Parental Control and SafeBrowsing.
+
+## AND what list do you use ?
+This is the filter list i use :
 - [ABP - Energized Unified](https://block.energized.pro/unified/formats/filter)
 - [ABP - Energized Regional](https://block.energized.pro/extensions/regional/formats/filter)
 - [ABP - Energized Xtreme](https://block.energized.pro/extensions/xtreme/formats/filter)
@@ -41,3 +44,6 @@ Because it protect from DGA Domains and News domains, and this two type of domai
 ## Why don't you use cloudflare team for all ?
 Because it don't block ADS and i use it only for blocking what i have told before.\
 It let me control if my list are enough too, because today i have 0 blocked request on the cloudflare for team dashboard, if it come to show a domain blocked, i will report the domain to all project i use to add it to the list i use.
+
+## You enable parental control but i want to show adult website !
+I will recommand you to allow list them, since many adult website are infected with malware and viruses.
