@@ -33,7 +33,7 @@ I use Dns over TLS because encryption is at a lower layer than Dns over HTTPS (a
 tls://YOURID.cloudflare-gateway.com
 
 ## For the DNS priming servers ?
-For that i use the ip cloudflare team show too.\
+For that i use the ip cloudflare team show too.
 
 ## Why cloudflare team ?
 Because it protect from DGA Domains and News domains, and this two type of domain hosts most of the bad guy, it block Child Abuse and don't have query limit (like NEXTDNS).
