@@ -17,8 +17,8 @@
         {"name": "qanon"}
     ],
     "external": [
-        {"name": "Energized Unified", "url": "https://block.energized.pro/unified/formats/filter"},
-        {"name": "Energized Regional", "url": "https://block.energized.pro/extensions/regional/formats/filter"},
-        {"name": "Energized xtreme", "url": "https://block.energized.pro/extensions/xtreme/formats/filter"}
+        {"url": "https://block.energized.pro/unified/formats/filter", "format": "abp"},
+        {"url": "https://block.energized.pro/extensions/regional/formats/filter", "format": "abp"},
+        {"url": "https://block.energized.pro/extensions/xtreme/formats/filter", "format": "abp"}
     ]
 }

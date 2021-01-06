@@ -24,8 +24,8 @@ def listify(filename):
     file.close()
     return destlist
 
-def writeResult(Final):
-    wFile = open(scriptPath+"Aelisya's-Protect.abp", "w")
+def writeResult(Final, name):
+    wFile = open(scriptPath+name+".abp", "w")
     for line in Final:
         wFile.write(line)
     wFile.close()
@@ -44,6 +44,14 @@ def deduplicate(list):
     print(str(dupli)+" duplicate removed")
     return deduped
 
+def external(i):
+    templist = []
+    for line in urllib.request.urlopen(i):
+        ltemp=str(line,'utf-8')
+        if ltemp == ltemp.replace("!",""):
+            templist.append(ltemp)
+    return templist
+
 # Import sources and listify them
 scriptPath = "e:/Git/AdGuard-Home-Filters/AdGuard-Home/"
 sources = importJson()
@@ -56,6 +64,9 @@ lstar = listify(fold+sources['star']+ext)
 lfull = []
 for i in sources['domain']:
     lfull.extend(listify(fold+i['name']+ext))
+energized = []
+for i in sources['external']:
+    energized.extend(external(i['url']))
 
 # generate the full list and write it
 toDedup=[]
@@ -72,7 +83,12 @@ for line in lfull:
     chktld = get_tld(line, fix_protocol=True, as_object=True)
     if search(ltld,chktld.tld) == False:
         toDedup.append("||"+line+"^\n")
+little = deduplicate(toDedup)
+for line in energized:
+    toDedup.append(line)
 
+writeResult(little,"Aelisya's-Protect")
 final = deduplicate(toDedup)
-writeResult(final)
-print("There are "+str(len(final)-5)+" unique rules")
+writeResult(final,"Aelisya's-Protect-Full")
+print("There are "+str(len(little)-5)+" unique rules in normal")
+print("There are "+str(len(final)-5)+" unique rules in full")
