@@ -16,17 +16,27 @@ def listify(filename):
         destlist.append(ltemp)
     file.close
     return destlist
-    
+
 #generate lists
 numberoftld=0
 ltld = listify("tld.dmn")
-lNsaBlock = listify("test.dmn")
+lsecu = listify("security-rules.dmn")
+lfull = listify("personal-domains.dmn")
+lfull.extend(listify("parked-domains.dmn"))
+lfull.extend(listify("services-lock.dmn"))
+lfull.extend(listify("safesearch-enforce.dmn"))
+lfull.extend(listify("google-lock-light.dmn"))
+lfull.extend(listify("bypass-protection.dmn"))
+lfull.extend(listify("gdpr-451.dmn"))
+lfull.extend(listify("nsa-block.dmn"))
+lfull.extend(listify("qanon.dmn"))
 
 
 final=[]
-print(lNsaBlock)
-for line in lNsaBlock:
+tt=0
+for line in lfull:
     chktld = get_tld(line, fix_protocol=True, as_object=True)
     if search(ltld,chktld.tld) == False:
         final.append(line)
-print(final)
+        tt+=1
+print(tt)

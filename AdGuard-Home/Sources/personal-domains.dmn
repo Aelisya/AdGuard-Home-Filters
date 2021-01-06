@@ -1,14 +1,11 @@
 root-servers.net
 ntp.org
-wpad
 chatango.com
 discord.gg
 mozilla.com
 mozilla.org
 firefox.com
 grs.dbankcloud.eu
-sentry*
-matomo*
 alipay.com
 alitrip.com
 avast.com
@@ -31,11 +28,9 @@ teredo.ipv6.microsoft.com
 swupmf.adobe.com
 mychannels.video
 persgroep.net
-dpgmedia.*
 tiwaz-777.blogspot.com
 aticdn.net
 aolcdn.com
 s.w.org
 ibytedtos.com
 bing-amp.com
-bugsnag*

@@ -2,3 +2,8 @@
 |192.168.*^
 |fc00:*^
 |fe80:*^
+wpad
+sentry*
+matomo*
+dpgmedia.*
+bugsnag*
