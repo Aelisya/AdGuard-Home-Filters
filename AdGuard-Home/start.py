@@ -19,25 +19,26 @@ def listify(filename):
     return destlist
 
 def writeResult(Final):
-    wFile = open("Aelisya's-Protect.abp", "w")
+    wFile = open("e:/Git/AdGuard-Home-Filters/AdGuard-Home/Aelisya's-Protect.abp", "w")
     for line in Final:
         wFile.write(line)
     wFile.close()
 
 #generate lists
-fold = "e:/Git/AdGuard-Home-Filters/AdGuard-Home/"
-head = listify(fold+"Sources/head.aelisya")
-ltld = listify(fold+"Sources/tld.dmn")
-lsecu = listify(fold+"Sources/security-rules.dmn")
-lfull = listify(fold+"Sources/personal-domains.dmn")
-lfull.extend(listify(fold+"Sources/parked-domains.dmn"))
-lfull.extend(listify(fold+"Sources/services-lock.dmn"))
-lfull.extend(listify(fold+"Sources/safesearch-enforce.dmn"))
-lfull.extend(listify(fold+"Sources/google-lock-light.dmn"))
-lfull.extend(listify(fold+"Sources/bypass-protection.dmn"))
-lfull.extend(listify(fold+"Sources/gdpr-451.dmn"))
-lfull.extend(listify(fold+"Sources/nsa-block.dmn"))
-lfull.extend(listify(fold+"Sources/qanon.dmn"))
+fold = "e:/Git/AdGuard-Home-Filters/AdGuard-Home/Sources/"
+head = listify(fold+"head.aelisya")
+ltld = listify(fold+"tld.dmn")
+lsecu = listify(fold+"security-rules.dmn")
+lstar = listify(fold+"star-one.dmn")
+lfull = listify(fold+"personal-domains.dmn")
+lfull.extend(listify(fold+"parked-domains.dmn"))
+lfull.extend(listify(fold+"services-lock.dmn"))
+lfull.extend(listify(fold+"safesearch-enforce.dmn"))
+lfull.extend(listify(fold+"google-lock-light.dmn"))
+lfull.extend(listify(fold+"bypass-protection.dmn"))
+lfull.extend(listify(fold+"gdpr-451.dmn"))
+lfull.extend(listify(fold+"nsa-block.dmn"))
+lfull.extend(listify(fold+"qanon.dmn"))
 
 Final=[]
 for line in head:
@@ -45,6 +46,8 @@ for line in head:
 Final.append("! Last modified: "+str(date.today())+"\n")
 for line in lsecu:
     Final.append(line+"\n")
+for line in lstar:
+    Final.append("||"+line+"^\n")
 for line in ltld:
     Final.append("||*."+line+"^\n")
 for line in lfull:

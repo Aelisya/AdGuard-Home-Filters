@@ -7,11 +7,11 @@
 |192.168.*^
 |fc00:*^
 |fe80:*^
-wpad
-sentry*
-matomo*
-dpgmedia.*
-bugsnag*
+||wpad^
+||sentry*^
+||matomo*^
+||dpgmedia.*^
+||bugsnag*^
 ||*.cn^
 ||*.ir^
 ||*.ru^
@@ -20,10 +20,6 @@ bugsnag*
 ||*.xyz^
 ||*.asia^
 ||*.gov^
-||*.yu^
-||*.histats^
-||*.rr^
-||*.za^
 ||root-servers.net^
 ||ntp.org^
 ||chatango.com^
