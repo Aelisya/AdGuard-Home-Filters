@@ -15,5 +15,10 @@
         {"name": "nsa-block"},
         {"name": "gdpr-451"},
         {"name": "qanon"}
+    ],
+    "external": [
+        {"name": "Energized Unified", "url": "https://block.energized.pro/unified/formats/filter"},
+        {"name": "Energized Regional", "url": "https://block.energized.pro/extensions/regional/formats/filter"},
+        {"name": "Energized xtreme", "url": "https://block.energized.pro/extensions/xtreme/formats/filter"}
     ]
 }

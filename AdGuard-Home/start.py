@@ -1,6 +1,6 @@
 from tld import get_tld, get_fld, is_tld
 from datetime import date
-import json
+import json, urllib.request
 
 # import sources
 def importJson():
@@ -34,10 +34,14 @@ def writeResult(Final):
 def deduplicate(list):
     seen = set()
     deduped = []
+    dupli=0
     for i in list:
         if i not in seen:
             deduped.append(i)
             seen.add(i)
+        else:
+            dupli+=1
+    print(str(dupli)+" duplicate removed")
     return deduped
 
 # Import sources and listify them
@@ -71,4 +75,4 @@ for line in lfull:
 
 final = deduplicate(toDedup)
 writeResult(final)
-print("Success with "+str(len(final)-5)+" rules")
+print("There are "+str(len(final)-5)+" unique rules")
