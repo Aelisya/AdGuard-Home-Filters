@@ -1,0 +1,19 @@
+{
+    "folder": "Sources/",
+    "file-ext": "ael",
+    "head": "head",
+    "tld": "tld",
+    "secu": "security-rules",
+    "star": "star-one",
+    "domain": [
+        {"name": "personal-domains"},
+        {"name": "parked-domains"},
+        {"name": "services-lock"},
+        {"name": "safesearch-enforce"},
+        {"name": "google-lock-light"},
+        {"name": "bypass-protection"},
+        {"name": "nsa-block"},
+        {"name": "gdpr-451"},
+        {"name": "qanon"}
+    ]
+}

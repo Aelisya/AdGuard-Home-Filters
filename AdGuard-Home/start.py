@@ -1,5 +1,11 @@
 from tld import get_tld, get_fld, is_tld
 from datetime import date
+import json
+
+# import sources
+def importJson():
+    with open(scriptPath+'src.json') as src:
+        return json.load(src)
 
 #search function
 def search(list, searched):
@@ -19,40 +25,50 @@ def listify(filename):
     return destlist
 
 def writeResult(Final):
-    wFile = open("e:/Git/AdGuard-Home-Filters/AdGuard-Home/Aelisya's-Protect.abp", "w")
+    wFile = open(scriptPath+"Aelisya's-Protect.abp", "w")
     for line in Final:
         wFile.write(line)
     wFile.close()
 
-#generate lists
-fold = "e:/Git/AdGuard-Home-Filters/AdGuard-Home/Sources/"
-head = listify(fold+"head.aelisya")
-ltld = listify(fold+"tld.dmn")
-lsecu = listify(fold+"security-rules.dmn")
-lstar = listify(fold+"star-one.dmn")
-lfull = listify(fold+"personal-domains.dmn")
-lfull.extend(listify(fold+"parked-domains.dmn"))
-lfull.extend(listify(fold+"services-lock.dmn"))
-lfull.extend(listify(fold+"safesearch-enforce.dmn"))
-lfull.extend(listify(fold+"google-lock-light.dmn"))
-lfull.extend(listify(fold+"bypass-protection.dmn"))
-lfull.extend(listify(fold+"gdpr-451.dmn"))
-lfull.extend(listify(fold+"nsa-block.dmn"))
-lfull.extend(listify(fold+"qanon.dmn"))
+# remove duplicate
+def deduplicate(list):
+    seen = set()
+    deduped = []
+    for i in list:
+        if i not in seen:
+            deduped.append(i)
+            seen.add(i)
+    return deduped
 
-Final=[]
+# Import sources and listify them
+scriptPath = "e:/Git/AdGuard-Home-Filters/AdGuard-Home/"
+sources = importJson()
+fold = scriptPath + sources['folder']
+ext = "."+sources['file-ext']
+head = listify(fold+sources['head']+ext)
+ltld = listify(fold+sources['tld']+ext)
+lsecu = listify(fold+sources['secu']+ext)
+lstar = listify(fold+sources['star']+ext)
+lfull = []
+for i in sources['domain']:
+    lfull.extend(listify(fold+i['name']+ext))
+
+# generate the full list and write it
+toDedup=[]
 for line in head:
-    Final.append(line+"\n")
-Final.append("! Last modified: "+str(date.today())+"\n")
+    toDedup.append(line+"\n")
+toDedup.append("! Last modified: "+str(date.today())+"\n")
 for line in lsecu:
-    Final.append(line+"\n")
+    toDedup.append(line+"\n")
 for line in lstar:
-    Final.append("||"+line+".*^\n")
+    toDedup.append("||"+line+".*^\n")
 for line in ltld:
-    Final.append("||*."+line+"^\n")
+    toDedup.append("||*."+line+"^\n")
 for line in lfull:
     chktld = get_tld(line, fix_protocol=True, as_object=True)
     if search(ltld,chktld.tld) == False:
-        Final.append("||"+line+"^\n")
-writeResult(Final)
-print("Success with "+str(len(Final)-5)+" lines")
+        toDedup.append("||"+line+"^\n")
+
+final = deduplicate(toDedup)
+writeResult(final)
+print("Success with "+str(len(final)-5)+" lines")
