@@ -7,10 +7,10 @@ I have enabled Parental Control and SafeBrowsing.
 
 ## AND what list do you use ?
 This is the filter list i use :
-- [ABP - Energized Unified](https://block.energized.pro/unified/formats/filter)
-- [ABP - Energized Regional](https://block.energized.pro/extensions/regional/formats/filter)
-- [ABP - Energized Xtreme](https://block.energized.pro/extensions/xtreme/formats/filter)
-- [ABP - Aelisya's Protect](https://github.com/michaelb-ae/AdGuard-Home-Filters/raw/main/AdGuard-Home/Aelisya's-Protect.abp) (from this repo)
+- [ABP - Aelisya's Protect Full](https://raw.githubusercontent.com/michaelb-ae/AdGuard-Home-Filters/main/AdGuard-Home/Aelisya's-Protect-Full.abp) (from this repo)
+
+## What's the source of full version ?
+My own modification and you add Energized with a deduplification and you have it (more info in "source")
 
 ## And the whitelist file ?
 It's the whitelist i have generated for my network and the one of my parents, so for that you can inspire you from it but i will tell you to generate yourself your whitelist, but the list here generate many false positive so you must check if something break but when your have your whitelist you are protected from many treat.
@@ -50,3 +50,8 @@ I will recommand you to allow list them, since many adult website are infected w
 ## Source
 For Qanon list :
 - [Rimu's No-qanon](https://github.com/rimu/no-qanon)
+
+For Full version :
+- [ABP - Energized Unified](https://block.energized.pro/unified/formats/filter)
+- [ABP - Energized Regional](https://block.energized.pro/extensions/regional/formats/filter)
+- [ABP - Energized Xtreme](https://block.energized.pro/extensions/xtreme/formats/filter)
