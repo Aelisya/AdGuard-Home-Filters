@@ -51,4 +51,3 @@ I will recommand you to allow list them, since many adult website are infected w
 ## Source
 For Qanon list :
 - [Rimu's No-qanon](https://github.com/rimu/no-qanon)
-- [Antifa-n Blocklist](https://github.com/antifa-n/pihole/blob/master/blocklist.txt)
