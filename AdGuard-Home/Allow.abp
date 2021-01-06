@@ -1,7 +1,7 @@
 ! Title: Aelisya's Personal Allow List
 ! Homepage: https://github.com/michaelb-ae/AdGuard-Home-Filters
 ! License: https://github.com/michaelb-ae/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-01-05
+! Last modified: 2021-01-06
 @@||skype.com^
 @@||click.mlsend.com^
 @@||list-manage.com^
@@ -50,4 +50,4 @@
 @@|l.facebook.com^
 @@|edge-chat.facebook.com^
 @@|oneocsp.microsoft.com^
-@@|i-am3p-cor004.api.p001.1drv.com^
+@@||api.p001.1drv.com^
