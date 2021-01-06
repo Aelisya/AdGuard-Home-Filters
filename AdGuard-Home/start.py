@@ -71,4 +71,4 @@ for line in lfull:
 
 final = deduplicate(toDedup)
 writeResult(final)
-print("Success with "+str(len(final)-5)+" lines")
+print("Success with "+str(len(final)-5)+" rules")
