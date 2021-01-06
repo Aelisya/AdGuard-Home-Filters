@@ -11,7 +11,6 @@ This is the filter list i use :
 - [ABP - Energized Regional](https://block.energized.pro/extensions/regional/formats/filter)
 - [ABP - Energized Xtreme](https://block.energized.pro/extensions/xtreme/formats/filter)
 - [ABP - Aelisya's Protect](https://github.com/michaelb-ae/AdGuard-Home-Filters/raw/main/AdGuard-Home/Aelisya's-Protect.abp) (from this repo)
-- [ABP - No Qanon](https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt)
 
 ## And the whitelist file ?
 It's the whitelist i have generated for my network and the one of my parents, so for that you can inspire you from it but i will tell you to generate yourself your whitelist, but the list here generate many false positive so you must check if something break but when your have your whitelist you are protected from many treat.
