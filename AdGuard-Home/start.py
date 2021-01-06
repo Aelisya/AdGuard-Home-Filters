@@ -25,19 +25,19 @@ def writeResult(Final):
     wFile.close()
 
 #generate lists
-numberoftld=0
-head = listify("Sources/head.aelisya")
-ltld = listify("Sources/tld.dmn")
-lsecu = listify("Sources/security-rules.dmn")
-lfull = listify("Sources/personal-domains.dmn")
-lfull.extend(listify("Sources/parked-domains.dmn"))
-lfull.extend(listify("Sources/services-lock.dmn"))
-lfull.extend(listify("Sources/safesearch-enforce.dmn"))
-lfull.extend(listify("Sources/google-lock-light.dmn"))
-lfull.extend(listify("Sources/bypass-protection.dmn"))
-lfull.extend(listify("Sources/gdpr-451.dmn"))
-lfull.extend(listify("Sources/nsa-block.dmn"))
-lfull.extend(listify("Sources/qanon.dmn"))
+fold = "e:/Git/AdGuard-Home-Filters/AdGuard-Home/"
+head = listify(fold+"Sources/head.aelisya")
+ltld = listify(fold+"Sources/tld.dmn")
+lsecu = listify(fold+"Sources/security-rules.dmn")
+lfull = listify(fold+"Sources/personal-domains.dmn")
+lfull.extend(listify(fold+"Sources/parked-domains.dmn"))
+lfull.extend(listify(fold+"Sources/services-lock.dmn"))
+lfull.extend(listify(fold+"Sources/safesearch-enforce.dmn"))
+lfull.extend(listify(fold+"Sources/google-lock-light.dmn"))
+lfull.extend(listify(fold+"Sources/bypass-protection.dmn"))
+lfull.extend(listify(fold+"Sources/gdpr-451.dmn"))
+lfull.extend(listify(fold+"Sources/nsa-block.dmn"))
+lfull.extend(listify(fold+"Sources/qanon.dmn"))
 
 Final=[]
 for line in head:
