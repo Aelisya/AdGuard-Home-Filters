@@ -47,7 +47,7 @@ Final.append("! Last modified: "+str(date.today())+"\n")
 for line in lsecu:
     Final.append(line+"\n")
 for line in lstar:
-    Final.append("||"+line+"^\n")
+    Final.append("||"+line+".*^\n")
 for line in ltld:
     Final.append("||*."+line+"^\n")
 for line in lfull:

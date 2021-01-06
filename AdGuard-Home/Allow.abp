@@ -3,6 +3,7 @@
 ! License: https://github.com/michaelb-ae/AdGuard-Home-Filters/blob/main/LICENSE
 ! Last modified: 2021-01-06
 @@||skype.com^
+@@||msftncsi.com
 @@||click.mlsend.com^
 @@||list-manage.com^
 @@||roulartamail.be^
@@ -15,6 +16,8 @@
 @@||a-msedge.net^
 @@||data.msn.com^
 @@||data.microsoft.com^
+@@||api.p001.1drv.com^
+@@|www.google.com^
 @@|www.bvoltaire.fr^
 @@|www.breizh-info.com^
 @@|settingsfd-geo.trafficmanager.net^
@@ -50,4 +53,3 @@
 @@|l.facebook.com^
 @@|edge-chat.facebook.com^
 @@|oneocsp.microsoft.com^
-@@||api.p001.1drv.com^
