@@ -52,4 +52,4 @@ for line in lfull:
     if search(ltld,chktld.tld) == False:
         Final.append("||"+line+"^\n")
 writeResult(Final)
-print("Success with "+str(len(Final))+" rules")
+print("Success with "+str(len(Final))+" lines")
