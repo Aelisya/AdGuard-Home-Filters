@@ -2,7 +2,7 @@
 ! Description: Filter composed of several Fascist, Fake News or Nazi Website with Adblock Plus Syntax for DNS.
 ! Homepage: https://github.com/michaelb-ae/AdGuard-Home-Filters
 ! License: https://github.com/michaelb-ae/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-01-05
+! Last modified: 2021-01-06
 ||regated.com^
 ||americanlookout.com^
 ||americannewsx.com^
@@ -3836,3 +3836,23 @@
 ||zabbix01.bitchute.com^
 ||zaehlwerk.der-dritte-weg.info^
 ||zip.4chan.org^
+||apocalypsesoon.org^
+||raptureforums.com^
+||merch.nicholasjfuentes.com^
+||rr-bb.com^
+||prophecyupdate.com^
+||larouchepac.com^
+||lpac.co^
+||action.larouchepac.com^
+||themix.net^
+||nrcc.org^
+||prayvotestand.org^
+||shopjw.org^
+||frcaction.org^
+||freerepublic.com^
+||rsbnetwork.com^
+||conservativeus.com^
+||genzconservative.com^
+||dennisprager.com^
+||judicialwatch.org^
+||thegreggjarrett.com^
