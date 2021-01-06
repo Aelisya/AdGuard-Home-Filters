@@ -19,6 +19,8 @@
     "external": [
         {"url": "https://block.energized.pro/unified/formats/filter", "format": "abp"},
         {"url": "https://block.energized.pro/extensions/regional/formats/filter", "format": "abp"},
-        {"url": "https://block.energized.pro/extensions/xtreme/formats/filter", "format": "abp"}
+        {"url": "https://block.energized.pro/extensions/xtreme/formats/filter", "format": "abp"},
+        {"url": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt", "format": "abp"},
+        {"url": "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/rules.txt", "format": "abp"}
     ]
 }

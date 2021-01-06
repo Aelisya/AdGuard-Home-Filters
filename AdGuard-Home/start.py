@@ -48,8 +48,9 @@ def external(i):
     templist = []
     for line in urllib.request.urlopen(i):
         ltemp=str(line,'utf-8')
-        if ltemp == ltemp.replace("!",""):
-            templist.append(ltemp)
+        if ltemp == ltemp.replace("!",""): #if the result of uncomment is the same to the original it's not commented line
+            if ltemp == ltemp.replace("@@",""): #if the result of unwhitelist is the same to the original it's not a whitelist line
+                templist.append(ltemp)
     return templist
 
 # Import sources and listify them
@@ -64,9 +65,9 @@ lstar = listify(fold+sources['star']+ext)
 lfull = []
 for i in sources['domain']:
     lfull.extend(listify(fold+i['name']+ext))
-energized = []
+extern = []
 for i in sources['external']:
-    energized.extend(external(i['url']))
+    extern.extend(external(i['url']))
 
 # generate the full list and write it
 toDedup=[]
@@ -84,7 +85,7 @@ for line in lfull:
     if search(ltld,chktld.tld) == False:
         toDedup.append("||"+line+"^\n")
 little = deduplicate(toDedup)
-for line in energized:
+for line in extern:
     toDedup.append(line)
 
 writeResult(little,"Aelisya's-Protect")
