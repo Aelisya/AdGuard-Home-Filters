@@ -34,16 +34,24 @@ def writeResult(Final, name):
 # remove duplicate
 def deduplicate(list):
     seen = set()
+    duped = set()
     deduped = []
     dupli=0
     for i in list:
         if i not in seen:
             deduped.append(i)
+            if i not in duped:
+                for i2 in lstar:
+                    if i.startswith("||" + i2 + ".") == True:
+                        deduped.remove(i)
+                        dupli+=1
+                        duped.add(i)
             seen.add(i)
         else:
             dupli+=1
     print(str(dupli)+" duplicate removed")
     return deduped
+    
 
 #download, read, uncomment, remove whitelist from url blocklist
 def external(i):
@@ -88,6 +96,7 @@ for line in lfull:
     chktld = get_tld(line, fix_protocol=True, as_object=True)
     if search(ltld,chktld.tld) == False:
         toDedup.append("||" + line + "^\n")
+
 little = deduplicate(toDedup)
 for line in extern:
     toDedup.append(line)
