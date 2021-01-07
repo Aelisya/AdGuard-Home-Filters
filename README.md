@@ -55,3 +55,7 @@ For Full version :
 - [ABP - Energized Unified](https://block.energized.pro/unified/formats/filter)
 - [ABP - Energized Regional](https://block.energized.pro/extensions/regional/formats/filter)
 - [ABP - Energized Xtreme](https://block.energized.pro/extensions/xtreme/formats/filter)
+- [ABP - 1Hosts](https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt)
+- [ABP - AdGuard DNS](https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/rules.txt)
+
+All rules are uncommented and unwhitelisted, so they will generate false positive.
