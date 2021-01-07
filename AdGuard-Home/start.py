@@ -30,6 +30,7 @@ def writeResult(Final, name):
     for line in Final:
         wFile.write(line)
     wFile.close()
+    print("There are " + str(len(Final)-5) + " unique rules in " + name)
 
 # remove duplicate
 def deduplicate(list):
@@ -68,6 +69,7 @@ scriptPath = "e:/Git/AdGuard-Home-Filters/AdGuard-Home/"
 sources = importJson()
 fold = scriptPath + sources['folder']
 ext = "." + sources['file-ext']
+
 head = listify(fold + sources['head'] + ext)
 ltld = listify(fold + sources['tld'] + ext)
 lsecu = listify(fold + sources['secu'] + ext)
@@ -86,24 +88,26 @@ toDedup = []
 for line in head:
     toDedup.append(line + "\n")
 toDedup.append("! Last modified: " + str(date.today()) + "\n")
+
 for line in lsecu:
     toDedup.append(line + "\n")
+
 for line in ltld:
     toDedup.append("||*." + line + "^\n")
+
 for line in lfull:
     chktld = get_tld(line, fix_protocol=True, as_object=True)
     if search(ltld,chktld.tld) == False:
         toDedup.append("||" + line + "^\n")
 little = deduplicate(toDedup)
+
 for line in extern:
     toDedup.append(line)
 final = deduplicate(toDedup)
+
 for line in lstar:
     little.append("|" + line + ".*^\n")
     final.append("|" + line + ".*^\n")
 
 writeResult(little, "Aelisya's-Protect")
 writeResult(final, "Aelisya's-Protect-Full")
-
-print("There are " + str(len(little)-5) + " unique rules in normal")
-print("There are " + str(len(final)-5) + " unique rules in full")

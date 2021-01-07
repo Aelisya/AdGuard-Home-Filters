@@ -17,6 +17,7 @@
 ||*.local^
 ||*.xyz^
 ||*.asia^
+||*.goog^
 ||*.gov^
 ||*.workgroup^
 ||root-servers.net^
