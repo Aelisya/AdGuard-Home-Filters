@@ -12,6 +12,10 @@ This is the filter list i use :
 ## What's the source of full version ?
 My own modification and you add Energized with a deduplification and you have it (more info in "source")
 
+## Whats intelligent tracking rules ?
+it's rules with well known id in it for exemple ads.domain.tld will let this rules ||ads.*^ it will block all of them in one rules, and our python script will remove all rules who start by ||ads. less rules for more protection.\
+"Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away." — Antoine de Saint-Exupery
+
 ## And the whitelist file ?
 It's the whitelist i have generated for my network and the one of my parents, so for that you can inspire you from it but i will tell you to generate yourself your whitelist, but the list here generate many false positive so you must check if something break but when your have your whitelist you are protected from many treat.
 

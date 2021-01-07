@@ -60,6 +60,15 @@
 ||track.*^
 ||tracker.*^
 ||tracking.*^
+||ad.*^
+||ads.*^
+||banner.*^
+||banners.*^
+||creatives.*^
+||oas.*^
+||oascentral.*^
+||tag.*^
+||telemetry.*^
 ||*.cn^
 ||*.ir^
 ||*.ru^
@@ -68,6 +77,7 @@
 ||*.xyz^
 ||*.asia^
 ||*.gov^
+||*.workgroup^
 ||root-servers.net^
 ||ntp.org^
 ||chatango.com^
