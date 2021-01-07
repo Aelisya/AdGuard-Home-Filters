@@ -1,4 +1,3 @@
-from tld import get_tld, get_fld, is_tld
 from datetime import date
 import json, urllib.request
 
@@ -43,10 +42,23 @@ def deduplicate(list):
             deduped.append(i)
             if i not in duped:
                 for i2 in lstar:
-                    if i.startswith("||" + i2 + ".") == True:
-                        deduped.remove(i)
-                        dupli += 1
-                        duped.add(i)
+                    if i not in duped:
+                        if i.startswith("||" + i2 + "."):
+                            deduped.remove(i)
+                            dupli += 1
+                            duped.add(i)
+                    else:
+                        break
+                for i3 in ltld:
+                    if i not in duped:
+                        if i.endswith(i3+"^\n"):
+                            deduped.remove(i)
+                            dupli += 1
+                            duped.add(i)
+                    else:
+                        break
+            else: 
+                break
             seen.add(i)
         else:
             dupli += 1
@@ -92,18 +104,18 @@ toDedup.append("! Last modified: " + str(date.today()) + "\n")
 for line in lsecu:
     toDedup.append(line + "\n")
 
-for line in ltld:
-    toDedup.append("||*." + line + "^\n")
-
+tseen = set()
 for line in lfull:
-    chktld = get_tld(line, fix_protocol=True, as_object=True)
-    if search(ltld,chktld.tld) == False:
-        toDedup.append("||" + line + "^\n")
+    toDedup.append("||" + line + "^\n")
 little = deduplicate(toDedup)
 
 for line in extern:
     toDedup.append(line)
 final = deduplicate(toDedup)
+
+for line in ltld:
+    little.append("||*." + line + "^\n")
+    final.append("||*." + line + "^\n")
 
 for line in lstar:
     little.append("|" + line + ".*^\n")
