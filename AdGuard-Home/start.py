@@ -99,8 +99,8 @@ for line in extern:
     toDedup.append(line)
 final = deduplicate(toDedup)
 for line in lstar:
-    little.append("||" + line + ".*^\n")
-    final.append("||" + line + ".*^\n")
+    little.append("|" + line + ".*^\n")
+    final.append("|" + line + ".*^\n")
 
 writeResult(little, "Aelisya's-Protect")
 writeResult(final, "Aelisya's-Protect-Full")
