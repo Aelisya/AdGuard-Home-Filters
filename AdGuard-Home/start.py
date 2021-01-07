@@ -88,21 +88,21 @@ for line in head:
 toDedup.append("! Last modified: " + str(date.today()) + "\n")
 for line in lsecu:
     toDedup.append(line + "\n")
-for line in lstar:
-    toDedup.append("||" + line + ".*^\n")
 for line in ltld:
     toDedup.append("||*." + line + "^\n")
 for line in lfull:
     chktld = get_tld(line, fix_protocol=True, as_object=True)
     if search(ltld,chktld.tld) == False:
         toDedup.append("||" + line + "^\n")
-
 little = deduplicate(toDedup)
 for line in extern:
     toDedup.append(line)
+final = deduplicate(toDedup)
+for line in lstar:
+    little.append("||" + line + ".*^\n")
+    final.append("||" + line + ".*^\n")
 
 writeResult(little,"Aelisya's-Protect")
-final = deduplicate(toDedup)
 writeResult(final,"Aelisya's-Protect-Full")
 
 print("There are "+str(len(little)-5)+" unique rules in normal")
