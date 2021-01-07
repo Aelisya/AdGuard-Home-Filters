@@ -24,6 +24,7 @@ def listify(filename):
     file.close()
     return destlist
 
+#write the result to the file
 def writeResult(Final, name):
     wFile = open(scriptPath+name+".abp", "w")
     for line in Final:
@@ -44,6 +45,7 @@ def deduplicate(list):
     print(str(dupli)+" duplicate removed")
     return deduped
 
+#download, read, uncomment, remove whitelist from url blocklist
 def external(i):
     templist = []
     for line in urllib.request.urlopen(i):
@@ -57,14 +59,16 @@ def external(i):
 scriptPath = "e:/Git/AdGuard-Home-Filters/AdGuard-Home/"
 sources = importJson()
 fold = scriptPath + sources['folder']
-ext = "."+sources['file-ext']
+ext = "." + sources['file-ext']
 head = listify(fold+sources['head']+ext)
 ltld = listify(fold+sources['tld']+ext)
 lsecu = listify(fold+sources['secu']+ext)
 lstar = listify(fold+sources['star']+ext)
+
 lfull = []
 for i in sources['domain']:
-    lfull.extend(listify(fold+i['name']+ext))
+    lfull.extend(listify(fold + i['name'] + ext))
+
 extern = []
 for i in sources['external']:
     extern.extend(external(i['url']))
@@ -72,18 +76,18 @@ for i in sources['external']:
 # generate the full list and write it
 toDedup=[]
 for line in head:
-    toDedup.append(line+"\n")
-toDedup.append("! Last modified: "+str(date.today())+"\n")
+    toDedup.append(line + "\n")
+toDedup.append("! Last modified: " + str(date.today()) + "\n")
 for line in lsecu:
-    toDedup.append(line+"\n")
+    toDedup.append(line + "\n")
 for line in lstar:
-    toDedup.append("||"+line+".*^\n")
+    toDedup.append("||" + line + ".*^\n")
 for line in ltld:
-    toDedup.append("||*."+line+"^\n")
+    toDedup.append("||*." + line + "^\n")
 for line in lfull:
     chktld = get_tld(line, fix_protocol=True, as_object=True)
     if search(ltld,chktld.tld) == False:
-        toDedup.append("||"+line+"^\n")
+        toDedup.append("||" + line + "^\n")
 little = deduplicate(toDedup)
 for line in extern:
     toDedup.append(line)
@@ -91,5 +95,6 @@ for line in extern:
 writeResult(little,"Aelisya's-Protect")
 final = deduplicate(toDedup)
 writeResult(final,"Aelisya's-Protect-Full")
+
 print("There are "+str(len(little)-5)+" unique rules in normal")
 print("There are "+str(len(final)-5)+" unique rules in full")
