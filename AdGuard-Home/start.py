@@ -12,6 +12,18 @@ def search(list, searched):
         if list[i] == searched:
             return True
     return False
+    
+def unWWWLink(WWW):
+    wwwed = ""
+    nbww = 0
+    for i in WWW:
+        if WWW[nbww] != "www":
+            if nbww < len(WWW)-1:
+                wwwed += i+"."
+            else:
+                wwwed += i
+        nbww += 1
+    return wwwed 
 
 #transform a file in list
 def listify(filename):
@@ -19,6 +31,9 @@ def listify(filename):
     file = open(filename, "r")
     for line in file:
         ltemp = line.replace("\n", "")
+        unWWW = ltemp.split(".")
+        if unWWW[0] == "www":
+            ltemp = unWWWLink(unWWW)            
         destlist.append(ltemp)
     file.close()
     return destlist
@@ -73,7 +88,11 @@ def external(i):
         ltemp = str(line, 'utf-8')
         if ltemp == ltemp.replace("!", ""): #if the result of uncomment is the same to the original it's not commented line
             if ltemp == ltemp.replace("@@", ""): #if the result of unwhitelist is the same to the original it's not a whitelist line
-                templist.append(ltemp)
+                if ltemp == ltemp.replace("#", ""):
+                    unWWW = ltemp.split(".")
+                    if unWWW[0] == "www":
+                        ltemp = unWWWLink(unWWW)
+                    templist.append(ltemp)
     return templist
 
 # Import sources and listify them
@@ -93,6 +112,7 @@ for i in sources['domain']:
 
 extern = []
 for i in sources['external']:
+    print(i['name'])
     extern.extend(external(i['url']))
 
 # generate the full list and write it
@@ -108,10 +128,6 @@ tseen = set()
 for line in lfull:
     toDedup.append("||" + line + "^\n")
 little = deduplicate(toDedup)
-
-#test="sub.domain.tld"
-#test2 = [] 
-#test2 = test.split(".")
 
 for line in extern:
     toDedup.append(line)

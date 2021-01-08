@@ -17,10 +17,17 @@
         {"name": "qanon"}
     ],
     "external": [
-        {"url": "https://block.energized.pro/unified/formats/filter", "format": "abp"},
-        {"url": "https://block.energized.pro/extensions/regional/formats/filter", "format": "abp"},
-        {"url": "https://block.energized.pro/extensions/xtreme/formats/filter", "format": "abp"},
-        {"url": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt", "format": "abp"},
-        {"url": "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/rules.txt", "format": "abp"}
+        {"name": "Energized Unified", "url": "https://block.energized.pro/unified/formats/filter", "format": "abp"},
+        {"name": "Energized Regional", "url": "https://block.energized.pro/extensions/regional/formats/filter", "format": "abp"},
+        {"name": "Energized Xtreme", "url": "https://block.energized.pro/extensions/xtreme/formats/filter", "format": "abp"},
+        {"name": "1Hosts Pro", "url": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt", "format": "abp"},
+        {"name": "AdGuard DNS", "url": "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/rules.txt", "format": "abp"},
+        {"name": "BlockListProject Scam", "url": "https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt", "format": "dmn"},
+        {"name": "BlockListProject Redirect", "url": "https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt", "format": "dmn"},
+        {"name": "BlockListProject Piracy", "url": "https://blocklistproject.github.io/Lists/alt-version/piracy-nl.txt", "format": "dmn"},
+        {"name": "BlockListProject Phishing", "url": "https://blocklistproject.github.io/Lists/alt-version/phishing-nl.txt", "format": "dmn"},
+        {"name": "BlockListProject Gambling", "url": "https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt", "format": "dmn"},
+        {"name": "BlockListProject Fraud", "url": "https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt", "format": "dmn"},
+        {"name": "BlockListProject Drugs", "url": "https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt", "format": "dmn"}
     ]
 }

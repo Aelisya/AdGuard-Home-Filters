@@ -17,7 +17,12 @@ it's rules with well known id in it for exemple ads.domain.tld will let this rul
 "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away." — Antoine de Saint-Exupery
 
 ## Efficacity ?
-Between 8% and 12% rules removed with them
+Between 8% and 12% rules removed with them on the first version of the script.
+With some update the second version removed 18% of duplicate and i think there are many duplicate left to be found by a better version of my script.
+
+## What will you do for those ?
+I will work on a version who will check (before writing), if in the list he see a domain + tld more than 5 time (at start), and if so generate a list of domain "to verify".
+The deduplication process will be modified in another version later to take them in account and reduce even more without breaking legitimate function of these website.
 
 ## And the whitelist file ?
 It's the whitelist i have generated for my network and the one of my parents, so for that you can inspire you from it but i will tell you to generate yourself your whitelist, but the list here generate many false positive so you must check if something break but when your have your whitelist you are protected from many treat.
@@ -27,6 +32,7 @@ For that i use Cloudflare Team (free).
 
 ## And the policies ?
 Security Threats :\
+-> Anonymizer\
 -> Command and Control & Botnet\
 -> DGA Domains\
 -> DNS Tunneling\
@@ -55,17 +61,19 @@ It let me control if my list are enough too, because today i have 0 blocked requ
 I will recommand you to allow list them, since many adult website are infected with malware and viruses.
 
 ## Source
-For Qanon list :
+For Lite list :
 - [Rimu's No-qanon](https://github.com/rimu/no-qanon)
+- [DMN - DandelionSprout](https://github.com/DandelionSprout/adfilt)
+- ABP - My own domain list & tld
 
 For Full version :
+- Lite Version.
 - [ABP - Energized Unified](https://block.energized.pro/unified/formats/filter)
 - [ABP - Energized Regional](https://block.energized.pro/extensions/regional/formats/filter)
 - [ABP - Energized Xtreme](https://block.energized.pro/extensions/xtreme/formats/filter)
-- [ABP - 1Hosts](https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt)
+- [ABP - 1Hosts Pro](https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt)
 - [ABP - AdGuard DNS](https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/rules.txt)
 - [DMN - NEXTDNS](https://github.com/nextdns/metadata/)
-- [DMN - GDPR451 from DandelionSprout](https://github.com/DandelionSprout/adfilt/blob/master/GDPR%20451%20List.txt)
-
+- [DMN - Big list Project](https://blocklistproject.github.io)
 
 All rules are uncommented and unwhitelisted, so they will generate false positive.
