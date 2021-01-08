@@ -64,5 +64,8 @@ For Full version :
 - [ABP - Energized Xtreme](https://block.energized.pro/extensions/xtreme/formats/filter)
 - [ABP - 1Hosts](https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt)
 - [ABP - AdGuard DNS](https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/rules.txt)
+- [DMN - NEXTDNS](https://github.com/nextdns/metadata/)
+- [DMN - GDPR451 from DandelionSprout](https://github.com/DandelionSprout/adfilt/blob/master/GDPR%20451%20List.txt)
+
 
 All rules are uncommented and unwhitelisted, so they will generate false positive.
