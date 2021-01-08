@@ -109,6 +109,10 @@ for line in lfull:
     toDedup.append("||" + line + "^\n")
 little = deduplicate(toDedup)
 
+#test="sub.domain.tld"
+#test2 = [] 
+#test2 = test.split(".")
+
 for line in extern:
     toDedup.append(line)
 final = deduplicate(toDedup)
