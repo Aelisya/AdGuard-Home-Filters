@@ -54,8 +54,9 @@
 @@|edge-chat.facebook.com^
 @@|oneocsp.microsoft.com^
 @@|android.clients.google.com^
-@@|ocsp.pki.goog^
+@@|ocsp.pki.goog^$important
 @@|browser.pipe.aria.microsoft.com^
 @@|*mtalk.google.com^
 @@|xp.apple.com^
 @@|targetemsecure.blob.core.windows.net^
+@@|mobile.pipe.aria.microsoft.com^$important
