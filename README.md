@@ -61,9 +61,10 @@ It let me control if my list are enough too, because today i have 0 blocked requ
 I will recommand you to allow list them, since many adult website are infected with malware and viruses.
 
 ## Source
-For Lite list :
+For Lite version :
 - [Rimu's No-qanon](https://github.com/rimu/no-qanon)
 - [DMN - DandelionSprout](https://github.com/DandelionSprout/adfilt)
+- [DMN - NEXTDNS](https://github.com/nextdns/metadata/)
 - ABP - My own domain list & tld
 
 For Full version :
@@ -71,9 +72,5 @@ For Full version :
 - [ABP - Energized Unified](https://block.energized.pro/unified/formats/filter)
 - [ABP - Energized Regional](https://block.energized.pro/extensions/regional/formats/filter)
 - [ABP - Energized Xtreme](https://block.energized.pro/extensions/xtreme/formats/filter)
-- [ABP - 1Hosts Pro](https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt)
-- [ABP - AdGuard DNS](https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/rules.txt)
-- [DMN - NEXTDNS](https://github.com/nextdns/metadata/)
-- [DMN - Big list Project](https://blocklistproject.github.io)
 
 All rules are uncommented and unwhitelisted, so they will generate false positive.

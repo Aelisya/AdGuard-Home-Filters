@@ -6,34 +6,12 @@ def importJson():
     with open(scriptPath + 'src.json') as src:
         return json.load(src)
 
-#search function
-def search(list, searched):
-    for i in range(len(list)):
-        if list[i] == searched:
-            return True
-    return False
-    
-def unWWWLink(WWW):
-    wwwed = ""
-    nbww = 0
-    for i in WWW:
-        if WWW[nbww] != "www":
-            if nbww < len(WWW)-1:
-                wwwed += i+"."
-            else:
-                wwwed += i
-        nbww += 1
-    return wwwed 
-
 #transform a file in list
 def listify(filename):
     destlist = []
     file = open(filename, "r")
     for line in file:
         ltemp = line.replace("\n", "")
-        unWWW = ltemp.split(".")
-        if unWWW[0] == "www":
-            ltemp = unWWWLink(unWWW)            
         destlist.append(ltemp)
     file.close()
     return destlist
@@ -48,50 +26,47 @@ def writeResult(Final, name):
 
 # remove duplicate
 def deduplicate(list):
+    unduplicated = []
     seen = set()
-    duped = set()
-    deduped = []
-    dupli = 0
+    lstarDuplicate = 0
+    ltldDuplicate = 0
+    normalDuplicate = 0
+
     for i in list:
         if i not in seen:
-            deduped.append(i)
-            if i not in duped:
+            unduplicated.append(i)
+            patched = False
+            for i3 in ltld:
+                if patched == False and i.endswith(i3 + "^\n"):
+                    unduplicated.remove(i)
+                    ltldDuplicate += 1
+                    patched = True
+                    seen.add(i)
+                    break
+            if patched == False:
                 for i2 in lstar:
-                    if i not in duped:
-                        if i.startswith("||" + i2 + "."):
-                            deduped.remove(i)
-                            dupli += 1
-                            duped.add(i)
-                    else:
+                    if patched == False and i.startswith("||" + i2 + "."):
+                        unduplicated.remove(i)
+                        lstarDuplicate += 1
+                        patched = True
+                        seen.add(i)
                         break
-                for i3 in ltld:
-                    if i not in duped:
-                        if i.endswith(i3+"^\n"):
-                            deduped.remove(i)
-                            dupli += 1
-                            duped.add(i)
-                    else:
-                        break
-            else: 
-                break
-            seen.add(i)
         else:
-            dupli += 1
-    print(str(dupli) + " duplicate removed")
-    return deduped
+            normalDuplicate += 1
+    print("lstar duplicate: " + str(lstarDuplicate) + "\nltld duplicate: " + str(ltldDuplicate) + "\nNormal Duplicate: " + str(normalDuplicate) + "\nTotal duplicate: " + str(lstarDuplicate + ltldDuplicate))
+    return unduplicated
     
 
 #download, read, uncomment, remove whitelist from url blocklist
 def external(i):
     templist = []
-    for line in urllib.request.urlopen(i):
+    for line in urllib.request.urlopen(i['url']):
         ltemp = str(line, 'utf-8')
         if ltemp == ltemp.replace("!", ""): #if the result of uncomment is the same to the original it's not commented line
             if ltemp == ltemp.replace("@@", ""): #if the result of unwhitelist is the same to the original it's not a whitelist line
                 if ltemp == ltemp.replace("#", ""):
-                    unWWW = ltemp.split(".")
-                    if unWWW[0] == "www":
-                        ltemp = unWWWLink(unWWW)
+                    if i['format'] == "dmn" and ltemp != "":
+                        ltemp = "||" + ltemp.replace("\n", "") + "^\n"
                     templist.append(ltemp)
     return templist
 
@@ -113,7 +88,7 @@ for i in sources['domain']:
 extern = []
 for i in sources['external']:
     print(i['name'])
-    extern.extend(external(i['url']))
+    extern.extend(external(i))
 
 # generate the full list and write it
 toDedup = []

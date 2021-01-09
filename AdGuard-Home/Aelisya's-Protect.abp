@@ -2,7 +2,7 @@
 ! Description: Filter composed of several filters i found usefull but not mandatory with Adblock Plus Syntax for DNS.
 ! Homepage: https://github.com/michaelb-ae/AdGuard-Home-Filters
 ! License: https://github.com/michaelb-ae/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-01-08
+! Last modified: 2021-01-09
 /.*?xn--.*/
 |192.168.*^
 |fc00:*^
@@ -226,6 +226,13 @@
 ||imgvieweriri.com^
 ||redgifs.com^
 ||kekma.net^
+||giphy.com^
+||smartwall.ai^
+||franbuzz.fr^
+||readspeaker.com^
+||cadtm.org^
+||adserver.jforum.fr^
+||nziv.net^
 ||bodis.com^
 ||comingsoon.namebright.com^
 ||expired.namebright.com^
@@ -3673,13 +3680,13 @@
 ||ws-mue1.win-ip.dfn.de^
 ||ws-was.win-ip.dfn.de^
 ||ww2.icpnet.pl^
-||bygden.nu^
-||caramail.com^
-||cfd.or.jp^
-||elim.net^
-||nursat.kz^
-||pue.uia.mx^
-||tceq.state.tx.us^
+||www.bygden.nu^
+||www.caramail.com^
+||www.cfd.or.jp^
+||www.elim.net^
+||www.nursat.kz^
+||www.pue.uia.mx^
+||www.tceq.state.tx.us^
 ||www2.din.or.jp^
 ||www3.din.or.jp^
 ||wzdns.zjnetcom.com^
@@ -5291,6 +5298,7 @@
 ||gameruprising.to^
 ||news.gab.com^
 ||2ch.sc^
+||5ch.net^
 ||centipedenation.com^
 ||shadowban.eu^
 ||newswars.com^
@@ -5312,6 +5320,7 @@
 ||censored.tv^
 ||proudboysusa.com^
 ||minds.com^
+||t.me^
 ||gab.ai^
 ||1776.shop^
 ||populistwire.com^
@@ -5465,12 +5474,24 @@
 ||mgtow.tv^
 ||stgeorgewest.blogspot.com^
 ||goingyourownway.com^
+||surfshark.com^
+||ultravpn.com^
 ||privacyweb.com^
 ||safevpn.com^
 ||cyberghost-vpn.en.softonic.com^
 ||gohotspotshield.com^
+||nordvpn.com^
+||expressvpn.com^
+||vpnmentor.com^
+||protonvpn.com^
+||hotspotshield.com^
+||freevpn.me^
 ||free-vpn.en.softonic.com^
 ||avira.com^
+||urban-vpn.com^
+||betternet.co^
+||hidemyass.com^
+||privateinternetaccess.com^
 ||thedailycoin.org^
 ||milo.net^
 ||whitenationnetwork.com^
@@ -6362,6 +6383,7 @@
 ||hitler.rocks^
 ||thepatriothour.com^
 ||isitwetyet.com^
+||damocles.co^
 ||*.cn^
 ||*.ir^
 ||*.ru^
