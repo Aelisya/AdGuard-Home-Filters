@@ -2,7 +2,7 @@
 ! Description: Filter composed of several filters i found usefull but not mandatory with Adblock Plus Syntax for DNS.
 ! Homepage: https://github.com/michaelb-ae/AdGuard-Home-Filters
 ! License: https://github.com/michaelb-ae/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-01-09
+! Last modified: 2021-01-10
 /.*?xn--.*/
 |192.168.*^
 |fc00:*^
@@ -233,6 +233,7 @@
 ||cadtm.org^
 ||adserver.jforum.fr^
 ||nziv.net^
+||vwd-webtech.com^
 ||bodis.com^
 ||comingsoon.namebright.com^
 ||expired.namebright.com^
@@ -6384,6 +6385,14 @@
 ||thepatriothour.com^
 ||isitwetyet.com^
 ||damocles.co^
+||patriotparty.gg^
+||billofrighteous.com^
+||lightbeings.space^
+||navarroreport.com^
+||goldenstatetimes.com^
+||broward.ghost.io^
+||simonparkes.org^
+||1776.fun^
 ||*.cn^
 ||*.ir^
 ||*.ru^
