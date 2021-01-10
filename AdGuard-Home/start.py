@@ -25,7 +25,7 @@ def writeResult(Final, name):
     print("There are " + str(len(Final)-5) + " unique rules in " + name)
 
 # remove duplicate
-def deduplicate(list):
+def deduplicate(list, light):
     unduplicated = []
     seen = set()
     lstarDuplicate = 0
@@ -36,21 +36,22 @@ def deduplicate(list):
         if i not in seen:
             unduplicated.append(i)
             patched = False
-            for i3 in ltld:
-                if patched == False and i.endswith(i3 + "^\n"):
-                    unduplicated.remove(i)
-                    ltldDuplicate += 1
-                    patched = True
-                    seen.add(i)
-                    break
-            if patched == False:
-                for i2 in lstar:
-                    if patched == False and i.startswith("||" + i2 + "."):
+            if light == True:
+                for i3 in ltld:
+                    if patched == False and i.endswith(i3 + "^\n"):
                         unduplicated.remove(i)
-                        lstarDuplicate += 1
+                        ltldDuplicate += 1
                         patched = True
                         seen.add(i)
                         break
+                if patched == False:
+                    for i2 in lstar:
+                        if patched == False and i.startswith("||" + i2 + "."):
+                            unduplicated.remove(i)
+                            lstarDuplicate += 1
+                            patched = True
+                            seen.add(i)
+                            break
         else:
             normalDuplicate += 1
     print("lstar duplicate: " + str(lstarDuplicate) + "\nltld duplicate: " + str(ltldDuplicate) + "\nNormal Duplicate: " + str(normalDuplicate) + "\nTotal duplicate: " + str(lstarDuplicate + ltldDuplicate))
@@ -102,11 +103,11 @@ for line in lsecu:
 tseen = set()
 for line in lfull:
     toDedup.append("||" + line + "^\n")
-little = deduplicate(toDedup)
+little = deduplicate(toDedup, True)
 
 for line in extern:
     toDedup.append(line)
-final = deduplicate(toDedup)
+final = deduplicate(toDedup, False)
 
 for line in ltld:
     little.append("||*." + line + "^\n")
