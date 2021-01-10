@@ -7,9 +7,9 @@ I have enabled Parental Control and SafeBrowsing.
 
 ## AND what list do you use ?
 This is the filter list i use :
-- [ABP - Aelisya's Protect Full](https://raw.githubusercontent.com/michaelb-ae/AdGuard-Home-Filters/main/AdGuard-Home/Aelisya's-Protect-Core.abp) (from this repo)
-- [ABP - Aelisya's Protect Full](https://raw.githubusercontent.com/michaelb-ae/AdGuard-Home-Filters/main/AdGuard-Home/Aelisya's-Protect-Full.abp) (from this repo)
+- [ABP - Aelisya's Protect Core](https://raw.githubusercontent.com/michaelb-ae/AdGuard-Home-Filters/main/AdGuard-Home/Aelisya's-Protect-Core.abp) (from this repo)
 - [ABP - Aelisya's Problematic TLD](https://raw.githubusercontent.com/michaelb-ae/AdGuard-Home-Filters/main/AdGuard-Home/problematic-tld.abp) (from this repo)
+- [ABP - Aelisya's Protect Full](https://raw.githubusercontent.com/michaelb-ae/AdGuard-Home-Filters/main/AdGuard-Home/Aelisya's-Protect-Full.abp) (from this repo)
 
 ## What's the source of full version ?
 My own modification and you add Energized with a deduplification and you have it (more info in "source")
