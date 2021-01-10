@@ -113,8 +113,8 @@ for line in ltld:
     final.append("||*." + line + "^\n")
 
 for line in lstar:
-    little.append("|" + line + ".*^\n")
-    final.append("|" + line + ".*^\n")
+    little.append("||" + line + ".*^\n")
+    final.append("||" + line + ".*^\n")
 
 writeResult(little, "Aelisya's-Protect")
 writeResult(final, "Aelisya's-Protect-Full")
