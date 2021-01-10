@@ -105,17 +105,15 @@ for line in lfull:
     toDedup.append("||" + line + "^\n")
 little = deduplicate(toDedup, True)
 
+final = []
 for line in extern:
-    toDedup.append(line)
-final = deduplicate(toDedup, False)
+    final.append(line)
 
 for line in ltld:
     little.append("||*." + line + "^\n")
-    final.append("||*." + line + "^\n")
-
+    
 for line in lstar:
     little.append("||" + line + ".*^\n")
-    final.append("||" + line + ".*^\n")
-
-writeResult(little, "Aelisya's-Protect")
+    
+writeResult(little, "Aelisya's-Protect-Core")
 writeResult(final, "Aelisya's-Protect-Full")

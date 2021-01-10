@@ -7,7 +7,9 @@ I have enabled Parental Control and SafeBrowsing.
 
 ## AND what list do you use ?
 This is the filter list i use :
+- [ABP - Aelisya's Protect Full](https://raw.githubusercontent.com/michaelb-ae/AdGuard-Home-Filters/main/AdGuard-Home/Aelisya's-Protect-Core.abp) (from this repo)
 - [ABP - Aelisya's Protect Full](https://raw.githubusercontent.com/michaelb-ae/AdGuard-Home-Filters/main/AdGuard-Home/Aelisya's-Protect-Full.abp) (from this repo)
+- [ABP - Aelisya's Problematic TLD](https://raw.githubusercontent.com/michaelb-ae/AdGuard-Home-Filters/main/AdGuard-Home/problematic-tld.abp) (from this repo)
 
 ## What's the source of full version ?
 My own modification and you add Energized with a deduplification and you have it (more info in "source")
@@ -61,14 +63,13 @@ It let me control if my list are enough too, because today i have 0 blocked requ
 I will recommand you to allow list them, since many adult website are infected with malware and viruses.
 
 ## Source
-For Lite version :
+For Core version :
 - [Rimu's No-qanon](https://github.com/rimu/no-qanon)
 - [DMN - DandelionSprout](https://github.com/DandelionSprout/adfilt)
 - [DMN - NEXTDNS](https://github.com/nextdns/metadata/)
 - ABP - My own domain list & tld
 
 For Full version :
-- Lite Version.
 - [ABP - Energized Unified](https://block.energized.pro/unified/formats/filter)
 - [ABP - Energized Regional](https://block.energized.pro/extensions/regional/formats/filter)
 - [ABP - Energized Xtreme](https://block.energized.pro/extensions/xtreme/formats/filter)
