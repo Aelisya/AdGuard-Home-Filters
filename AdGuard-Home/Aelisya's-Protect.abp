@@ -233,6 +233,7 @@
 ||adserver.jforum.fr^
 ||nziv.net^
 ||vwd-webtech.com^
+||quad9.net^
 ||bodis.com^
 ||comingsoon.namebright.com^
 ||expired.namebright.com^
@@ -256,12 +257,15 @@
 ||scdn.co^
 ||spotifycdn.net^
 ||t.me^
-||telegram.me^
-||telegram.org^
 ||gotinder.com^
 ||tinder.com^
 ||tindersparks.com^
 ||zoomus.zendesk.com^
+||github.com^
+||githubusercontent.com^
+||github.io^
+||githubapp.com^
+||githubassets.com^
 ||boomle.com^
 ||dogpile.com^
 ||gibiru.com^
@@ -397,7 +401,6 @@
 ||a.ns.dnslify.com^
 ||aceproxy.com^
 ||acevpn.com^
-||adblock.mydns.network^
 ||adguard-vpn.com^
 ||adguard.io^
 ||adult-filter-dns.cleanbrowsing.org^
@@ -6473,6 +6476,7 @@
 ||*.local^
 ||*.tk^
 ||*.ga^
+||*.network^
 ||*.ml^
 ||*.cf^
 ||*.xyz^
@@ -6502,6 +6506,8 @@
 ||google-analytics.*^
 ||googleanalytics.*^
 ||google.*^
+||dnscrypt.*^
+||telegram.*^
 ||affiliate.*^
 ||affiliates.*^
 ||analysis.*^
