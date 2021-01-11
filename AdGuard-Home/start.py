@@ -25,7 +25,7 @@ def writeResult(Final, name):
     print("There are " + str(len(Final)-5) + " unique rules in " + name)
 
 # remove duplicate
-def deduplicate(list, light):
+def deduplicate(list):
     unduplicated = []
     seen = set()
     lstarDuplicate = 0
@@ -36,22 +36,21 @@ def deduplicate(list, light):
         if i not in seen:
             unduplicated.append(i)
             patched = False
-            if light == True:
-                for i3 in ltld:
-                    if patched == False and i.endswith(i3 + "^\n"):
+            for i3 in ltld:
+                if patched == False and i.endswith(i3 + "^\n"):
+                    unduplicated.remove(i)
+                    ltldDuplicate += 1
+                    patched = True
+                    seen.add(i)
+                    break
+            if patched == False:
+                for i2 in lstar:
+                    if patched == False and i.startswith("||" + i2 + "."):
                         unduplicated.remove(i)
-                        ltldDuplicate += 1
+                        lstarDuplicate += 1
                         patched = True
                         seen.add(i)
                         break
-                if patched == False:
-                    for i2 in lstar:
-                        if patched == False and i.startswith("||" + i2 + "."):
-                            unduplicated.remove(i)
-                            lstarDuplicate += 1
-                            patched = True
-                            seen.add(i)
-                            break
         else:
             normalDuplicate += 1
     print("lstar duplicate: " + str(lstarDuplicate) + "\nltld duplicate: " + str(ltldDuplicate) + "\nNormal Duplicate: " + str(normalDuplicate) + "\nTotal duplicate: " + str(lstarDuplicate + ltldDuplicate))
@@ -113,6 +112,6 @@ for line in extern:
     toDedup.append(line)
 
 print("Download done.")
-final = deduplicate(toDedup, True)
+final = deduplicate(toDedup)
 
 writeResult(toDedup, "Aelisya's-Protect-Core")
