@@ -13,19 +13,17 @@
         {"name": "google-lock-light"},
         {"name": "bypass-protection"},
         {"name": "nsa-block"},
+        {"name": "social"},
         {"name": "gdpr-451"},
         {"name": "qanon"}
     ],
     "external": [
         {"name": "Energized Unified", "url": "https://block.energized.pro/unified/formats/filter", "format": "abp"},
         {"name": "Energized Regional", "url": "https://block.energized.pro/extensions/regional/formats/filter", "format": "abp"},
+        {"name": "Energized Social", "url": "https://block.energized.pro/extensions/social/formats/filter", "format": "abp"},
         {"name": "Energized Xtreme", "url": "https://block.energized.pro/extensions/xtreme/formats/filter", "format": "abp"},
-        {"name": "BlockListProject Scam", "url": "https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt", "format": "dmn"},
         {"name": "BlockListProject Redirect", "url": "https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt", "format": "dmn"},
-        {"name": "BlockListProject Piracy", "url": "https://blocklistproject.github.io/Lists/alt-version/piracy-nl.txt", "format": "dmn"},
-        {"name": "BlockListProject Phishing", "url": "https://blocklistproject.github.io/Lists/alt-version/phishing-nl.txt", "format": "dmn"},
         {"name": "BlockListProject Gambling", "url": "https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt", "format": "dmn"},
-        {"name": "BlockListProject Fraud", "url": "https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt", "format": "dmn"},
         {"name": "BlockListProject Drugs", "url": "https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt", "format": "dmn"}
     ]
 }

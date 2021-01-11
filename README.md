@@ -72,6 +72,7 @@ For Core version :
 For Full version :
 - [ABP - Energized Unified](https://block.energized.pro/unified/formats/filter)
 - [ABP - Energized Regional](https://block.energized.pro/extensions/regional/formats/filter)
+- [ABP - Energized Social](https://block.energized.pro/extensions/social/formats/filter)
 - [ABP - Energized Xtreme](https://block.energized.pro/extensions/xtreme/formats/filter)
 - [DMN - BlockListProject](https://blocklistproject.github.io)
 
