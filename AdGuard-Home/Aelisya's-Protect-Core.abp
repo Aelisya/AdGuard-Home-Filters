@@ -210,6 +210,11 @@
 ||adserver.jforum.fr^
 ||nziv.net^
 ||vwd-webtech.com^
+||adobe.com^
+||shopbop.com^
+||bookdepository.com^
+||audible.fr^
+||abebooks.fr^
 ||bodis.com^
 ||comingsoon.namebright.com^
 ||expired.namebright.com^
@@ -12102,6 +12107,7 @@
 ||widget.*^
 ||widgets.*^
 ||pinterest.*^
+||amazon.*^
 ||^
 ||crownbet.com.au^
 ||crownbet.com^
