@@ -19,14 +19,6 @@
     ],
     "external": [
         {"name": "BlockListProject Gambling", "url": "https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt", "format": "dmn"},
-        {"name": "BlockListProject Drugs", "url": "https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt", "format": "dmn"},
-        {"name": "BlockListProject Torrent", "url": "https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt", "format": "dmn"},
-        {"name": "BlockListProject Scam", "url": "https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt", "format": "dmn"},
-        {"name": "BlockListProject Redirect", "url": "https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt", "format": "dmn"},
-        {"name": "BlockListProject Ransomware", "url": "https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt", "format": "dmn"},
-        {"name": "BlockListProject Piracy", "url": "https://blocklistproject.github.io/Lists/alt-version/piracy-nl.txt", "format": "dmn"},
-        {"name": "BlockListProject Fraud", "url": "https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt", "format": "dmn"},
-        {"name": "BlockListProject Crypto", "url": "https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt", "format": "dmn"},
-        {"name": "BlockListProject Abuse", "url": "https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt", "format": "dmn"}
+        {"name": "BlockListProject Drugs", "url": "https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt", "format": "dmn"}
     ]
 }
