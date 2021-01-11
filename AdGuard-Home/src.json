@@ -20,7 +20,6 @@
     "external": [
         {"name": "BlockListProject Gambling", "url": "https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt", "format": "dmn"},
         {"name": "BlockListProject Drugs", "url": "https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt", "format": "dmn"},
-        {"name": "BlockListProject Track", "url": "https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt", "format": "dmn"},
         {"name": "BlockListProject Torrent", "url": "https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt", "format": "dmn"},
         {"name": "BlockListProject Scam", "url": "https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt", "format": "dmn"},
         {"name": "BlockListProject Redirect", "url": "https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt", "format": "dmn"},
