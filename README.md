@@ -7,9 +7,7 @@ I have enabled Parental Control and SafeBrowsing.
 
 ## AND what list do you use ?
 This is the filter list i use :
-- [ABP - Aelisya's Protect Core](https://raw.githubusercontent.com/michaelb-ae/AdGuard-Home-Filters/main/AdGuard-Home/Aelisya's-Protect-Core.abp) (from this repo)
-- [ABP - Aelisya's Problematic TLD](https://raw.githubusercontent.com/michaelb-ae/AdGuard-Home-Filters/main/AdGuard-Home/problematic-tld.abp) (from this repo)
-- [ABP - Aelisya's Protect Full](https://raw.githubusercontent.com/michaelb-ae/AdGuard-Home-Filters/main/AdGuard-Home/Aelisya's-Protect-Full.abp) (from this repo)
+- Soon updated
 
 ## What's the source of full version ?
 My own modification and you add Energized with a deduplification and you have it (more info in "source")
@@ -67,13 +65,7 @@ For Core version :
 - [Rimu's No-qanon](https://github.com/rimu/no-qanon)
 - [DMN - DandelionSprout](https://github.com/DandelionSprout/adfilt)
 - [DMN - NEXTDNS](https://github.com/nextdns/metadata/)
-- ABP - My own domain list & tld
-
-For Full version :
-- [ABP - Energized Unified](https://block.energized.pro/unified/formats/filter)
-- [ABP - Energized Regional](https://block.energized.pro/extensions/regional/formats/filter)
-- [ABP - Energized Social](https://block.energized.pro/extensions/social/formats/filter)
-- [ABP - Energized Xtreme](https://block.energized.pro/extensions/xtreme/formats/filter)
 - [DMN - BlockListProject](https://blocklistproject.github.io)
+- ABP - My own modification
 
 All rules are uncommented and unwhitelisted, so they will generate false positive.

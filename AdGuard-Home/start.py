@@ -112,6 +112,8 @@ for line in lstar:
 
 for line in extern:
     toDedup.append(line)
+
+print("Download done.")
 final = deduplicate(toDedup, True)
 
 writeResult(toDedup, "Aelisya's-Protect-Core")
