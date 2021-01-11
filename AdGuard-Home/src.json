@@ -20,7 +20,6 @@
     "external": [
         {"name": "Energized Unified", "url": "https://block.energized.pro/unified/formats/filter", "format": "abp"},
         {"name": "Energized Regional", "url": "https://block.energized.pro/extensions/regional/formats/filter", "format": "abp"},
-        {"name": "Energized Social", "url": "https://block.energized.pro/extensions/social/formats/filter", "format": "abp"},
         {"name": "Energized Xtreme", "url": "https://block.energized.pro/extensions/xtreme/formats/filter", "format": "abp"},
         {"name": "BlockListProject Redirect", "url": "https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt", "format": "dmn"},
         {"name": "BlockListProject Gambling", "url": "https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt", "format": "dmn"},
