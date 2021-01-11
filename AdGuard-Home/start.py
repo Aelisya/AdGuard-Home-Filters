@@ -103,19 +103,15 @@ for line in lsecu:
 tseen = set()
 for line in lfull:
     toDedup.append("||" + line + "^\n")
-little = deduplicate(toDedup, True)
 
 for line in ltld:
-    little.append("||*." + line + "^\n")
+    toDedup.append("||*." + line + "^\n")
     
 for line in lstar:
-    little.append("||" + line + ".*^\n")
+    toDedup.append("||" + line + ".*^\n")
 
-writeResult(little, "Aelisya's-Protect-Core")
-
-dfinal = []
 for line in extern:
-    dfinal.append(line)
-final = deduplicate(dfinal, True)
+    toDedup.append(line)
+final = deduplicate(toDedup, True)
 
-writeResult(final, "Aelisya's-Protect-Full")
+writeResult(toDedup, "Aelisya's-Protect-Core")
