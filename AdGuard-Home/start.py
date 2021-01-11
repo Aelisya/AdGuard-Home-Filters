@@ -100,7 +100,6 @@ toDedup.append("! Last modified: " + str(date.today()) + "\n")
 for line in lsecu:
     toDedup.append(line + "\n")
 
-tseen = set()
 for line in lfull:
     toDedup.append("||" + line + "^\n")
 
