@@ -12,7 +12,6 @@
         {"name": "safesearch-enforce"},
         {"name": "google-lock-light"},
         {"name": "bypass-protection"},
-        {"name": "nsa-block"},
         {"name": "gdpr-451"},
         {"name": "qanon"}
     ],

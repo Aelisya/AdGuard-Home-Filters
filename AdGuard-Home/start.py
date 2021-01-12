@@ -53,6 +53,7 @@ def deduplicate(list):
                         break
         else:
             normalDuplicate += 1
+            print(i)
     print("lstar duplicate: " + str(lstarDuplicate) + "\nltld duplicate: " + str(ltldDuplicate) + "\nNormal Duplicate: " + str(normalDuplicate) + "\nTotal duplicate: " + str(lstarDuplicate + ltldDuplicate))
     return unduplicated
     
