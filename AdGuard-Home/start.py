@@ -114,4 +114,4 @@ for line in extern:
 print("Download done.")
 final = deduplicate(toDedup)
 
-writeResult(toDedup, "Aelisya's-Protect")
+writeResult(toDedup, "Aelisya's-Protect-Basic")
