@@ -106,7 +106,7 @@ for line in ltld:
     toDedup.append("||*." + line + "^\n")
     
 for line in lstar:
-    toDedup.append("||" + line + ".*^\n")
+    toDedup.append("|" + line + ".*^\n")
 
 for line in extern:
     toDedup.append(line)
