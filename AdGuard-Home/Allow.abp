@@ -33,7 +33,5 @@
 @@|browser.pipe.aria.microsoft.com^
 @@|targetemsecure.blob.core.windows.net^
 @@|mobile.pipe.aria.microsoft.com^
-@@|api.cognitive.microsofttranslator.com^$important
-@@|dev-c.microsofttranslator.search.prod.ms.akadns.net^$important
 @@|ytimg.l.google.com^
 @@|youtube-ui.l.google.com^
