@@ -16,6 +16,7 @@
 @@|www.google.com^
 @@|ajax.googleapis.com^
 @@|www.gstatic.com^
+@@|ssl.gstatic.com^
 @@|ocsp.pki.goog^
 @@|settingsfd-geo.trafficmanager.net^
 @@|edge.activity.windows.com^
