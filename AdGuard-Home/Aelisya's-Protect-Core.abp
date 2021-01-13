@@ -2,7 +2,7 @@
 ! Description: Filter composed of several filters i found usefull with Adblock Plus Syntax for DNS.
 ! Homepage: https://github.com/michaelb-ae/AdGuard-Home-Filters
 ! License: https://github.com/michaelb-ae/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-01-12
+! Last modified: 2021-01-13
 /.*?xn--.*/
 |192.168.*^
 |fc00:*^
@@ -3893,7 +3893,6 @@
 ||*.tk^
 ||*.ga^
 ||*.im^
-||*.network^
 ||*.systems^
 ||*.st^
 ||*.social^
