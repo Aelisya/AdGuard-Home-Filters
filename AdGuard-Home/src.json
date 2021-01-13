@@ -17,8 +17,6 @@
         {"name": "qanon"}
     ],
     "external": [
-        {"name": "1Hosts Pro", "url": "https://badmojr.github.io/1Hosts/Pro/adblock.txt", "format": "abp"},
-        {"name": "Energized Regional", "url": "https://block.energized.pro/extensions/regional/formats/filter", "format": "abp"},
         {"name": "BlockListProject Gambling", "url": "https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt", "format": "dmn"},
         {"name": "BlockListProject Drugs", "url": "https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt", "format": "dmn"}
     ]
