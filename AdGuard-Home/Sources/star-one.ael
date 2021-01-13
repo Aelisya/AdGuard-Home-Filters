@@ -11,7 +11,6 @@ googleadservices
 cobrasearch
 autodraw
 appspot
-agoogleaday
 admob
 doubleclick
 googletagservices
@@ -39,10 +38,7 @@ logger
 logging
 metric
 metrics
-mms
 pixel
-sp
-spanids
 stat
 stats
 tracelog
@@ -54,12 +50,7 @@ ad
 ads
 banner
 banners
-creatives
-oas
-oascentral
-tag
 telemetry
 searx
-search
 widget
 widgets

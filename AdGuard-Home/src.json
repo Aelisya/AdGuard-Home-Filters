@@ -12,6 +12,7 @@
         {"name": "safesearch-enforce"},
         {"name": "google-lock-light"},
         {"name": "bypass-protection"},
+        {"name": "ios-lock"},
         {"name": "gdpr-451"},
         {"name": "qanon"}
     ],
