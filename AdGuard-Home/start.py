@@ -118,10 +118,10 @@ for line in extern:
 print("Download done.")
 
 for line in lipv4:
-    toDedup.append("||" + line + "^\n")
+    toDedup.append(line)
 
 for line in lipv6:
-    toDedup.append("||" + line + "^\n")
+    toDedup.append(line)
 
 print("Deduplication ...")
 final = deduplicate(toDedup)
