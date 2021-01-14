@@ -5,6 +5,8 @@
     "tld": "tld",
     "secu": "security-rules",
     "star": "star-one",
+    "ip4": "ip4",
+    "ip6": "ip6",
     "domain": [
         {"name": "personal-domains"},
         {"name": "parked-domains"},
@@ -17,7 +19,11 @@
         {"name": "qanon"}
     ],
     "external": [
+        {"name": "Cloak Blocking", "url": "https://raw.githubusercontent.com/cbuijs/accomplist/master/cloak/adblock.txt", "format": "abp"},
         {"name": "BlockListProject Gambling", "url": "https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt", "format": "dmn"},
-        {"name": "BlockListProject Drugs", "url": "https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt", "format": "dmn"}
+        {"name": "BlockListProject Drugs", "url": "https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt", "format": "dmn"},
+        {"name": "Penhelana BlockList", "url": "https://raw.githubusercontent.com/pengelana/blocklist/master/domain.txt", "format": "dmn"},
+        {"name": "Malicious Ip4", "url": "https://raw.githubusercontent.com/cbuijs/accomplist/master/malicious-ip/plain.black.ip4cidr.list", "format": "ip"},
+        {"name": "Malicious Ip6", "url": "https://raw.githubusercontent.com/cbuijs/accomplist/master/malicious-ip/plain.black.ip6cidr.list", "format": "ip"}
     ]
 }

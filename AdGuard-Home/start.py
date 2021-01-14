@@ -67,6 +67,8 @@ def external(i):
                 if ltemp == ltemp.replace("#", ""):
                     if i['format'] == "dmn" and ltemp != "":
                         ltemp = "||" + ltemp.replace("\n", "") + "^\n"
+                    if i['format'] == "ip" and ltemp != "":
+                        ltemp = "||" + ltemp.replace("\n", "") + "^\n"
                     templist.append(ltemp)
     return templist
 
@@ -80,6 +82,8 @@ head = listify(fold + sources['head'] + ext)
 ltld = listify(fold + sources['tld'] + ext)
 lsecu = listify(fold + sources['secu'] + ext)
 lstar = listify(fold + sources['star'] + ext)
+lipv4 = listify(fold + sources['ip4'] + ext)
+lipv6 = listify(fold + sources['ip6'] + ext)
 
 lfull = []
 for i in sources['domain']:
@@ -112,6 +116,14 @@ for line in extern:
     toDedup.append(line)
 
 print("Download done.")
+
+for line in lipv4:
+    toDedup.append("||" + line + "^\n")
+
+for line in lipv6:
+    toDedup.append("||" + line + "^\n")
+
+print("Deduplication ...")
 final = deduplicate(toDedup)
 
 writeResult(toDedup, "Aelisya's-Protect-Basic")
