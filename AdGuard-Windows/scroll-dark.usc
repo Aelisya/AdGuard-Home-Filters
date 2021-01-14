@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name        Modern Scrollbar
-// @namespace        https://github.com/michaelb-ae/Aelisya-Tweaker
+// @name        Modern Scrollbar Dark
+// @namespace        https://github.com/michaelb-ae/AdGuard-Home-Filters
 // @description        Add modern scrollbar.
 // @description:fr        Ajoute une barre de défilement moderne.
 // @include        *://*/*
 // @run-at        document-end
-// @version       1.0
+// @version       1.1
 // @author michael-ae
 // @grant GM_addStyle
 // ==/UserScript==
