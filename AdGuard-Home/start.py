@@ -67,8 +67,6 @@ def external(i):
                 if ltemp == ltemp.replace("#", ""):
                     if i['format'] == "dmn" and ltemp != "":
                         ltemp = "||" + ltemp.replace("\n", "") + "^\n"
-                    if i['format'] == "ip" and ltemp != "":
-                        ltemp = "||" + ltemp.replace("\n", "") + "^\n"
                     templist.append(ltemp)
     return templist
 
@@ -118,12 +116,17 @@ for line in extern:
 print("Download done.")
 
 for line in lipv4:
-    toDedup.append(line)
+    toDedup.append(line + "\n")
 
 for line in lipv6:
-    toDedup.append(line)
+    toDedup.append(line + "\n")
+
+finalTab = []
+for line in toDedup:
+    if line != "":
+        finalTab.append(line)
 
 print("Deduplication ...")
-final = deduplicate(toDedup)
+final = deduplicate(finalTab)
 
-writeResult(toDedup, "Aelisya's-Protect-Basic")
+writeResult(final, "Aelisya's-Protect-Basic")

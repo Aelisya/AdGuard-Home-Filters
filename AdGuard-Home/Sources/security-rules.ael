@@ -1,10 +1,4 @@
 /.*?xn--.*/
-|192.168.*^
-|fc00:*^
-|fe80:*^
-||wpad^
-||sentry*^
-||bugsnag*^
 /^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/
 /^(.+[_.-])?telemetry[_.-]/
 /^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/
@@ -19,3 +13,9 @@
 /^mads\./
 /^pixels?[-.]/
 /^stat(s|istics)?[0-9]*[_.-]/
+|192.168.*^
+|fc00:*^
+|fe80:*^
+||wpad^
+||sentry*^
+||bugsnag*^
