@@ -1,0 +1,19 @@
+// ==UserScript==
+// @name        Modern Scrollbar
+// @namespace        https://github.com/michaelb-ae/Aelisya-Tweaker
+// @description        Add modern scrollbar.
+// @description:fr        Ajoute une barre de défilement moderne.
+// @include        *://*/*
+// @run-at        document-end
+// @version       1.0
+// @author michael-ae
+// @grant GM_addStyle
+// ==/UserScript==
+(function() {
+'use strict';
+GM_addStyle('*::-webkit-scrollbar{ width:8px!important; height:8px!important}');
+GM_addStyle('*::-webkit-scrollbar-track{ background-color:#F7F7F7!important }');
+GM_addStyle('*::-webkit-scrollbar-thumb{ border-radius:4px!important; background-color:#8D8D8D!important }');
+GM_addStyle('*::-webkit-scrollbar-thumb:vertical:active{ background:#8D8D8D!important }');
+GM_addStyle('*::-webkit-scrollbar-thumb:hover{ background-color:#A7A7A7!important }');
+})();
