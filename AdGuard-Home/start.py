@@ -81,8 +81,6 @@ head = listify(fold + sources['head'] + ext)
 ltld = listify(fold + sources['tld'] + ext)
 lsecu = listify(fold + sources['secu'] + ext)
 lstar = listify(fold + sources['star'] + ext)
-lipv4 = listify(fold + sources['ip4'] + ext)
-lipv6 = listify(fold + sources['ip6'] + ext)
 
 lfull = []
 for i in sources['domain']:
@@ -116,18 +114,12 @@ for line in extern:
 
 print("Download done.")
 
-for line in lipv4:
-    toDedup.append(line + "\n")
-
-for line in lipv6:
-    toDedup.append(line + "\n")
-
 finalTab = []
 for line in toDedup:
     if line != "":
         finalTab.append(line)
 
 print("Deduplication ...")
-final = deduplicate(finalTab, True)
+final = deduplicate(finalTab, False)
 
 writeResult(final, "Aelisya's-Protect-Basic")
