@@ -7,7 +7,10 @@ I have enabled Parental Control and SafeBrowsing.
 
 ## AND what list do you use ?
 This is the filter list i use :
-- Soon updated
+- [Energized Unified](https://energized.pro/)
+- [Energized Regional](https://energized.pro/)
+- [Energized Xtreme](https://energized.pro/)
+- [Aelisya's Protection](https://raw.githubusercontent.com/michaelb-ae/AdGuard-Home-Filters/main/AdGuard-Home/Aelisya's-Protect-Basic.abp)
 
 ## What's the source of full version ?
 My own modification and you add Energized with a deduplification and you have it (more info in "source")
