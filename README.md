@@ -28,7 +28,7 @@ I will work on a version who will check (before writing), if in the list he see 
 The deduplication process will be modified in another version later to take them in account and reduce even more without breaking legitimate function of these website.
 
 ## And the whitelist file ?
-Basic one in the repository.
+Basic One on the repo.
 
 ## Ok and the upstream DNS ?
 For that i use Cloudflare Team (free).
@@ -64,11 +64,11 @@ It let me control if my list are enough too, because today i have 0 blocked requ
 I will recommand you to allow list them, since many adult website are infected with malware and viruses.
 
 ## Source
-For Core version :
-- [Rimu's No-qanon](https://github.com/rimu/no-qanon)
-- [DMN - DandelionSprout](https://github.com/DandelionSprout/adfilt)
+- [DMN - Cbuijs Accomplist](https://github.com/cbuijs/accomplist)
+- [DMN - Penhelana BlockList](https://github.com/pengelana/blocklist)
+- [DMN - Rimu's No-qanon](https://github.com/rimu/no-qanon)
 - [DMN - NEXTDNS](https://github.com/nextdns/metadata/)
 - [DMN - BlockListProject](https://blocklistproject.github.io)
-- ABP - My own modification
+- My own modification
 
 All rules are uncommented and unwhitelisted, so they will generate false positive.
