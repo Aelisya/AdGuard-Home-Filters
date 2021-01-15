@@ -11,8 +11,7 @@
         {"name": "services-lock"},
         {"name": "safesearch-enforce"},
         {"name": "google-lock-light"},
-        {"name": "bypass-protection"},
-        {"name": "qanon"}
+        {"name": "bypass-protection"}
     ],
     "external": [
         {"name": "BlockListProject Gambling", "url": "https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt", "format": "dmn"},
