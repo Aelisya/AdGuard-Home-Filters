@@ -28,7 +28,7 @@ I will work on a version who will check (before writing), if in the list he see 
 The deduplication process will be modified in another version later to take them in account and reduce even more without breaking legitimate function of these website.
 
 ## And the whitelist file ?
-It's the whitelist i have generated for my network and the one of my parentsSo i will not post it since there are in there rules like <@@|sub.domain.tld^$client=clientname> for unlocking specific domain for specific user.
+Basic one in the repository.
 
 ## Ok and the upstream DNS ?
 For that i use Cloudflare Team (free).
