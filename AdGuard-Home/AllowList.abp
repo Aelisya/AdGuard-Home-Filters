@@ -38,4 +38,5 @@
 @@|mobile.pipe.aria.microsoft.com^
 @@|ytimg.l.google.com^
 @@|youtube-ui.l.google.com^
-@@|download.visualstudio.microsoft.com$important
+@@|download.visualstudio.microsoft.com^$important
+@@|c1.microsoft.com^$important
