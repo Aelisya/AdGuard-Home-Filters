@@ -10,7 +10,9 @@ This is the filter list i use :
 - [Energized Unified](https://energized.pro/)
 - [Energized Regional](https://energized.pro/)
 - [Energized Xtreme](https://energized.pro/)
-- [Aelisya's Protection](https://raw.githubusercontent.com/michaelb-ae/AdGuard-Home-Filters/main/AdGuard-Home/Aelisya's-Protect-Basic.abp)
+- [iOSAdblockList](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)
+- [Aelisya's Protection](https://raw.githubusercontent.com/michaelb-ae/AdGuard-Home-Filters/main/AdGuard-Home/Aelisya's-Protect-Basic.abp) (From this repo)
+- [No Qanon](https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt)
 
 ## What's the source of full version ?
 My own modification and you add Energized with a deduplification and you have it (more info in "source")
@@ -64,11 +66,9 @@ It let me control if my list are enough too, because today i have 0 blocked requ
 I will recommand you to allow list them, since many adult website are infected with malware and viruses.
 
 ## Source
-- [DMN - Cbuijs Accomplist](https://github.com/cbuijs/accomplist)
-- [DMN - Penhelana BlockList](https://github.com/pengelana/blocklist)
-- [DMN - Rimu's No-qanon](https://github.com/rimu/no-qanon)
 - [DMN - NEXTDNS](https://github.com/nextdns/metadata/)
 - [DMN - BlockListProject](https://blocklistproject.github.io)
+- [DMN - Olbat Ut1-blacklists](https://github.com/olbat/ut1-blacklists)
 - My own modification
 
 All rules are uncommented and unwhitelisted, so they will generate false positive.

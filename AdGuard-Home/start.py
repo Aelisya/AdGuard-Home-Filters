@@ -28,33 +28,13 @@ def writeResult(Final, name):
 def deduplicate(list, light):
     unduplicated = []
     seen = set()
-    lstarDuplicate = 0
-    ltldDuplicate = 0
-    normalDuplicate = 0
+    duplicate = 0
 
     for i in list:
         if i not in seen:
             unduplicated.append(i)
-            patched = False
-            if light == False:
-                for i3 in ltld:
-                    if patched == False and i.endswith(i3 + "^\n"):
-                        unduplicated.remove(i)
-                        ltldDuplicate += 1
-                        patched = True
-                        seen.add(i)
-                        break
-            if patched == False:
-                for i2 in lstar:
-                    if patched == False and i.startswith("||" + i2 + "."):
-                        unduplicated.remove(i)
-                        lstarDuplicate += 1
-                        patched = True
-                        seen.add(i)
-                        break
         else:
-            normalDuplicate += 1
-    print("lstar duplicate: " + str(lstarDuplicate) + "\nltld duplicate: " + str(ltldDuplicate) + "\nNormal Duplicate: " + str(normalDuplicate) + "\nTotal duplicate: " + str(lstarDuplicate + ltldDuplicate))
+            duplicate += 1
     return unduplicated
     
 
@@ -66,7 +46,7 @@ def external(i):
         if ltemp == ltemp.replace("!", ""): #if the result of uncomment is the same to the original it's not commented line
             if ltemp == ltemp.replace("@@", ""): #if the result of unwhitelist is the same to the original it's not a whitelist line
                 if ltemp == ltemp.replace("#", ""):
-                    if i['format'] == "dmn" and ltemp != "":
+                    if i['format'] == "dmn":
                         ltemp = "||" + ltemp.replace("\n", "") + "^\n"
                     templist.append(ltemp)
     return templist
@@ -120,6 +100,6 @@ for line in toDedup:
         finalTab.append(line)
 
 print("Deduplication ...")
-final = deduplicate(finalTab, False)
+final = deduplicate(finalTab, True)
 
 writeResult(final, "Aelisya's-Protect-Basic")
