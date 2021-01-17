@@ -10,7 +10,7 @@
 @@||msftncsi.com^$important
 @@||xboxlive.com^$important
 @@||live.com^$important
-@@|ocsp.pki.goog^
-@@|ytimg.l.google.com^
-@@|youtube-ui.l.google.com^
+@@|ocsp.pki.goog^$important
+@@|ytimg.l.google.com^$important
+@@|youtube-ui.l.google.com^$important
 @@|cloudstorage.gog.com^$important
