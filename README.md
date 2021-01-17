@@ -69,6 +69,7 @@ I will recommand you to allow list them, since many adult website are infected w
 - [DMN - NEXTDNS](https://github.com/nextdns/metadata/)
 - [DMN - BlockListProject](https://blocklistproject.github.io)
 - [DMN - Olbat Ut1-blacklists](https://github.com/olbat/ut1-blacklists)
+- [DMN - Craiu Mobile Tracker](https://github.com/craiu/mobiletrackers)
 - My own modification
 
 All rules are uncommented and unwhitelisted, so they will generate false positive.

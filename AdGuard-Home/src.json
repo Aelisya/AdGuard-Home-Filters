@@ -16,6 +16,7 @@
     "external": [
         {"name": "NextDNS Bypass Method", "url": "https://raw.githubusercontent.com/nextdns/metadata/master/parentalcontrol/bypass-methods", "format": "dmn"},
         {"name": "NextDNS Safesearch Not Supported", "url": "https://raw.githubusercontent.com/nextdns/metadata/master/parentalcontrol/safesearch-not-supported", "format": "dmn"},
+        {"name": "Mobile Tracker", "url": "https://raw.githubusercontent.com/craiu/mobiletrackers/master/list.txt", "format": "dmn"},
         {"name": "Olbat UT1 Cryptojacking", "url": "https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/cryptojacking/domains", "format": "dmn"},
         {"name": "Olbat UT1 Dangerous Material", "url": "https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/dangerous_material/domains", "format": "dmn"},
         {"name": "Olbat UT1 DOH", "url": "https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/doh/domains", "format": "dmn"},
