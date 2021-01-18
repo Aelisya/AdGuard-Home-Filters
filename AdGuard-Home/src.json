@@ -13,24 +13,8 @@
         {"name": "bypass-protection"}
     ],
     "external": [
-        {"name": "Energized Regional", "url": "https://block.energized.pro/extensions/regional/formats/filter", "format": "abp"},
-        {"name": "Energized Xtreme", "url": "https://block.energized.pro/extensions/xtreme/formats/filter", "format": "abp"},
-        {"name": "Energized Unified", "url": "https://block.energized.pro/unified/formats/filter", "format": "abp"},
-        {"name": "iOSAdblockList", "url": "https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt", "format": "abp"},
-        {"name": "No Qanon", "url": "https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt", "format": "abp"},
         {"name": "NextDNS Bypass Method", "url": "https://raw.githubusercontent.com/nextdns/metadata/master/parentalcontrol/bypass-methods", "format": "dmn"},
         {"name": "NextDNS Safesearch Not Supported", "url": "https://raw.githubusercontent.com/nextdns/metadata/master/parentalcontrol/safesearch-not-supported", "format": "dmn"},
-        {"name": "Mobile Tracker", "url": "https://raw.githubusercontent.com/craiu/mobiletrackers/master/list.txt", "format": "dmn"},
-        {"name": "Olbat UT1 Cryptojacking", "url": "https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/cryptojacking/domains", "format": "dmn"},
-        {"name": "Olbat UT1 Dangerous Material", "url": "https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/dangerous_material/domains", "format": "dmn"},
-        {"name": "Olbat UT1 DOH", "url": "https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/doh/domains", "format": "dmn"},
-        {"name": "Olbat UT1 Gambling", "url": "https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/gambling/domains", "format": "dmn"},
-        {"name": "Olbat UT1 Hacking", "url": "https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/hacking/domains", "format": "dmn"},
-        {"name": "Olbat UT1 Malware", "url": "https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/malware/domains", "format": "dmn"},
-        {"name": "Olbat UT1 Marketingware", "url": "https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/marketingware/domains", "format": "dmn"},
-        {"name": "Olbat UT1 Phishing", "url": "https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/phishing/domains", "format": "dmn"},
-        {"name": "Olbat UT1 Warez", "url": "https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/warez/domains", "format": "dmn"},
-        {"name": "BlockListProject Gambling", "url": "https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt", "format": "dmn"},
-        {"name": "BlockListProject Drugs", "url": "https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt", "format": "dmn"}
+        {"name": "Mobile Tracker", "url": "https://raw.githubusercontent.com/craiu/mobiletrackers/master/list.txt", "format": "dmn"}
     ]
 }
