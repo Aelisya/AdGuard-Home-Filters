@@ -1,5 +1,5 @@
 from datetime import date
-import json, urllib.request
+import json
 
 # import sources
 def importJson():
@@ -38,20 +38,6 @@ def deduplicate(list):
             duplicate += 1
     print(str(duplicate) + " duplicate removed")
     return unduplicated
-    
-
-#download, read, uncomment, remove whitelist from url blocklist
-def external(i):
-    templist = []
-    for line in urllib.request.urlopen(i['url']):
-        ltemp = str(line, 'utf-8')
-        if ltemp == ltemp.replace("!", ""): #if the result of uncomment is the same to the original it's not commented line
-            if ltemp == ltemp.replace("@@", ""): #if the result of unwhitelist is the same to the original it's not a whitelist line
-                if ltemp == ltemp.replace("#", ""):
-                    if i['format'] == "dmn":
-                        ltemp = "||" + ltemp.replace("\n", "") + "^\n"
-                    templist.append(ltemp)
-    return templist
 
 # Import sources and listify them
 scriptPath = "e:/Git/AdGuard-Home-Filters/AdGuard-Home/"
@@ -67,11 +53,6 @@ lstar = listify(fold + sources['star'] + ext)
 lfull = []
 for i in sources['domain']:
     lfull.extend(listify(fold + i['name'] + ext))
-
-extern = []
-for i in sources['external']:
-    print(i['name'])
-    extern.extend(external(i))
 
 # generate the full list and write it
 toDedup = []
@@ -90,9 +71,6 @@ for line in ltld:
     
 for line in lstar:
     toDedup.append("|" + line + ".*^\n")
-
-for line in extern:
-    toDedup.append(line)
 
 print("Download done.")
 

@@ -11,10 +11,5 @@
         {"name": "safesearch-enforce"},
         {"name": "google-lock-light"},
         {"name": "bypass-protection"}
-    ],
-    "external": [
-        {"name": "NextDNS Bypass Method", "url": "https://raw.githubusercontent.com/nextdns/metadata/master/parentalcontrol/bypass-methods", "format": "dmn"},
-        {"name": "NextDNS Safesearch Not Supported", "url": "https://raw.githubusercontent.com/nextdns/metadata/master/parentalcontrol/safesearch-not-supported", "format": "dmn"},
-        {"name": "Mobile Tracker", "url": "https://raw.githubusercontent.com/craiu/mobiletrackers/master/list.txt", "format": "dmn"}
     ]
 }
