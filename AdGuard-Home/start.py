@@ -25,7 +25,7 @@ def writeResult(Final, name):
     print("There are " + str(len(Final)-5) + " unique rules in " + name)
 
 # remove duplicate
-def deduplicate(list, light):
+def deduplicate(list):
     unduplicated = []
     seen = set()
     duplicate = 0
@@ -33,8 +33,10 @@ def deduplicate(list, light):
     for i in list:
         if i not in seen:
             unduplicated.append(i)
+            seen.add(i)
         else:
             duplicate += 1
+    print(str(duplicate) + " duplicate removed")
     return unduplicated
     
 
@@ -100,6 +102,6 @@ for line in toDedup:
         finalTab.append(line)
 
 print("Deduplication ...")
-final = deduplicate(finalTab, True)
+final = deduplicate(finalTab)
 
 writeResult(final, "Aelisya's-Protect-Basic")

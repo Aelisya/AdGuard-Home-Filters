@@ -8,12 +8,16 @@
     "domain": [
         {"name": "personal-domains"},
         {"name": "parked-domains"},
-        {"name": "services-lock"},
         {"name": "safesearch-enforce"},
         {"name": "google-lock-light"},
         {"name": "bypass-protection"}
     ],
     "external": [
+        {"name": "Energized Regional", "url": "https://block.energized.pro/extensions/regional/formats/filter", "format": "abp"},
+        {"name": "Energized Xtreme", "url": "https://block.energized.pro/extensions/xtreme/formats/filter", "format": "abp"},
+        {"name": "Energized Unified", "url": "https://block.energized.pro/unified/formats/filter", "format": "abp"},
+        {"name": "iOSAdblockList", "url": "https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt", "format": "abp"},
+        {"name": "No Qanon", "url": "https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt", "format": "abp"},
         {"name": "NextDNS Bypass Method", "url": "https://raw.githubusercontent.com/nextdns/metadata/master/parentalcontrol/bypass-methods", "format": "dmn"},
         {"name": "NextDNS Safesearch Not Supported", "url": "https://raw.githubusercontent.com/nextdns/metadata/master/parentalcontrol/safesearch-not-supported", "format": "dmn"},
         {"name": "Mobile Tracker", "url": "https://raw.githubusercontent.com/craiu/mobiletrackers/master/list.txt", "format": "dmn"},
