@@ -11,6 +11,11 @@
 @@||xboxlive.com^$important
 @@||live.com^$important
 @@||windowsupdate.com^$important
+@@||microsoftonline.com^$important
+@@||msftconnecttest.com^$important
+@@||office365.com^$important
+@@||office.com^$important
+@@||office.net^$important
 @@|ocsp.pki.goog^$important
 @@|ytimg.l.google.com^$important
 @@|youtube-ui.l.google.com^$important
