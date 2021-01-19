@@ -32,7 +32,14 @@ def deduplicate(list):
 
     for i in list:
         if i not in seen:
-            unduplicated.append(i)
+            
+            for i3 in ltld:
+                if i.endswith(i3 + "^\n"):
+                    duplicate += 1
+                    seen.add(i)
+                    break
+                else:
+                    unduplicated.append(i)
             seen.add(i)
         else:
             duplicate += 1
