@@ -48,7 +48,6 @@ ext = "." + sources['file-ext']
 head = listify(fold + sources['head'] + ext)
 ltld = listify(fold + sources['tld'] + ext)
 lsecu = listify(fold + sources['secu'] + ext)
-lstar = listify(fold + sources['star'] + ext)
 
 lfull = []
 for i in sources['domain']:
@@ -69,8 +68,6 @@ for line in lfull:
 for line in ltld:
     toDedup.append("||*." + line + "^\n")
     
-for line in lstar:
-    toDedup.append("|" + line + ".*^\n")
 
 print("Download done.")
 
