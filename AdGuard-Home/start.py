@@ -29,18 +29,15 @@ def deduplicate(list):
     unduplicated = []
     seen = set()
     duplicate = 0
-
     for i in list:
         if i not in seen:
-            
             for i3 in ltld:
-                if i.endswith(i3 + "^\n"):
-                    duplicate += 1
+                if i not in seen and i.endswith(i3 + "^\n") == False:
+                    unduplicated.append(i)
                     seen.add(i)
                     break
-                else:
-                    unduplicated.append(i)
-            seen.add(i)
+                elif i.endswith(i3 + "^\n"):
+                    duplicate += 1
         else:
             duplicate += 1
     print(str(duplicate) + " duplicate removed")
@@ -74,9 +71,6 @@ for line in lfull:
 
 for line in ltld:
     toDedup.append("||*." + line + "^\n")
-    
-
-print("Download done.")
 
 finalTab = []
 for line in toDedup:

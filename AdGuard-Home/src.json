@@ -4,7 +4,6 @@
     "head": "head",
     "tld": "tld",
     "secu": "security-rules",
-    "star": "star-one",
     "domain": [
         {"name": "personal-domains"},
         {"name": "parked-domains"},
