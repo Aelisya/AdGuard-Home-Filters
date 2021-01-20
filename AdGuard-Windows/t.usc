@@ -1,4 +1,14 @@
-"use strict";
+// ==UserScript==
+// @name        Ignore Google Script
+// @namespace        https://github.com/Macqael/AdGuard-Home-Filters
+// @description        Redirect Google Script to Cloudflare.
+// @description:fr        Redirige les scripts Google vers Cloudflare.
+// @include        *://*/*
+// @run-at        document-start
+// @version       1.1
+// @author Macqael
+// ==/UserScript==
+(function() {"use strict";
 
 let active = false;
 let cssBlocked = false;
@@ -224,4 +234,4 @@ function blockCSS({tabId}) {
   if(tabId >= 0) incrementBadge(tabId, true);
   chrome.browserAction.setBadgeBackgroundColor({color: [230,230,230,255], tabId});
   return {cancel: true};
-}
+}})();
