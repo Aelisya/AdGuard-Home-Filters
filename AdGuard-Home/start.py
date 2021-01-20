@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from datetime import date
 import json, gc
 
