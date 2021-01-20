@@ -8,16 +8,16 @@ def importJson():
 def listify(filename):
     destlist = []
     with open(filename) as file:
-    for line in file:
-        ltemp = line.replace("\n", "")
-        destlist.append(ltemp)
+        for line in file:
+            ltemp = line.replace("\n", "")
+            destlist.append(ltemp)
     del ltemp
     return destlist
 
 def writeResult(Final, name):
     with open(scriptPath + name + '.abp', 'w') as file:
-    for line in Final:
-        file.write(line)
+        for line in Final:
+            file.write(line)
     print("There are " + str(len(Final)-5) + " unique rules in " + name)
 
 def deduplicate(list):
