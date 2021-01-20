@@ -1,0 +1,237 @@
+// ==UserScript==
+// @name        Ignore Google Script
+// @namespace        https://github.com/Macqael/AdGuard-Home-Filters
+// @description        Redirect Google Script to Cloudflare.
+// @description:fr        Redirige les scripts Google vers Cloudflare.
+// @include        *://*/*
+// @run-at        document-start
+// @version       1.1
+// @author Macqael
+// ==/UserScript==
+(function() {"use strict";
+
+let active = false;
+let cssBlocked = false;
+
+function attachHandlers() {
+  chrome.storage.local.get({blockGoogle: true, blockCSS: true}, o => {
+    setIcon(o.blockGoogle);
+
+    const onBeforeRequest = chrome.webRequest.onBeforeRequest;
+
+    if(active !== o.blockGoogle) {
+      active = o.blockGoogle;
+
+      if(active) {
+        onBeforeRequest.addListener(
+          onPage, {
+            urls: ["<all_urls>"],
+            types: ["main_frame"]
+          }
+        );
+
+        onBeforeRequest.addListener(
+          redirScripts, {
+            urls: ["*://ajax.googleapis.com/ajax/libs/*"],
+            types: ["script"]
+          }, ["blocking"]
+        );
+
+        onBeforeRequest.addListener(
+          blockGoogle, {
+            urls: [
+              "*://apis.google.com/*",
+              "*://www.google.com/*",
+              "*://adservice.google.com/*",
+              "*://translate.google.com/*",
+              "*://*.gstatic.com/*",
+              "*://*.googlecode.com/*",
+              "*://*.googlesyndication.com/*",
+              "*://*.google-analytics.com/*",
+              "*://*.googleadservices.com/*"
+            ],
+            types: ["script"]
+          }, ["blocking"]
+        );
+      
+      } else {
+        onBeforeRequest.removeListener(onPage);
+        onBeforeRequest.removeListener(redirScripts);
+        onBeforeRequest.removeListener(blockGoogle);
+      }
+    }
+
+    if(o.blockCSS) {
+      if(!cssBlocked && active) {
+        onBeforeRequest.addListener(
+          blockCSS, {
+            urls: ["*://fonts.googleapis.com/css*"],
+            types: ["stylesheet"]
+          }, ["blocking"]
+        );
+        cssBlocked = true;
+      } else if(cssBlocked && !active) {
+        onBeforeRequest.removeListener(blockCSS);
+        cssBlocked = false;
+      }
+    } else if(cssBlocked) {
+      onBeforeRequest.removeListener(blockCSS);
+      cssBlocked = false;
+    }
+  });
+}
+
+attachHandlers();
+
+chrome.storage.onChanged.addListener(attachHandlers);
+
+function setIcon(active) {
+  chrome.browserAction.setIcon(
+    active ? {
+      path: {
+        "16": "icon_16.png",
+        "38": "icon_38.png",
+        "48": "icon_48.png"
+      }
+    } : {
+      path: {
+        "16": "iconoff_16.png",
+        "38": "iconoff_38.png",
+        "48": "iconoff_48.png"
+      }
+    }
+  );
+  chrome.browserAction.setTitle({
+    title: chrome.i18n.getMessage(active ? "button_on" : "button_off")
+  });
+}
+
+chrome.browserAction.onClicked.addListener(({id}) => {
+  chrome.storage.local.set({blockGoogle: !active});
+  chrome.browserAction.setBadgeText({text: "", tabId: id});
+});
+
+/*
+GA/angularjs/1.6.4/angular.min.js
+CF/angular.js/1.6.5/angular.min.js
+
+GA/angular_material/1.1.4/angular-material.min.js
+CF/angular-material/1.1.5/angular-material.min.css
+
+GA/angular-ui-router/1.0.0-rc.1/angular-ui-router.min.js
+CF/angular-ui-router/1.0.3/angular-ui-router.min.js
+
+GA/dojo/1.12.2/dojo/dojo.js
+CF/dojo/1.10.4/dojo.js
+
+GA/ext-core/3.1.0/ext-core.js
+CF/ext-core/3.1.0/ext-core.min.js
+
+GA/hammerjs/2.0.8/hammer.min.js
+CF/hammer.js/2.0.8/hammer.min.js
+
+GA/jquery/3.2.1/jquery.min.js
+CF/jquery/3.2.1/jquery.min.js
+
+GA/jquerymobile/1.4.5/jquery.mobile.min.js
+CF/jquery-mobile/1.4.5/jquery.mobile.min.js
+
+GA/jquerymobile/1.4.5/jquery.mobile.min.css
+
+GA/jqueryui/1.12.1/jquery-ui.min.js
+CF/jqueryui/1.12.1/jquery-ui.min.js
+
+GA/mootools/1.6.0/mootools.min.js
+CF/mootools/1.6.0/mootools-core.min.js
+
+GA/prototype/1.7.3.0/prototype.js
+CF/prototype/1.7.3/prototype.min.js
+
+GA/scriptaculous/1.9.0/scriptaculous.js
+CF/scriptaculous/1.9.0/scriptaculous.min.js
+
+GA/shaka-player/2.2.1/shaka-player.compiled.js
+CF/shaka-player/2.2.3/shaka-player.compiled.js
+
+GA/spf/2.4.0/spf.js
+CF/spf/2.4.0/spf.js
+
+GA/swfobject/2.2/swfobject.js
+CF/swfobject/2.2/swfobject.min.js
+
+GA/threejs/r84/three.min.js
+CF/three.js/87/three.min.js
+
+GA/webfont/1.6.26/webfont.js
+CF/webfont/1.6.28/webfontloader.js
+*/
+
+function incrementBadge(tabId) {
+  chrome.browserAction.getBadgeText({tabId}, n => {
+    chrome.browserAction.setBadgeText({text: (n ? n*1 + 1 || 1 : 1) + "", tabId});
+  });
+}
+
+var libPos = "https://ajax.googleapis.com/ajax/libs/".length;
+
+function redirScripts({url, tabId}) {
+  let https = (url.charAt(4) === "s");
+  let path = url.substr(https ? libPos : libPos - 1);
+
+  let lib = path.substr(0, path.indexOf("/"));
+
+  if(lib.substr(-2) === "js" && lib.substr(-3) !== ".js") {  //angularjs -> angular.js
+    path = path.substr(lib.length);
+    lib = lib.substr(0, lib.length - 2) + ".js";
+    path = lib + path;
+  }
+
+  if(lib == "angular_material") {
+    lib = "angular-material";
+
+  } else if(lib == "dojo") {
+    path = path.replace("/dojo/", "/");
+
+  } else if(lib == "jquerymobile") {
+    lib = "jquery-mobile";
+
+  } else if(lib == "mootools") {
+    path = path.replace("/mootools.", "/mootools-core.");
+
+  } else if(lib == "prototype") {
+    path = path.replace(/(\/\d+\.\d+\.\d+)\.\d+/, "$1");
+
+  } else if(lib == "three.js") {
+    path = path.replace("three.js/r", "three.js/");
+
+  } else if(lib == "webfont") {
+    path = path.replace("/webfont.js", "/webfontloader.js");
+  }
+
+  if(tabId >= 0) incrementBadge(tabId);
+
+  return {
+    redirectUrl: (https ? "https" : "http") + "://cdnjs.cloudflare.com/ajax/libs/" + path
+  };
+}
+
+function onPage({url, tabId}) {
+  if(tabId >= 0) {
+    url = url.substring(8, url.indexOf("/", 8));
+    chrome.browserAction.setBadgeText({text: (url.indexOf(".google.") === -1) ? "" : "0", tabId});
+  }
+}
+
+function blockGoogle({url, tabId}) {
+  url = url.substr(11, 21);
+  if(tabId >= 0 && url !== "google-analytics.com/" && url !== ".google-analytics.com") {
+    incrementBadge(tabId);
+  }
+  return {cancel: true};
+}
+
+function blockCSS({tabId}) {
+  if(tabId >= 0) incrementBadge(tabId, true);
+  chrome.browserAction.setBadgeBackgroundColor({color: [230,230,230,255], tabId});
+  return {cancel: true};
+}})();
