@@ -1,30 +1,25 @@
 from datetime import date
 import json, gc
 
-# import sources
 def importJson():
-    with open(scriptPath + 'src.json') as src:
-        return json.load(src)
+    with open(scriptPath + 'src.json') as file:
+        return json.load(file)
 
-#transform a file in list
 def listify(filename):
     destlist = []
-    file = open(filename, "r")
+    with open(filename) as file:
     for line in file:
         ltemp = line.replace("\n", "")
         destlist.append(ltemp)
-    file.close()
+    del ltemp
     return destlist
 
-#write the result to the file
 def writeResult(Final, name):
-    wFile = open(scriptPath + name + ".abp", "w")
+    with open(scriptPath + name + '.abp', 'w') as file:
     for line in Final:
-        wFile.write(line)
-    wFile.close()
+        file.write(line)
     print("There are " + str(len(Final)-5) + " unique rules in " + name)
 
-# remove duplicate
 def deduplicate(list):
     unduplicated = []
     seen = set()
@@ -41,9 +36,9 @@ def deduplicate(list):
         else:
             duplicate += 1
     print(str(duplicate) + " duplicate removed")
+    del seen
     return unduplicated
 
-# Import sources and listify them
 scriptPath = "e:/Git/AdGuard-Home-Filters/AdGuard-Home/"
 sources = importJson()
 fold = scriptPath + sources['folder']
@@ -53,16 +48,13 @@ head = listify(fold + sources['head'] + ext)
 ltld = listify(fold + sources['tld'] + ext)
 lsecu = listify(fold + sources['secu'] + ext)
 ldom = sources['domain']
-del sources # use del to free memory since i use this script on a memory limited hardware, not usefull if there isn't many line but usefull with very big list later
+del sources
 
 lfull = []
 for i in ldom:
     lfull.extend(listify(fold + i['name'] + ext))
-del ldom
-del fold # use more than one line to not forget to add some if i update the script later
-del ext
+del ldom, fold, ext
 
-# generate the full list and write it
 toDedup = []
 for line in head:
     toDedup.append(line + "\n")
@@ -91,8 +83,6 @@ final = deduplicate(finalTab)
 del finalTab
 
 writeResult(final, "Aelisya's-Protect-Basic")
-del final
-del scriptPath
-gc.collect() #force garbage collection before closing.
+del final, scriptPath
+gc.collect()
 print("Done Have a nice Day !")
-quit()
