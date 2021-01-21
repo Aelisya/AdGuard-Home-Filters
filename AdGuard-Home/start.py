@@ -10,9 +10,7 @@ def listify(filename):
     destlist = []
     with open(filename) as file:
         for line in file:
-            ltemp = line.replace("\n", "")
-            destlist.append(ltemp)
-    del ltemp
+            destlist.append(line.replace("\n", ""))
     return destlist
 
 def writeResult(Final, name):
@@ -24,66 +22,58 @@ def writeResult(Final, name):
 def deduplicate(list):
     unduplicated = []
     seen = set()
-    duplicate = 0
     for i in list:
         if i not in seen:
-            for i3 in ltld:
+            for i3 in generatelink(2):
                 if i not in seen and i.endswith(i3 + "^\n") == False:
                     unduplicated.append(i)
                     seen.add(i)
                     break
-                elif i.endswith(i3 + "^\n"):
-                    duplicate += 1
-        else:
-            duplicate += 1
-    print(str(duplicate) + " duplicate removed")
-    del seen
     return unduplicated
+
+def generatelink(asked):
+    if asked == 1:
+        return listify(fold + sources['head'] + ext) #head
+    elif asked == 2:
+        return listify(fold + sources['tld'] + ext) #ltld
+    elif asked == 3:
+        return listify(fold + sources['secu'] + ext) #lsecu
+    elif asked == 4:
+        return sources['domain'] #ldom
 
 scriptPath = "e:/Git/AdGuard-Home-Filters/AdGuard-Home/"
 sources = importJson()
 fold = scriptPath + sources['folder']
 ext = "." + sources['file-ext']
-
-head = listify(fold + sources['head'] + ext)
-ltld = listify(fold + sources['tld'] + ext)
-lsecu = listify(fold + sources['secu'] + ext)
-ldom = sources['domain']
-del sources
-
 lfull = []
-for i in ldom:
-    lfull.extend(listify(fold + i['name'] + ext))
-del ldom, fold, ext
-
 toDedup = []
-for line in head:
+finalTab = []
+
+for line in generatelink(1):
     toDedup.append(line + "\n")
 toDedup.append("! Last modified: " + str(date.today()) + "\n")
-del head
 
-for line in lsecu:
+for line in generatelink(3):
     toDedup.append(line + "\n")
-del lsecu
+
+for line in generatelink(2):
+    toDedup.append("||*." + line + "^\n")
+
+for i in generatelink(4):
+    lfull.extend(listify(fold + i['name'] + ext))
 
 for line in lfull:
     toDedup.append("||" + line + "^\n")
 del lfull
 
-for line in ltld:
-    toDedup.append("||*." + line + "^\n")
-
-finalTab = []
 for line in toDedup:
-    if line != "":
+    if line != "" and line != " ":
         finalTab.append(line)
 del toDedup
 
-print("Deduplication ...")
 final = deduplicate(finalTab)
-del finalTab
+del sources, fold, ext, finalTab
 
 writeResult(final, "Aelisya's-Protect-Basic")
 del final, scriptPath
 gc.collect()
-print("Done Have a nice Day !")
