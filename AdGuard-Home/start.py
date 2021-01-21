@@ -35,9 +35,9 @@ def generatelink(asked):
     if asked == 1:
         return listify(fold + sources['head'] + ext) #head
     elif asked == 2:
-        return listify(fold + sources['tld'] + ext) #ltld
-    elif asked == 3:
         return listify(fold + sources['secu'] + ext) #lsecu
+    elif asked == 3:
+        return listify(fold + sources['tld'] + ext) #ltld
     elif asked == 4:
         return sources['domain'] #ldom
 
@@ -53,10 +53,10 @@ for line in generatelink(1):
     toDedup.append(line + "\n")
 toDedup.append("! Last modified: " + str(date.today()) + "\n")
 
-for line in generatelink(3):
+for line in generatelink(2):
     toDedup.append(line + "\n")
 
-for line in generatelink(2):
+for line in generatelink(3):
     toDedup.append("||*." + line + "^\n")
 
 for i in generatelink(4):
