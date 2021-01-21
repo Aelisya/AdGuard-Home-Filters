@@ -1600,6 +1600,9 @@
         {"url": "alibabadns.com"},
         {"url": "aliexpress.com"},
         {"url": "norton.com"},
-        {"url": "here.com"}
+        {"url": "here.com"},
+        {"url": "gameplayapi.intel.com"},
+        {"url": "whitelist.trustedservices.intel.com"},
+        {"url": "helpshift.com"}
     ]
 }
