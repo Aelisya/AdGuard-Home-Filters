@@ -68,6 +68,7 @@
 ||*.kz^
 ||*.sncf^
 ||*.ad^
+||*.win^
 ||root-servers.net^
 ||ntp.org^
 ||chatango.com^
