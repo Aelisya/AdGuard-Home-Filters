@@ -1,3 +1,7 @@
+! Title: Macqael AllowList
+! Description: Filter composed of several Allowed domain with Adblock Plus Syntax for DNS.
+! Homepage: https://github.com/Macqael/AdGuard-Home-Filters
+! License: https://github.com/Macqael/AdGuard-Home-Filters/blob/main/LICENSE
 @@||msedge.net^
 @@||a-msedge.net^
 @@||data.microsoft.com^
