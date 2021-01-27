@@ -1,4 +1,4 @@
-![OSSAR](https://github.com/michaelb-ae/AdGuard-Home-Filters/workflows/OSSAR/badge.svg)![CodeQL](https://github.com/michaelb-ae/AdGuard-Home-Filters/workflows/CodeQL/badge.svg)
+![OSSAR](https://github.com/macqael/AdGuard-Home-Filters/workflows/OSSAR/badge.svg)![CodeQL](https://github.com/macqael/AdGuard-Home-Filters/workflows/CodeQL/badge.svg)
 # AdGuard-Home-Filters
 Many list with ABP Syntax for AdGuard Home DNS blocking.
 
@@ -7,7 +7,7 @@ I have enabled Parental Control and SafeBrowsing.
 
 ## AND what list do you use ?
 This is the filter list i use :
-- [Aelisya's Protection](https://raw.githubusercontent.com/michaelb-ae/AdGuard-Home-Filters/main/AdGuard-Home/Aelisya's-Protect-Basic.abp) (From this repo)
+- [Aelisya's Protection](https://raw.githubusercontent.com/macqael/AdGuard-Home-Filters/main/AdGuard-Home/Aelisya's-Protect-Basic.abp) (From this repo)
 - [No Qanon](https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt)
 - [OISD](https://abp.oisd.nl/)
 
