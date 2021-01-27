@@ -1,7 +1,7 @@
-! Title: Macqael List
+! Title: Aelisya List
 ! Description: Filter composed of several filters i found usefull with Adblock Plus Syntax for DNS.
-! Homepage: https://github.com/Macqael/AdGuard-Home-Filters
-! License: https://github.com/Macqael/AdGuard-Home-Filters/blob/main/LICENSE
+! Homepage: https://github.com/Aelisya/AdGuard-Home-Filters
+! License: https://github.com/Aelisya/AdGuard-Home-Filters/blob/main/LICENSE
 ! Last modified: 2021-01-27
 /.*?xn--.*/
 /^192.168(.[0-9]{1,3}){2}$/
