@@ -34,7 +34,6 @@
 |tracking*.*^
 |consent*.*^
 |collector*.*^
-|cname*.*^
 |a8*.*^
 |collect*.*^
 |cmp.*^
