@@ -29,6 +29,6 @@ I will recommand you to allow list them, since many adult website are infected w
 
 ## Source
 - [DMN - NEXTDNS](https://github.com/nextdns/metadata/)
-- My own modification
+- My own modification.
 
 All rules are uncommented and unwhitelisted, so they will generate false positive.
