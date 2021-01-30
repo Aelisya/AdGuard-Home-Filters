@@ -8,7 +8,6 @@ I have enabled Parental Control and SafeBrowsing.
 ## AND what list do you use ?
 This is the filter list i use :
 - [Aelisya's Protection](https://raw.githubusercontent.com/macqael/AdGuard-Home-Filters/main/AdGuard-Home/Aelisya's-Protect-Basic.abp) (From this repo)
-- [No Qanon](https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt)
 - [OISD](https://abp.oisd.nl/)
 
 ## And the whitelist file ?
