@@ -10,6 +10,9 @@
 ||mouser.*^
 ||misterspex.*^
 ||*xn--*^
+||version.bind^
+||id.server^
+||hostname.bind^
 |wpad^
 |pinterest.*^
 |zoom.*^
