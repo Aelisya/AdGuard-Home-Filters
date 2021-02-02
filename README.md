@@ -14,10 +14,10 @@ Basic One on the repo or microsoft plus (unlock all microsoft domain).
 For that i use Quad9.
 
 ## And for the protocol ?
-I use Dns over Tls because encryption is at a lower layer than Dns over HTTPS (and don't let the possibility to many treat that DoH expose us).\
-tls://dns.quad9.net
+I use DNSCRYPT because he do like DNSSEC on all request and the server i use is in the same datacenter that my own server so y have a very low lattency resolution
 
 ## For the DNS priming servers ?
+i don't really need it (since DNSCRYPT have in it's stamps the ip of the server but i let quad9)
 Quad9 : 9.9.9.9
 
 ## Source
