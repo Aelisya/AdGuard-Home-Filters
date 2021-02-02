@@ -7,7 +7,6 @@
     "domain": [
         {"name": "personal-domains"},
         {"name": "parked-domains"},
-        {"name": "safesearch-enforce"},
         {"name": "google-lock-light"},
         {"name": "bypass-protection"},
         {"name": "amnesty"},
