@@ -3,7 +3,7 @@
 ! Version: 2.1
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-02-03
+! Last modified: 2021-02-04
 /.*?xn--.*/
 /^192.168(.[0-9]{1,3}){2}$/
 /^172.(1[6-9]|2[0-9]|3[0-1)(.[0-9]{1,3}){2}$/
