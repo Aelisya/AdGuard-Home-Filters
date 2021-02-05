@@ -2,4 +2,4 @@
 
 ## Reporting a Vulnerability
 
-You can send me a mail to : bevode@aelisya.net
+You can send me a mail to : security@aelisya.net
