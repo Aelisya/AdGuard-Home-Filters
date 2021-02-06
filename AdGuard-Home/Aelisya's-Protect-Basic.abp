@@ -510,7 +510,6 @@
 ||googlemaps.com^
 ||googlearth.com^
 ||googleearth.com^
-||auth.keyhole.com^
 ||googl.com^
 ||googlr.com^
 ||googil.com^
@@ -523,7 +522,6 @@
 ||googlecommerce.com^
 ||googleapps.com^
 ||froogle.com^
-||wml.froogle.com^
 ||googel.com^
 ||goolge.com^
 ||gooogle.com^
@@ -537,21 +535,14 @@
 ||googlescholar.com^
 ||panoramio.com^
 ||page.link^
-||maps.googleapis.com^
-||maps.google.com^
 ||ampproject.org^
 ||google.com^
 ||gstatic.com^
 ||googleanalytics.com^
 ||google-analytics.com^
 ||googletagmanager.com^
-||tagmanager.google.com^
-||www-googletagmanager.l.google.com^
 ||googletagservices.com^
 ||android.com^
-||android-safebrowsing.google.com^
-||android.clients.google.com^
-||metric.gstatic.com^
 ||google.ad^
 ||google.ae^
 ||google.com.ag^
@@ -747,8 +738,6 @@
 ||gvt2.com^
 ||blog.google^
 ||cobrasearch.com^
-||gcp.gvt1.com^
-||gcp.gvt2.com^
 ||googleadservices.com^
 ||googleapis.com^
 ||grow.google^
