@@ -27,8 +27,6 @@
 @@||storage.googleapis.com^$important
 @@||licdn.com^$important
 @@|ocsp.pki.goog^$important
-@@|ytimg.l.google.com^$important
-@@|youtube-ui.l.google.com^$important
 @@|cloudstorage.gog.com^$important
 @@|cdnjs.cloudflare.com^$important
 @@|ajax.cloudflare.com^$important
