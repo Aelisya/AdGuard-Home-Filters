@@ -1,4 +1,4 @@
-![OSSAR](https://github.com/macqael/AdGuard-Home-Filters/workflows/OSSAR/badge.svg)![CodeQL](https://github.com/macqael/AdGuard-Home-Filters/workflows/CodeQL/badge.svg)
+![OSSAR](https://github.com/macqael/AdGuard-Home-Filters/workflows/OSSAR/badge.svg)
 # AdGuard-Home-Filters
 Many list with ABP Syntax for AdGuard Home DNS blocking.
 
