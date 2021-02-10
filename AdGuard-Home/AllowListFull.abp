@@ -3,7 +3,7 @@
 ! Version: 2.2
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-02-06
+! Last modified: 2021-02-10
 @@||msedge.net^$important
 @@||a-msedge.net^$important
 @@||1drv.com^$important
@@ -29,3 +29,5 @@
 @@|www.youtube.com^$important
 @@|ocsp.pki.goog^$important
 @@|cloudstorage.gog.com^$important
+@@|cdnjs.cloudflare.com^$important
+@@|ajax.cloudflare.com^$important

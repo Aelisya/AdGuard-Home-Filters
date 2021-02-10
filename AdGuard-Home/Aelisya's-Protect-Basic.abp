@@ -3,7 +3,7 @@
 ! Version: 2.1
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-02-08
+! Last modified: 2021-02-10
 /.*?xn--.*/
 /^192.168(.[0-9]{1,3}){2}$/
 /^172.(1[6-9]|2[0-9]|3[0-1)(.[0-9]{1,3}){2}$/
@@ -303,27 +303,12 @@
 ||applovin.com^
 ||applvn.com^
 ||leanplum.com^
-||9cache.com^
-||9gag.com^
 ||battle.net^
 ||blizzard.com^
-||dailymotion.com^
-||dm-event.net^
-||dmcdn.net^
-||disney-plus.net^
-||disneyplus.com^
-||hulu.com^
 ||leagueoflegends.com^
 ||lol.riotgames.com^
-||pin.it^
-||pinimg.com^
 ||rbxcdn.com^
 ||roblox.com^
-||*-spotify-com.akamaized.net^
-||scdn.co^
-||spotifycdn.net^
-||gotinder.com^
-||tinder.com^
 ||tindersparks.com^
 ||badoo.com^
 ||skyrock.com^
@@ -339,12 +324,9 @@
 ||myspacecdn.com^
 ||tagged.com^
 ||meetup.com^
-||viber.com^
 ||snapfish.com^
-||weibo.com^
 ||myspace.com^
 ||musical.ly^
-||wechat.com^
 ||addthiscdn.com^
 ||addthis.com^
 ||periscope.tv^
