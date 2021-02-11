@@ -11,7 +11,7 @@ This is the filter list i use :
 Basic One on the repo or microsoft plus (unlock all microsoft domain).
 
 ## Ok and the upstream DNS ?
-For that i use Quad9.
+For that i use Quad9
 
 ## And for the protocol ?
 I use DNSCRYPT because he do like DNSSEC on all request and the server i use is in the same datacenter that my own server so y have a very low lattency resolution
