@@ -30,7 +30,5 @@
 @@|www.youtube.com^$important
 @@|ocsp.pki.goog^$important
 @@|cloudstorage.gog.com^$important
-@@|cdnjs.cloudflare.com^$important
-@@|ajax.cloudflare.com^$important
 @@|img.youtube.com^$important
 @@|sso.roularta.be^$important
