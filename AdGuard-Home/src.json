@@ -8,7 +8,6 @@
         {"name": "personal-domains"},
         {"name": "parked-domains"},
         {"name": "google-lock-light"},
-        {"name": "bypass-protection"},
-        {"name": "amnesty"}
+        {"name": "bypass-protection"}
     ]
 }
