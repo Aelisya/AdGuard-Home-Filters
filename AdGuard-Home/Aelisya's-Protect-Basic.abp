@@ -38,6 +38,9 @@
 ||*.tr^
 ||*.download^
 ||*.gratis^
+||*.video^
+||*.hu^
+||*.su^
 ||chatango.com^
 ||grs.dbankcloud.eu^
 ||polyfill.io^
@@ -47,7 +50,6 @@
 ||sirdata.io^
 ||printfriendly.com^
 ||swupmf.adobe.com^
-||mychannels.video^
 ||persgroep.net^
 ||tiwaz-777.blogspot.com^
 ||aticdn.net^
@@ -57,7 +59,6 @@
 ||bing-amp.com^
 ||adblock.gjtech.net^
 ||spam404bl.com^
-||hufilter.hu^
 ||securemecca.com^
 ||vin-plastiks.com^
 ||dutchmega.nl^
@@ -80,7 +81,6 @@
 ||faravirus.ro^
 ||uirusu.jp^
 ||virusi.hr^
-||avirus.hu^
 ||ioys.gr^
 ||odstranitvirus.cz^
 ||tanpavirus.web.id^
@@ -205,7 +205,6 @@
 ||alwaysdata.net^
 ||foursquare.com^
 ||shareaholic.com^
-||itraffic.su^
 ||sharethis.com^
 ||slashdot.org^
 ||socialguide.com^
