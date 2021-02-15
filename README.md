@@ -24,6 +24,9 @@ I use DNSCRYPT because he protect more than DoH DoT or DoQ.
 i don't really need it (since DNSCRYPT have in it's stamps the ip of the server but i config the localhost)
 Quad9 : 127.0.0.1
 
+## And for the connection between the client and AdGuard ?
+I use Dns Over Https because iPhone have DOH support and Windows 10 Will have it too soon, and since i control the server (physically and software) i don't have to worry about cookies and history log or dns spoofing.
+
 ## Source
 - [DMN - NEXTDNS](https://github.com/nextdns/metadata/)
 - My own modification.
