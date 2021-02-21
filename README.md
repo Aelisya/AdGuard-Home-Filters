@@ -11,18 +11,21 @@ This is the filter list i use :
 Basic One on the repo or microsoft plus (unlock all microsoft domain).
 
 ## Ok and the upstream DNS ?
-For that i use Quad9 on DNSCRYPT :
+For that i use Quad9 :
 
-    sdns://AQMAAAAAAAAAFFsyNjIwOmZlOjpmZTo5XTo4NDQzIGfIR7jIdYzRICRVQ751Z0bfNN8dhMALjEcDaN-CHYY-GTIuZG5zY3J5cHQtY2VydC5xdWFkOS5uZXQ
-    sdns://AQMAAAAAAAAADDkuOS45Ljk6ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0
-    sdns://AQMAAAAAAAAAEjE0OS4xMTIuMTEyLjk6ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0
+    https://dns11.quad9.net/dns-query
 
 ## And for the protocol ?
-I use DNSCRYPT because he protect more than DoH DoT or DoQ.
+I use DOH.
+
+## EDNS ?
+Yes i have enabled it since they support ECS (who don't send all the ip only the start).
 
 ## For the DNS priming servers ?
 i don't really need it (since DNSCRYPT have in it's stamps the ip of the server but i config the localhost)
-Quad9 : 127.0.0.1
+Quad9 : 
+    2620:fe::11
+    9.9.9.11
 
 ## And for the connection between the client and AdGuard ?
 I use Dns Over Https because iPhone/Mac Os Bigsur have DOH support and Windows 10 Will have it too soon, and since i control the server (physically and software) i don't have to worry about cookies and history log or dns spoofing.
