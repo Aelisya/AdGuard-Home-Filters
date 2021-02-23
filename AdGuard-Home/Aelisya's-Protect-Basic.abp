@@ -38,6 +38,7 @@
 ||*.video^
 ||*.hu^
 ||*.su^
+||lr-ingest.io^$important
 ||adservice.google.com^$important
 ||gstaticadssl.l.google.com^$important
 ||googleadservices.com^$important
