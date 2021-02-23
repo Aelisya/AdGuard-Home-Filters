@@ -18,16 +18,16 @@ For that i use DNSCRYPT :
     sdns://AQcAAAAAAAAADTUxLjE1LjEyMi4yNTAg6Q3ZfapcbHgiHKLF7QFoli0Ty1Vsz3RXs1RUbxUrwZAcMi5kbnNjcnlwdC1jZXJ0LnNjYWxld2F5LWFtcw
 
 ## And for the protocol ?
-I use DOH.
+I use DNSCRYPT.
 
 ## EDNS ?
 Yes i have enabled it since they support ECS (who don't send all the ip only the start).
 
 ## For the DNS priming servers ?
 i don't really need it (since DNSCRYPT have in it's stamps the ip of the server but i config the localhost)
-Quad9 : 
-    2620:fe::11
-    9.9.9.11
+Localhost : 
+    ::1
+    127.0.0.1
 
 ## And for the connection between the client and AdGuard ?
 I use Dns Over Https because iPhone/Mac Os Bigsur have DOH support and Windows 10 Will have it too soon, and since i control the server (physically and software) i don't have to worry about cookies and history log or dns spoofing.
