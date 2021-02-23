@@ -5,6 +5,7 @@
     "tld": "tld",
     "secu": "security-rules",
     "domain": [
-        {"name": "personal-domains"}
+        {"name": "personal-domains"},
+        {"name": "bypass-protection"}
     ]
 }

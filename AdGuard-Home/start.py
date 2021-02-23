@@ -41,7 +41,8 @@ def generatelink(asked):
     elif asked == 4:
         return sources['domain'] #ldom
 
-scriptPath = "e:/Git/AdGuard-Home-Filters/AdGuard-Home/"
+#scriptPath = "e:/Git/AdGuard-Home-Filters/AdGuard-Home/"
+scriptPath = "./"
 sources = importJson()
 fold = scriptPath + sources['folder']
 ext = "." + sources['file-ext']
