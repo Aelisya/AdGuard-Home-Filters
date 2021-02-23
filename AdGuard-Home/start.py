@@ -25,7 +25,7 @@ def deduplicate(list):
     for i in list:
         if i not in seen:
             for i3 in generatelink(2):
-                if i not in seen and i.endswith(i3 + "^\n") == False:
+                if i not in seen and i.endswith(i3 + "^$important\n") == False:
                     unduplicated.append(i)
                     seen.add(i)
                     break
@@ -58,13 +58,13 @@ for line in generatelink(2):
     toDedup.append(line + "\n")
 
 for line in generatelink(3):
-    toDedup.append("||*." + line + "^\n")
+    toDedup.append("||*." + line + "^$important\n")
 
 for i in generatelink(4):
     lfull.extend(listify(fold + i['name'] + ext))
 
 for line in lfull:
-    toDedup.append("||" + line + "^\n")
+    toDedup.append("||" + line + "^$important\n")
 del lfull
 
 for line in toDedup:
