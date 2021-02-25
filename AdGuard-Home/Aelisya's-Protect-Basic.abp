@@ -3,7 +3,7 @@
 ! Version: 2.8.4
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-02-24
+! Last modified: 2021-02-25
 /.*?xn--.*/
 /^192.168(.[0-9]{1,3}){2}$/
 /^172.(1[6-9]|2[0-9]|3[0-1)(.[0-9]{1,3}){2}$/
@@ -38,6 +38,12 @@
 ||*.video^$important
 ||*.hu^$important
 ||*.su^$important
+||doh.dns.apple.com.v.aaplimg.com^$important
+||doh.dns.apple.com^$important
+||dot.dns.apple.com.v.aaplimg.com^$important
+||dot.dns.apple.com^$important
+||doq.dns.apple.com.v.aaplimg.com^$important
+||doq.dns.apple.com^$important
 ||lr-ingest.io^$important
 ||adservice.google.com^$important
 ||gstaticadssl.l.google.com^$important
