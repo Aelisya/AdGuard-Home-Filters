@@ -38,12 +38,6 @@
 ||*.video^$important
 ||*.hu^$important
 ||*.su^$important
-||doh.dns.apple.com.v.aaplimg.com^$important
-||doh.dns.apple.com^$important
-||dot.dns.apple.com.v.aaplimg.com^$important
-||dot.dns.apple.com^$important
-||doq.dns.apple.com.v.aaplimg.com^$important
-||doq.dns.apple.com^$important
 ||lr-ingest.io^$important
 ||adservice.google.com^$important
 ||gstaticadssl.l.google.com^$important
@@ -975,3 +969,9 @@
 ||armadillodns.net^$important
 ||dohjs.org^$important
 ||libredns.org^$important
+||doh.dns.apple.com.v.aaplimg.com^$important
+||doh.dns.apple.com^$important
+||dot.dns.apple.com.v.aaplimg.com^$important
+||dot.dns.apple.com^$important
+||doq.dns.apple.com.v.aaplimg.com^$important
+||doq.dns.apple.com^$important
