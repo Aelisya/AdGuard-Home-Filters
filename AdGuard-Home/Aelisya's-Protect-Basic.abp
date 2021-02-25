@@ -13,6 +13,8 @@
 ||version.bind^$important
 ||id.server^$important
 ||hostname.bind^$important
+||piwik.*^$important
+||matomo.*^$important
 |wpad^$important
 ||*.ad^$important
 ||*.ads^$important
