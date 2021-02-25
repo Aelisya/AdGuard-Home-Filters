@@ -2,4 +2,4 @@
 
 ## Reporting a Vulnerability
 
-You can send me a mail to : security@aelisya.net
+You can send me a mail to : security@bacq.pro
