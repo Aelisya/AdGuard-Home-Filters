@@ -1,10 +1,34 @@
 ! Title: Aelisya AllowList
 ! Description: Filter composed of several Allowed domain and all Microsoft unlocked with Adblock Plus Syntax for DNS.
-! Version: 2.8.4
+! Version: 2.8.5
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-02-22
+! Last modified: 2021-02-28
 @@||payzen.eu^$important
 @@||mkklcdnv6.com^$important
 @@||licdn.com^$important
 @@||storage.signal.org^$important
+@@||phncdn.com^$important
+@@||gvt1.com^$important
+@@|pornhub.com^$important
+@@|www.pornhub.com^$important
+@@|fr.pornhub.com^$important
+@@|9hentai.ru^$important
+@@|cdn.9hentai.ru^$important
+@@|lewdpatcher.com^$important
+@@|weeb.hanime.tv^$important
+@@|player3.hanime.tv^$important
+@@|hanime.tv^$important
+@@|hw.hanime.tv^$important
+@@|attachments.f95zone.to^$important
+@@|static.f95zone.to^$important
+@@|f95zone.to^$important
+@@|click.mlsend.com^$important
+@@|feedproxy.google.com^$important
+@@|*mtalk.google.com^$important
+@@|android.clients.google.com^$important
+@@|play.googleapis.com^$important
+@@|update.googleapis.com^$important
+@@|sso.roularta.be^$important
+@@|messagent.roulartamail.be^$important
+@@|edge-chat.facebook.com^$important
