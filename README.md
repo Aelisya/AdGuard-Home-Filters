@@ -37,6 +37,9 @@ I have decided since my last post who had generated a list of adult website safe
 So i will generate a whitelist to allow these "safe" website.
 Like that you can block on AdGuard Home all adult website (to block the bad one), and only allow safe one (one who follow the law of Européan union or similar one).
 
+## Why a separate list ?
+Because i think user/admin must have control over their network so all allow list must be optional only.
+
 ## And if i think there is a security concern with a witelisted website ?
 Send a mail to security@bacq.pro
 
