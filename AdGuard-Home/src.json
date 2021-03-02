@@ -6,6 +6,7 @@
     "secu": "security-rules",
     "domain": [
         {"name": "personal-domains"},
-        {"name": "google-lock-light"}
+        {"name": "google-lock-light"},
+        {"name": "bypass-protection"}
     ]
 }
