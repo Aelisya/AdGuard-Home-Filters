@@ -8,9 +8,10 @@ This is the filter list i use :
 - [OISD](https://abp.oisd.nl/)
 
 ## Ok and the upstream DNS ?
-For that i use unfiltered AdGuard :
+For that i use DNSCRYPT (QUAD9 w ECS) :
 
-    quic://dns-unfiltered.adguard.com
+    sdns://AQMAAAAAAAAADTkuOS45LjExOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA
+    sdns://AQMAAAAAAAAAElsyNjIwOmZlOjoxMV06ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0
 
 ## And for the protocol ?
 I use DoQ.
