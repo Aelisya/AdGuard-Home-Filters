@@ -5,6 +5,8 @@ Many list with ABP Syntax for AdGuard Home DNS blocking.
 ## AND what list do you use ?
 This is the filter list i use :
 - [Aelisya's Protection](https://raw.githubusercontent.com/macqael/AdGuard-Home-Filters/main/AdGuard-Home/Aelisya's-Protect-Basic.abp) (From this repo)
+- [Online Malicious URL Blocklist](https://curben.gitlab.io/malware-filter/urlhaus-filter-agh-online.txt)
+- [The Big List of Hacked Malware Web Sites](https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts)
 - [OISD](https://abp.oisd.nl/)
 
 ## Ok and the upstream DNS ?
