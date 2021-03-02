@@ -32,8 +32,10 @@ Localhost :
 ## And for the connection between the client and AdGuard ?
 I use Dns Over Https because iPhone/Mac Os Bigsur have DOH support and Windows 10 Will have it too soon, and since i control the server (physically and software) i don't have to worry about cookies and history log or dns spoofing.
 
-## Why is there adult website on allow list ?
-It's often a mistake in my script who have missed to remove it (for instance XXX.com is locked but a new domain XXX.lol go through), after a report i add it and remove them from the list, you can report to website@bacq.pro
+## Why generate a adult whitelist ?
+I have decided since my last post who had generated a list of adult website safe who musn't be added in whitelist.
+So i will generate a whitelist to allow these "safe" website.
+Like that you can block on AdGuard Home all adult website (to block the bad one), and only allow safe one (one who follow the law of Européan union or similar one).
 
 ## And if i think there is a security concern with a witelisted website ?
 Send a mail to security@bacq.pro
