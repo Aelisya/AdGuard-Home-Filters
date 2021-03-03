@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name          AdGuard Home Auto Dark Mode
-// @description	  Dark theme for AdGuard Home user interface.
+// @description	  Auto Dark theme for AdGuard Home user interface.
 // @author        Macqael
 // @homepage      https://github.com/Macqael/AdGuard-Home-Filters
 // @include       https://balrog.bacq.pro/*
