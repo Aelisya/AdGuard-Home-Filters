@@ -5,7 +5,7 @@
 // @homepage      https://github.com/Macqael/AdGuard-Home-Filters
 // @include       https://balrog.bacq.pro/*
 // @run-at        document-end
-// @version       1.202103022
+// @version       1.202103032
 // ==/UserScript==
 (function() {var css = [
     "@media (prefers-color-scheme: dark) {",
