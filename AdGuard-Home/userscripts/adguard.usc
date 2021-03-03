@@ -1,13 +1,13 @@
 // ==UserScript==
-// @name          AdGuard Home Dark Theme
+// @name          AdGuard Home Auto Dark Mode
 // @description	  Dark theme for AdGuard Home user interface.
 // @author        Macqael
 // @homepage      https://github.com/Macqael/AdGuard-Home-Filters
 // @include       https://balrog.bacq.pro/*
 // @run-at        document-end
-// @version       1.202103033
+// @version       1.202103034
 // ==/UserScript==
-(function() {var css = [
+(() => {var css = [
     "@media (prefers-color-scheme: dark) {",
 	"body {",
 	"   background-color: #18191a;",
