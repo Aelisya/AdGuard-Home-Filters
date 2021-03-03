@@ -3,7 +3,7 @@
 ! Version: 2.8.4
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-03-02
+! Last modified: 2021-03-03
 /.*?xn--.*/
 /^192.168(.[0-9]{1,3}){2}$/
 /^172.(1[6-9]|2[0-9]|3[0-1)(.[0-9]{1,3}){2}$/
@@ -279,6 +279,8 @@
 ||graph.facebook.com^$important
 ||en-gb.facebook.com^$important
 ||bonsplans.tech^$important
+||unit-sense.net^$important
+||unit-sense.com^$important
 ||chromeexperiments.com^$important
 ||flutter.io^$important
 ||getmdl.io^$important
