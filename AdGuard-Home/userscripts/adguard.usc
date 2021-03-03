@@ -5,7 +5,7 @@
 // @homepage      https://github.com/Macqael/AdGuard-Home-Filters
 // @include       https://balrog.bacq.pro/*
 // @run-at        document-end
-// @version       1.202103032
+// @version       1.202103033
 // ==/UserScript==
 (function() {var css = [
     "@media (prefers-color-scheme: dark) {",
@@ -389,7 +389,7 @@
 	"   background-color: #111314;",
 	"}",
 	".logs__row--blue {",
-	"   background-color: #457ECD;",
+	"   background-color: #000080;",
 	"}",
 	".tooltip-custom__container .button-action--arrow-option:not(:disabled):hover {",
 	"   background-color: #181a1d;",
