@@ -5,9 +5,9 @@
 // @homepage      https://github.com/Macqael/AdGuard-Home-Filters
 // @include       https://balrog.bacq.pro/*
 // @run-at        document-end
-// @version       1.202103034
+// @version       1.202103035
 // ==/UserScript==
-(() => {var css = [
+(()=>{const css = [
     "@media (prefers-color-scheme: dark) {",
 	"body {",
 	"   background-color: #18191a;",
@@ -445,15 +445,12 @@ if (typeof GM_addStyle != "undefined") {
 } else if (typeof addStyle != "undefined") {
 	addStyle(css);
 } else {
-	var node = document.createElement("style");
-	node.type = "text/css";
+	const node = document.createElement("style");
 	node.appendChild(document.createTextNode(css));
 	var heads = document.getElementsByTagName("head");
 	if (heads.length > 0) {
 		heads[0].appendChild(node);
 	} else {
-		// no head yet, stick it whereever
 		document.documentElement.appendChild(node);
 	}
-}
-})();
+}})();
