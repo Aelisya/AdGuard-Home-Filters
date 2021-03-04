@@ -1,0 +1,11 @@
+! Title: Android Minimum AllowList
+! Description: Filter composed of several Allowed domain and all Microsoft unlocked with Adblock Plus Syntax for DNS.
+! Version: 1.0.0
+! Homepage: https://github.com/macqael/AdGuard-Home-Filters
+! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
+! Last modified: 2021-03-04
+@@||gvt1.com^$important
+@@|*mtalk.google.com^$important
+@@|android.clients.google.com^$important
+@@|play.googleapis.com^$important
+@@|update.googleapis.com^$important
