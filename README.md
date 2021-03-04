@@ -19,7 +19,7 @@ For that i use DNSCRYPT (QUAD9 w ECS) :
 I use DNSCRYPT for the best privacy/security.
 
 ## EDNS ?
-Yes i have enabled it since they support ECS (who don't send all the ip only the start).
+No.
 
 ## For the DNS priming servers ?
 I use localhost because priming server aren't useful with DNSCRYPT.
