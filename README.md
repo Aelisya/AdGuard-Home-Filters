@@ -22,12 +22,12 @@ I use DNSCRYPT for the best privacy/security.
 Yes i have enabled it since they support ECS (who don't send all the ip only the start).
 
 ## For the DNS priming servers ?
-I use Quad9 the most secure DNS, with ECS enabled on priming too even if they are not useful with DNSCRYPT.
+I use localhost because priming server aren't useful with DNSCRYPT.
 
 Localhost :
 
-    2620:fe::11
-    9.9.9.11
+    ::1
+    127.0.0.1
 
 ## And for the connection between the client and AdGuard ?
 I use Dns Over Https because iPhone/Mac Os Bigsur have DOH support and Windows 10 Will have it too soon, and since i control the server (physically and software) i don't have to worry about cookies and history log or dns spoofing.
@@ -39,6 +39,9 @@ Like that you can block on AdGuard Home all adult website (to block the bad one)
 
 ## Why a separate list ?
 Because i think user/admin must have control over their network so all allow list must be optional only.
+
+## Why don't i see these list ?
+Because adult list aren't my priority and will appear when started.
 
 ## And if i think there is a security concern with a witelisted website ?
 Send a mail to security@bacq.pro
