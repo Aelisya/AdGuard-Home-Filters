@@ -17,3 +17,5 @@
 @@|youtube-ui.l.google.com^$important
 @@|ghs.googlehosted.com^$important
 @@|safebrowsing.googleapis.com^$important
+@@|ajax.googleapis.com^$important
+@@|fonts.googleapis.com^$important
