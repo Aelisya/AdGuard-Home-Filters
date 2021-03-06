@@ -4,30 +4,34 @@ Many list with ABP Syntax for AdGuard Home DNS blocking.
 
 ## AND what list do you use ?
 This is the filter list i use :
-- [Aelisya's Protection](https://raw.githubusercontent.com/macqael/AdGuard-Home-Filters/main/AdGuard-Home/Aelisya's-Protect-Basic.abp) (From this repo)
-- [Online Malicious URL Blocklist](https://curben.gitlab.io/malware-filter/urlhaus-filter-agh-online.txt)
-- [The Big List of Hacked Malware Web Sites](https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts)
 - [OISD](https://abp.oisd.nl/)
+- [Macqael Blocklist](https://raw.githubusercontent.com/macqael/AdGuard-Home-Filters/main/AdGuard-Home/Aelisya's-Protect-Basic.abp) (From this repo)
+- [Spam404](https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt)
+- [NoCoin Filter List](https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt)
+- [BarbBlock](https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt)
+- [WindowsSpyBlocker - Hosts spy rules](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt)
 
 ## Ok and the upstream DNS ?
 For that i use DNSCRYPT (QUAD9 w ECS) :
 
-    sdns://AQMAAAAAAAAADTkuOS45LjExOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA
     sdns://AQMAAAAAAAAAElsyNjIwOmZlOjoxMV06ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0
+    sdns://AQMAAAAAAAAAFVsyNjIwOmZlOjpmZToxMV06ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0
+    sdns://AQMAAAAAAAAADTkuOS45LjExOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA
+    sdns://AQMAAAAAAAAAEzE0OS4xMTIuMTEyLjExOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA
 
 ## And for the protocol ?
 I use DNSCRYPT for the best privacy/security.
 
 ## EDNS ?
-No.
+Yes.
 
 ## For the DNS priming servers ?
-I use localhost because priming server aren't useful with DNSCRYPT.
+I use quad9 w ECS even if priming server aren't useful with DNSCRYPT.
 
 Localhost :
 
-    ::1
-    127.0.0.1
+    2620:fe::11
+    149.112.112.11
 
 ## And for the connection between the client and AdGuard ?
 I use Dns Over Https because iPhone/Mac Os Bigsur have DOH support and Windows 10 Will have it too soon, and since i control the server (physically and software) i don't have to worry about cookies and history log or dns spoofing.
@@ -48,4 +52,4 @@ Send a mail to security@bacq.pro
 
 ## Source
 - [DMN - NEXTDNS](https://github.com/nextdns/metadata/)
-- My own modification.
+- My own modification founded in internet.
