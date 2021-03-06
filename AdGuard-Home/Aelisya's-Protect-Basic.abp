@@ -16,6 +16,7 @@
 ||piwik.*^$important
 ||matomo.*^$important
 |wpad^$important
+|air-macqael^$important
 ||*.ad^$important
 ||*.ads^$important
 ||*.asia^$important
