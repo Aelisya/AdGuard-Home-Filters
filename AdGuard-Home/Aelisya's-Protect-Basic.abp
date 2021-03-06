@@ -1,6 +1,6 @@
 ! Title: Macqael List
 ! Description: Filter composed of several filters i found usefull with Adblock Plus Syntax for DNS.
-! Version: 2.8.4
+! Version: 2.9.2
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
 ! Last modified: 2021-03-06
@@ -283,6 +283,8 @@
 ||bonsplans.tech^$important
 ||unit-sense.net^$important
 ||unit-sense.com^$important
+||mozilla.com^$important
+||mozilla.org^$important
 ||chromeexperiments.com^$important
 ||flutter.io^$important
 ||getmdl.io^$important
