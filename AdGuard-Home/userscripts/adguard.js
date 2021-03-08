@@ -4,6 +4,7 @@
 // @author        Macqael
 // @homepage      https://github.com/Macqael/AdGuard-Home-Filters
 // @include       https://balrog.bacq.pro/*
+// @include		  https://gandalf.bacq.pro/*
 // @run-at        document-end
 // @version       1.202103035
 // ==/UserScript==
