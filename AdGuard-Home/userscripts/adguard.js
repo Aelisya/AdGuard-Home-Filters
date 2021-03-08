@@ -6,7 +6,7 @@
 // @include       https://balrog.bacq.pro/*
 // @include		  https://gandalf.bacq.pro/*
 // @run-at        document-end
-// @version       1.202103035
+// @version       1.202103081
 // ==/UserScript==
 (()=>{const css = [
     "@media (prefers-color-scheme: dark) {",
