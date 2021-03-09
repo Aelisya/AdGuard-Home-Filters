@@ -7,6 +7,7 @@
 @@||mkklcdnv6.com^$important
 @@||pki.goog^$important
 @@||googlehosted.com^$important
+@@||googleusercontent.com^$important
 @@|mtalk.google.com^$important
 @@|*-mtalk.google.com^$important
 @@|click.mlsend.com^$important
@@ -14,8 +15,8 @@
 @@|sso.roularta.be^$important
 @@|messagent.roulartamail.be^$important
 @@|youtube-ui.l.google.com^$important
-@@|googlehosted.l.googleusercontent.com^$important
 @@|storage.googleapis.com^$important
 @@|storage.l.google.com^$important
 @@|ajax.googleapis.com^$important
 @@|yt*.ggpht.com^$important
+@@|android.clients.google.com^$important
