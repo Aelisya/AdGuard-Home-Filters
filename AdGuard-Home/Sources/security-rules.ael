@@ -9,5 +9,6 @@
 ||hostname.bind^$important
 ||piwik.*^$important
 ||matomo.*^$important
+|supportmetrics.*^$important
 |wpad^$important
 |air-macqael^$important
