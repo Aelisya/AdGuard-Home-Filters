@@ -26,8 +26,7 @@ I use quad9 w ECS even if priming server aren't useful with DNSCRYPT.
 
 Localhost :
 
-    2620:fe::11
-    149.112.112.11
+    127.0.0.1
 
 ## And for the connection between the client and AdGuard ?
 I use Dns Over Https because iPhone/Mac Os Bigsur have DOH support and Windows 10 Will have it too soon, and since i control the server (physically and software) i don't have to worry about cookies and history log or dns spoofing.
