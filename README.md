@@ -6,7 +6,6 @@ Many list with ABP Syntax for AdGuard Home DNS blocking.
 This is the filter list i use :
 - [OISD](https://abp.oisd.nl/)
 - [Macqael Blocklist](https://raw.githubusercontent.com/macqael/AdGuard-Home-Filters/main/AdGuard-Home/Aelisya's-Protect-Basic.abp) (From this repo)
-- [BarbBlock](https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt)
 
 ## Ok and the upstream DNS ?
 For that i use DNSCRYPT (QUAD9 w ECS) :
