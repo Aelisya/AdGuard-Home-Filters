@@ -1,11 +1,33 @@
 ! Title: Aelisya AllowList
 ! Description: Filter composed of several Allowed domain unlocked with Adblock Plus Syntax for DNS.
-! Version: 2.10.1
+! Version: 2.10.2
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-03-09
+! Last modified: 2021-03-15
 @@||mkklcdnv6.com^$important
 @@|click.mlsend.com^$important
 @@|sso.roularta.be^$important
 @@|messagent.roulartamail.be^$important
 @@|query.hicloud.com^$important
+@@||googleusercontent.com
+@@||storage.googleapis.com
+@@||googlevideo.com
+@@|safebrowsing.googleapis.com
+@@|play.google.com
+@@|play.googleapis.com
+@@|update.googleapis.com
+@@|ajax.googleapis.com
+@@|youtube-ui.l.google.com
+@@|ghs.googlehosted.com
+@@|clients2.google.com
+@@|clients.l.google.com
+@@|clients6.google.com
+@@|clients3.google.com
+@@|fonts.googleapis.com
+@@|pki-goog.l.google.com
+@@|apis.google.com
+@@|storage.cloud.google.com
+@@|feedproxy.google.com
+@@|mtalk.google.com
+@@|android.clients.google.com
+@@|storage.googleapis.com
