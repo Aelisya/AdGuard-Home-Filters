@@ -1,9 +1,9 @@
 ! Title: Macqael List
 ! Description: Filter composed of several filters i found usefull with Adblock Plus Syntax for DNS.
-! Version: 2.12.1
+! Version: 2.13
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-03-21
+! Last modified: 2021-03-22
 /.*?xn--.*/
 ||sentry*^$important
 ||bugsnag*^$important
@@ -1000,7 +1000,6 @@
 ||getmdl.io^$important
 ||googlepagecreator.com^$important
 ||googlesciencefair.com^$important
-||googlezip.net^$important
 ||web.dev^$important
 ||deepmind.com^$important
 ||dialogflow.com^$important
@@ -1043,7 +1042,6 @@
 ||google.com^$important
 ||gstatic.com^$important
 ||googleanalytics.com^$important
-||google-analytics.com^$important
 ||googletagmanager.com^$important
 ||googletagservices.com^$important
 ||android.com^$important
@@ -1237,13 +1235,11 @@
 ||firebaseio.com^$important
 ||abc.xyz^$important
 ||ai.google^$important
-||appspot.com^$important
 ||autodraw.com^$important
 ||gvt1.com^$important
 ||gvt2.com^$important
 ||blog.google^$important
 ||cobrasearch.com^$important
-||googleadservices.com^$important
 ||googleapis.com^$important
 ||grow.google^$important
 ||gv.com^$important
@@ -1757,3 +1753,24 @@
 ||gvt9.com^$important
 ||youtu.be^$important
 ||yt.be^$important
+||awemdia.com^$important
+||babes.com^$important
+||hotgaylist.com^$important
+||niceteentubes.com^$important
+||peeperz.com^$important
+||playboytv.com^$important
+||porniq.com^$important
+||pornlaser.com^$important
+||sextube.com^$important
+||skipthegames.com^$important
+||sukebei.nyaa.net^$important
+||teen-xxx-videos.net^$important
+||teen18pussy.com^$important
+||teenafterteen.com^$important
+||teenfreshporn.com^$important
+||teenliketube.com^$important
+||teenlovestube.com^$important
+||viptube.com^$important
+||vptpsn.com^$important
+||whynotbi.com^$important
+||xhcdn.com^$important
