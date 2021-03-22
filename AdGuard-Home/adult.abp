@@ -1,0 +1,20 @@
+! Title: Macqael Adult clean List
+! Description: List of adult site not infected with malware or pedo, i don't update it myself open an issue if you have found other clean adult website.
+! Version: 1.0
+! Homepage: https://github.com/macqael/AdGuard-Home-Filters
+! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
+! Last modified: 2021-03-22
+@@||phncdn.com^$important
+@@|pornhub.com^$important
+@@|www.pornhub.com^$important
+@@|fr.pornhub.com^$important
+@@|9hentai.ru^$important
+@@|cdn.9hentai.ru^$important
+@@|lewdpatcher.com^$important
+@@|weeb.hanime.tv^$important
+@@|player3.hanime.tv^$important
+@@|hanime.tv^$important
+@@|hw.hanime.tv^$important
+@@|attachments.f95zone.to^$important
+@@|static.f95zone.to^$important
+@@|f95zone.to^$important
