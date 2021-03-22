@@ -52,6 +52,7 @@
 ||*.int^$important
 ||*.ua^$important
 ||*.ms^$important
+||*.local^$important
 ||lr-ingest.io^$important
 ||adservice.google.com^$important
 ||gstaticadssl.l.google.com^$important
