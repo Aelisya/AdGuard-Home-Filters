@@ -35,3 +35,5 @@
 @@|android.clients.google.com^$important
 @@|storage.googleapis.com^$important
 @@|www.gstatic.com^$important
+@@|www.google.com^$important
+@@|csp.withgoogle.com^$important
