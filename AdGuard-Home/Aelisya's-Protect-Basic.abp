@@ -28,6 +28,7 @@
 ||*.network^$important
 ||*.gov^$important
 ||*.jp^$important
+||*.ly^$important
 ||*.leclerc^$important
 ||*.coop^$important
 ||*.kz^$important
