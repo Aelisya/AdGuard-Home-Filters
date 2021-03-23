@@ -1,6 +1,6 @@
 ! Title: Aelisya Threat Intelligence Allowlist
 ! Description: Filter composed of Allowed domain (false positive) unlocked with Adblock Plus Syntax.
-! Version: 1.1
+! Version: 1.2
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
 ! Last modified: 2021-03-23
@@ -142,3 +142,4 @@
 @@|sgp1.digitaloceanspaces.com^$important
 @@|sites.google.com^$important
 @@|storage.googleapis.com^$important
+@@|edge-chat.facebook.com^$important
