@@ -54,6 +54,7 @@
 @@||zdusercontent.com^$important
 @@||zippyshare.com^$important
 @@||phncdn.com^$important
+@@|cdn.ravenjs.com^$important
 @@|click.mlsend.com^$important
 @@|sso.roularta.be^$important
 @@|messagent.roulartamail.be^$important
@@ -191,3 +192,4 @@
 @@|sgp1.digitaloceanspaces.com^$important
 @@|sites.google.com^$important
 @@|edge-chat.facebook.com^$important
+@@|dns.msftncsi.com^$important
