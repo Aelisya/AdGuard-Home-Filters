@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
 ! Last modified: 2021-03-22
-/.*?xn--.*/
+/.*?xn--.*/^$important
 ||sentry*^$important
 ||bugsnag*^$important
 ||version.bind^$important
