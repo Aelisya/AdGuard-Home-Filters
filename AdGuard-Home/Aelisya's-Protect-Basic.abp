@@ -3,7 +3,7 @@
 ! Version: 2.14
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-03-26
+! Last modified: 2021-03-27
 /.*?xn--.*/^
 ||sentry*^
 ||bugsnag*^
@@ -55,7 +55,6 @@
 ||*.ms^
 ||*.local^
 ||lr-ingest.io^
-||boulevard-voltaire.fr^
 ||adservice.google.com^
 ||gstaticadssl.l.google.com^
 ||googleadservices.com^
