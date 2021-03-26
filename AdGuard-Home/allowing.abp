@@ -3,8 +3,7 @@
 ! Version: 2.15
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-03-26
-@@||safebrowsing.googleapis.com^$important
+! Last modified: 2021-03-27
 @@||googleusercontent.com^$important
 @@||storage.googleapis.com^$important
 @@||googlevideo.com^$important
@@ -14,6 +13,7 @@
 @@||lencr.org^$important
 @@||arpa^$important
 @@||docs.google.com^$important
+@@|safebrowsing.googleapis.com^$important
 @@|cdn.ravenjs.com^$important
 @@|ajax.googleapis.com^$important
 @@|youtube-ui.l.google.com^$important
