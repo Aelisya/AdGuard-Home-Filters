@@ -54,12 +54,20 @@
 ||*.ua^
 ||*.ms^
 ||*.local^
+||*.tw^
+||*.app^
+||*.party^
 ||lr-ingest.io^
+||livechatinc.com^
 ||adservice.google.com^
 ||gstaticadssl.l.google.com^
 ||googleadservices.com^
+||googletagmanager.com^
+||fonts.googleapis.com^
+||s.w.org^
 ||adserver.jforum.fr^
 ||iadsdk.apple.com^
+||chatango.com^
 ||google-analytics.l.google.com^
 ||google-analytics.com^
 ||chatango.com^
@@ -1776,3 +1784,5 @@
 ||vptpsn.com^
 ||whynotbi.com^
 ||xhcdn.com^
+||paypalobjects.com^$ctag=user_admin
+||paypal.com^$ctag=user_admin
