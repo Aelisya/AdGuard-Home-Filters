@@ -22,6 +22,7 @@
 @@|pki-goog.l.google.com^$important
 @@|storage.cloud.google.com^$important
 @@|storage.googleapis.com^$important
+@@|cloudstorage.gog.com^$important
 @@|www.gstatic.com^$important
 @@|www.google.com^$important
 @@|csp.withgoogle.com^$important
