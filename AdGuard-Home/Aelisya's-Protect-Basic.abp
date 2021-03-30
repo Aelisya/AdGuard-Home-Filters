@@ -57,6 +57,7 @@
 ||*.tw^
 ||*.app^
 ||*.party^
+||google-public-dns-a.google.com
 ||lr-ingest.io^
 ||livechatinc.com^
 ||adservice.google.com^
