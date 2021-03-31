@@ -1,9 +1,9 @@
 ! Title: Macqael List
 ! Description: Filter composed of several filters i found usefull with Adblock Plus Syntax for DNS.
-! Version: 2.14
+! Version: 2.14.1
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-03-27
+! Last modified: 2021-03-31
 /.*?xn--.*/^
 ||sentry*^
 ||bugsnag*^
@@ -55,7 +55,6 @@
 ||*.ms^
 ||*.local^
 ||*.tw^
-||*.app^
 ||*.party^
 ||google-public-dns-a.google.com
 ||lr-ingest.io^
@@ -71,7 +70,6 @@
 ||chatango.com^
 ||google-analytics.l.google.com^
 ||google-analytics.com^
-||chatango.com^
 ||grs.dbankcloud.eu^
 ||polyfill.io^
 ||kimanime.com^
@@ -84,7 +82,6 @@
 ||tiwaz-777.blogspot.com^
 ||aticdn.net^
 ||aolcdn.com^
-||s.w.org^
 ||ibytedtos.com^
 ||bing-amp.com^
 ||adblock.gjtech.net^
@@ -1053,7 +1050,6 @@
 ||google.com^
 ||gstatic.com^
 ||googleanalytics.com^
-||googletagmanager.com^
 ||googletagservices.com^
 ||android.com^
 ||google.ad^
