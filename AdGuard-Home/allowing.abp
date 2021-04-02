@@ -3,7 +3,7 @@
 ! Version: 2.16.3
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-03-30
+! Last modified: 2021-04-02
 @@||googleusercontent.com^$important
 @@||storage.googleapis.com^$important
 @@||googlevideo.com^$important
@@ -62,3 +62,4 @@
 @@|www.breizh-info.com^$ctag=user_regular
 @@|link.huffingtonpost.fr^$ctag=user_regular
 @@|www.dreuz.info^$ctag=user_regular
+@@|levif.be^$ctag=user_regular
