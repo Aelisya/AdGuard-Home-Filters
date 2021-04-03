@@ -49,6 +49,7 @@
 @@|android.clients.google.com^$ctag=os_android
 @@|apis.google.com^$ctag=os_android
 @@|mtalk.google.com^$ctag=os_android
+@@|www.googleapis.com^$ctag=os_android
 @@|*-dnsotls-ds.metric.gstatic.com^$ctag=os_android
 @@|*-mtalk.google.com^$ctag=os_android
 @@|click.mlsend.com^$ctag=user_regular
