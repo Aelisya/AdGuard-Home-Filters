@@ -1,6 +1,6 @@
 ! Title: Macqael Hardallow
 ! Description: Filter composed of several Allowed domain unlocked with Adblock Plus Syntax for DNS.
-! Version: 3.0.0
+! Version: 3.0.1
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
 ! Last modified: 2021-04-04
@@ -22,6 +22,7 @@
 @@||wikipedia.com^$important
 @@||wikipedia.org^$important
 @@||ocsp.sectigo.com^$important
+@@||smoot.apple.com^$important
 @@|wordpress.com^$important
 @@|wordpress.org^$important
 @@|win10.ipv6.microsoft.com^$important
@@ -481,7 +482,19 @@
 @@|link.huffingtonpost.fr^$important
 @@|www.dreuz.info^$important
 @@|levif.be^$important
+@@|mail.levif.be^$important
 @@|wcpstatic.microsoft.com^$important
 @@|wdcp.microsoft.com^$important
 @@|v20.events.data.microsoft.com^$important
 @@|update.microsoft.com^$important
+@@|alive.github.com^$important
+@@|smp-device-content.apple.com^$important
+@@|internalcheck.apple.com^$important
+@@|radarsubmissions.apple.com^$important
+@@|cstat.apple.com^$important
+@@|code.visualstudio.com^$important
+@@|metrics.icloud.com^$important
+@@|api.mixpanel.com^$important
+@@|query.hicloud.com^$important
+@@|phonedeviceverification-pa.googleapis.com^$important
+@@|deviceintegritytokens-pa.googleapis.com^$important
