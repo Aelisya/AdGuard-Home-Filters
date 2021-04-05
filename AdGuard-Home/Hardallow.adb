@@ -24,6 +24,7 @@
 @@||ocsp.sectigo.com^$important
 @@||smoot.apple.com^$important
 @@||licdn.com^$important
+@@|l.facebook.com^$important
 @@|wordpress.com^$important
 @@|wordpress.org^$important
 @@|win10.ipv6.microsoft.com^$important
