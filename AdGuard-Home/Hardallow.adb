@@ -1,6 +1,6 @@
 ! Title: Macqael Hardallow
 ! Description: Filter composed of several Allowed domain unlocked with Adblock Plus Syntax for DNS.
-! Version: 3.0.6
+! Version: 3.1.0
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
 ! Last modified: 2021-04-05
@@ -492,6 +492,7 @@
 @@|mail.levif.be^$important
 @@|wcpstatic.microsoft.com^$important
 @@|wdcp.microsoft.com^$important
+@@|v10.events.data.microsoft.com^$important
 @@|v20.events.data.microsoft.com^$important
 @@|update.microsoft.com^$important
 @@|alive.github.com^$important
@@ -502,9 +503,6 @@
 @@|code.visualstudio.com^$important
 @@|metrics.icloud.com^$important
 @@|api.mixpanel.com^$important
-@@|query.hicloud.com^$important
-@@|phonedeviceverification-pa.googleapis.com^$important
-@@|deviceintegritytokens-pa.googleapis.com^$important
 @@|m.stripe.network^$important
 @@|stripe.network^$important
 @@|service.videoplaza.tv^$important
@@ -526,4 +524,21 @@
 @@|images2.imgbox.com^$important
 @@|developer.chrome.com^$important
 @@|developers.chrome.com^$important
-@@|www.whoer.net^$important
+@@|www.whoer.net^$important^$important
+@@|static.asm.skype.com^$important
+@@|api3.cc.skype.com^$important
+@@|activity.windows.com^$important
+@@|consumer.entitlement.skype.com^$important
+@@|api.asm.skype.com^$important
+@@|people.skype.com^$important
+@@|contacts.skype.com^$important
+@@|www.msftconnecttest.com^$important
+@@|beaz.tr.skype.com^$important
+@@|api.aps.skype.com^$important
+@@|options.skype.com^$important
+@@|msgsearch.skype.com^$important
+@@|tr.teams.microsoft.com^$important
+@@|avatar.skype.com^$important
+@@|b.config.skype.com^$important
+@@|pipe.skype.com^$important
+@@|a.config.skype.com^$important
