@@ -1,9 +1,9 @@
 ! Title: Macqael Hardallow
 ! Description: Filter composed of several Allowed domain unlocked with Adblock Plus Syntax for DNS.
-! Version: 3.1.1
+! Version: 3.1.2
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-04-05
+! Last modified: 2021-04-06
 @@||googleusercontent.com^$important
 @@||storage.googleapis.com^$important
 @@||googlevideo.com^$important
@@ -25,8 +25,10 @@
 @@||smoot.apple.com^$important
 @@||licdn.com^$important
 @@||pinimg.com^$important
+@@||api.swiftype.com^$important
 @@|www.download.windowsupdate.com^$important
 @@|interact.f5.com^$important
+@@|weekend.levif.be^$important
 @@|upload.facebook.com^$important
 @@|l.facebook.com^$important
 @@|wordpress.com^$important
@@ -543,3 +545,4 @@
 @@|pipe.skype.com^$important
 @@|a.config.skype.com^$important
 @@|offline.microsofttranslator.com^$important
+@@|tracking.epicgames.com^$important
