@@ -44,6 +44,7 @@
 @@|googleapis.l.google.com^$important
 @@|clients.l.google.com^$important
 @@|safebrowsing.googleapis.com^$important
+@@|www.bing.com^$important
 @@|safebrowsing.google.com^$important
 @@|cdn.ravenjs.com^$important
 @@|ajax.googleapis.com^$important
