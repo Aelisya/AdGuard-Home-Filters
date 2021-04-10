@@ -3,8 +3,7 @@
 // @description	  Auto Dark theme for AdGuard Home user interface.
 // @author        Macqael
 // @homepage      https://github.com/Macqael/AdGuard-Home-Filters
-// @include       https://balrog.bacq.pro/*
-// @include		  https://gandalf.bacq.pro/*
+// @include       https://bacq.pro/*
 // @run-at        document-end
 // @version       1.202103081
 // ==/UserScript==
