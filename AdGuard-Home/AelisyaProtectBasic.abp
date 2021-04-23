@@ -1,9 +1,9 @@
 ! Title: Macqael List
 ! Description: Filter composed of several filters i found usefull with Adblock Plus Syntax for DNS.
-! Version: 2.15.0
+! Version: 2.16.0
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-04-15
+! Last modified: 2021-04-23
 /.*?xn--.*/^
 ||sentry*^
 ||bugsnag*^
@@ -261,8 +261,6 @@
 ||woobox.com^
 ||uptolike.com^
 ||xing-share.com^
-||alipay.com^
-||alitrip.com^
 ||avast.com^
 ||avcdn.net^
 ||bdstatic.com^
@@ -283,7 +281,6 @@
 ||scorecardresearch.com^
 ||emarsys.net^
 ||etrack.newpharma.be^
-||alibabadns.com^
 ||gameplayapi.intel.com^
 ||whitelist.trustedservices.intel.com^
 ||helpshift.com^
