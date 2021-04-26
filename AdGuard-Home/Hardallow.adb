@@ -46,9 +46,7 @@
 @@|pki-goog.l.google.com^
 @@|googleapis.l.google.com^
 @@|clients.l.google.com^
-@@|safebrowsing.googleapis.com^
 @@|www.bing.com^
-@@|safebrowsing.google.com^
 @@|edge.activity.windows.com^
 @@|cdn.ravenjs.com^
 @@|ajax.googleapis.com^
