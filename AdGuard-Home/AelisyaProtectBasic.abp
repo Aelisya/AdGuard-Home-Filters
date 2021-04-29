@@ -58,7 +58,6 @@
 ||*.party^
 ||*.gl^
 ||google-public-dns-a.google.com^
-||mqtt-eu.meross.com^
 ||lr-ingest.io^
 ||livechatinc.com^
 ||adservice.google.com^
