@@ -1,9 +1,9 @@
 ! Title: Macqael Hardallow
 ! Description: Filter composed of several Allowed domain unlocked with Adblock Plus Syntax for DNS.
-! Version: 3.2.4
+! Version: 3.3
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-04-18
+! Last modified: 2021-04-29
 @@||googleusercontent.com^
 @@||storage.googleapis.com^
 @@||googlevideo.com^
@@ -33,10 +33,8 @@
 @@|authenticator-azureidentity-tas.msedge.net^
 @@|track.bpost.cloud^
 @@|www.download.windowsupdate.com^
-@@|interact.f5.com^
 @@|weekend.levif.be^
 @@|amcdn.msftauth.net^
-@@|upload.facebook.com^
 @@|l.facebook.com^
 @@|wordpress.com^
 @@|wordpress.org^
@@ -49,7 +47,6 @@
 @@|googleapis.l.google.com^
 @@|clients.l.google.com^
 @@|www.bing.com^
-@@|edge.activity.windows.com^
 @@|cdn.ravenjs.com^
 @@|ajax.googleapis.com^
 @@|ghs.googlehosted.com^
@@ -60,27 +57,17 @@
 @@|csp.withgoogle.com^
 @@|youtubei.googleapis.com^
 @@|video.google.com^
-@@|virustotal.com^
 @@|upload.wikimedia.org^
-@@|uploaded.net^
-@@|uptobox.com^
 @@|znn6.mjt.lu^
 @@|update.videolan.org^
 @@||gvt1.com^
-@@|play.google.com^
-@@|play.googleapis.com^
-@@|update.googleapis.com^
-@@|android.clients.google.com^
-@@|android.googleapis.com^
 @@|apis.google.com^
 @@|mtalk.google.com^
 @@|www.googleapis.com^
-@@|*-dnsotls-ds.metric.gstatic.com^
 @@|*-mtalk.google.com^
 @@||aria.microsoft.com^
 @@||cloudfront.net^
 @@||delivery.mp.microsoft.com^
-@@||deviantart.com^
 @@||gallery.vsassets.io^
 @@||gallerycdn.vsassets.io^
 @@||prod.do.dsp.mp.microsoft.com^
@@ -104,10 +91,8 @@
 @@|akamaitechnologies.com^
 @@|akamaized.net^
 @@|albert.apple.com^
-@@|aldi.com.au^
 @@|alternativeto.net^
 @@|amd.com^
-@@|answers.microsoft.com^
 @@|api-da.wixmp.com^
 @@|api-glb.smoot.apple.com^
 @@|api-m.paypal.com^
@@ -168,12 +153,6 @@
 @@|client-download.steampowered.com^
 @@|client.teamviewer.com^
 @@|clientconfig.akamai.steamstatic.com^
-@@|clients1.google.com^
-@@|clients2.google.com^
-@@|clients3.google.com^
-@@|clients4.google.com^
-@@|clients5.google.com^
-@@|clients6.google.com^
 @@|cloudflare.com^
 @@|code.jquery.com^
 @@|collections.md.mp.microsoft.com^
@@ -207,30 +186,23 @@
 @@|dc.services.visualstudio.com^
 @@|developer.mozilla.org^
 @@|developers.cloudflare.com^
-@@|developers.google.com^
-@@|deviantart.com^
 @@|discord.com^
 @@|discord.gg^
-@@|geopolitique-profonde.systeme.io^
 @@|discordapp.com^
 @@|discussions.apple.com^
 @@|displaycatalog.mp.microsoft.com^
 @@|dl.delivery.mp.microsoft.com^
 @@|dl.humble.com^
-@@|dlassets-ssl.xboxlive.com^
 @@|dmd.metaservices.microsoft.com^
 @@|dns.msftncsi.com^
-@@|docs.live.net^
 @@|download.microsoft.com^
 @@|download.visualstudio.microsoft.com^
 @@|download.wikipedia.com^
 @@|download.windowsupdate.com^
 @@|downloads.intercomcdn.com^
-@@|downloads.vivaldi.com^
 @@|drive.google.com^
 @@|ds.download.windowsupdate.com^
 @@|duckduckgo.com^
-@@|ea.com^
 @@|edge.microsoft.com^
 @@|emdl.ws.microsoft.com^
 @@|emea01.safelinks.protection.outlook.com^
@@ -275,7 +247,6 @@
 @@|go.microsoft.com^
 @@|gog-statics.com^
 @@|gog.com^
-@@|graph.microsoft.com^
 @@|graphql.epicgames.com^
 @@|gs.apple.com^
 @@|hash.github.com^
@@ -303,7 +274,6 @@
 @@|itunesconnect.apple.com^
 @@|ja.wikipedia.com^
 @@|jcmsfd.account.microsoft.com^
-@@|jp.pipe.aria.microsoft.com^
 @@|jp.wikipedia.com^
 @@|js.stripe.com^
 @@|kb.adguard.com^
@@ -344,7 +314,6 @@
 @@|msftncsi.com^
 @@|msn.com^
 @@|mucp.api.account.microsoft.com^
-@@|music.plus.google.com^
 @@|naomy.cdntrex.com^
 @@|ntp.msn.com^
 @@|nz.static.mega.co.nz^
@@ -383,7 +352,6 @@
 @@|paymentinstruments.mp.microsoft.com^
 @@|photo.plus.google.com^
 @@|photos.live.com^
-@@|pics.ebaystatic.com^
 @@|pl.wikipedia.com^
 @@|pmservices.cp.microsoft.com^
 @@|policies.live.net^
@@ -391,8 +359,6 @@
 @@|posarprodcssservice.accesscontrol.windows.net^
 @@|privacy.microsoft.com^
 @@|products.office.com^
-@@|protonmail.ch^
-@@|protonmail.com^
 @@|pti.store.microsoft.com^
 @@|purchase.mp.microsoft.com^
 @@|qcz.gallery.vsassets.io^
@@ -410,7 +376,6 @@
 @@|s.ytimg.com^
 @@|s2.youtube.com^
 @@|script.google.com^
-@@|secureir.ebaystatic.com^
 @@|self.events.data.microsoft.com^
 @@|service.weather.microsoft.com^
 @@|settings-win.data.microsoft.com^
@@ -492,7 +457,6 @@
 @@|edge-chat.facebook.com^
 @@|sso.roularta.be^
 @@|messagent.roulartamail.be^
-@@|www.bvoltaire.fr^
 @@|www.boulevard-voltaire.fr^
 @@|www.agoravox.fr^
 @@|www.breizh-info.com^
@@ -515,7 +479,6 @@
 @@|api.mixpanel.com^
 @@|m.stripe.network^
 @@|stripe.network^
-@@|service.videoplaza.tv^
 @@|targetemsecure.blob.core.windows.net^
 @@|config.edge.skype.com^
 @@|nav.smartscreen.microsoft.com^
@@ -532,9 +495,6 @@
 @@|stat.ripe.net^
 @@|latency.discord.media^
 @@|images2.imgbox.com^
-@@|developer.chrome.com^
-@@|developers.chrome.com^
-@@|www.whoer.net^^
 @@|static.asm.skype.com^
 @@|api3.cc.skype.com^
 @@|activity.windows.com^
