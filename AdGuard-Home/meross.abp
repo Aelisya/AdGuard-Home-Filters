@@ -1,8 +1,0 @@
-! Title: Macqael IOT BlockList
-! Description: Filter composed of Meross domain with Adblock Plus Syntax for DNS.
-! Version: 1.0.0
-! Homepage: https://github.com/macqael/AdGuard-Home-Filters
-! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
-||meross.com^
-||cdngslb.com^
-||meross-static.s3.amazonaws.com^
