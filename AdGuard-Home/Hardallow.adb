@@ -27,6 +27,8 @@
 @@||pinimg.com^
 @@||api.swiftype.com^
 @@||services.msn.com^
+@@|token.safebrowsing.apple^
+@@|safebrowsing.g.aaplimg.com
 @@|platform.bing.com^
 @@|authenticator-azureidentity-tas.msedge.net^
 @@|track.bpost.cloud^
