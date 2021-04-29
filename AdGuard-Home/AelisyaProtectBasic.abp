@@ -1,9 +1,9 @@
 ! Title: Macqael List
 ! Description: Filter composed of several filters i found usefull with Adblock Plus Syntax for DNS.
-! Version: 2.17.0
+! Version: 2.18
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-04-27
+! Last modified: 2021-04-29
 /.*?xn--.*/^
 ||sentry*^
 ||bugsnag*^
@@ -12,10 +12,10 @@
 ||hostname.bind^
 ||piwik.*^
 ||matomo.*^
-|supportmetrics.*^
-|wpad^
-|air-macqael^
-|mini-de-michael^
+||supportmetrics.*^
+||wpad^
+||air-macqael^
+||mini-de-michael^
 ||*.ad^
 ||*.ads^
 ||*.asia^
@@ -565,7 +565,6 @@
 ||getfoxyproxy.org^
 ||getproxi.es^
 ||gizlibaglanti.com^
-||google-public-dns-a.google.com^
 ||google-public-dns-b.google.com^
 ||goproxy.asia^
 ||greatestfreeproxy.com^
@@ -737,7 +736,6 @@
 ||proxysite.video^
 ||proxythis.info^
 ||proxyturbo.com^
-||proxyunblock.club^
 ||proxyunblock.site^
 ||proxyunblocker.org^
 ||public-dns-a.dns.sb^
