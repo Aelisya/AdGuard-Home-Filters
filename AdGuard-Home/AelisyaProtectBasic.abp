@@ -1,9 +1,9 @@
 ! Title: Macqael List
 ! Description: Filter composed of several filters i found usefull with Adblock Plus Syntax for DNS.
-! Version: 2.19
+! Version: 2.20
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-05-01
+! Last modified: 2021-05-02
 /.*?xn--.*/^
 ||sentry*^
 ||bugsnag*^
@@ -23,6 +23,7 @@
 ||*.ca^
 ||*.ru^
 ||*.ir^
+||*.ms
 ||*.media^
 ||*.systems^
 ||*.network^
@@ -52,7 +53,6 @@
 ||*.cl^
 ||*.int^
 ||*.ua^
-||*.ms^
 ||*.local^
 ||*.tw^
 ||*.party^
@@ -273,8 +273,6 @@
 ||huaweimobileservices.com^
 ||nelreports.net^
 ||privacy-center.org^
-||gfe.nvidia.com^
-||in.appcenter.ms^
 ||infogram.com^
 ||cxense.com^
 ||onesignal.com^
@@ -1782,3 +1780,31 @@
 ||api.okpal.com^
 ||hwcdn.net^
 ||v0cdn.net^
+||msn.com^
+||bing.com^
+||bing.fr^
+||msedge.net^
+||windowsupdate.com^
+||msftauth.net^
+||microsoft.com^
+||live.net^
+||live.com^
+||windows.com^
+||windows.net^
+||msauth.net^
+||azure.com^
+||visualstudio.com^
+||msecnd.net^
+||s-microsoft.com^
+||vsassets.io^
+||msftncsi.com^
+||outlook.com^
+||microsoftonline.com^
+||msftconnecttest.com^
+||office.com^
+||office.net^
+||office365.com^
+||onedrive.com^
+||microsoft-tst.com^
+||microsofttranslator.com^
+||skype.com^
