@@ -1,33 +1,61 @@
 ! Title: Macqael W10 Minimum
-! Description: Minimum Domain for the Security of windows 10 (update + edge update + windows defender/smartscreen).
-! Version: 1.0
+! Description: Minimum Domain for the Security of windows 10 (update + edge update + windows defender/smartscreen + VS code).
+! Version: 1.1
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
 ! Last modified: 2021-05-02
-||dl.delivery.mp.microsoft.com^
-||windowsupdate.com^
-||delivery.mp.microsoft.com^
-||prod.do.dsp.mp.microsoft.com^
-||update.microsoft.com^
-||pipe.aria.microsoft.com^
-|*smartscreen-prod.microsoft.com^
-|tile-service.weather.microsoft.com^
-|ctldl.windowsupdate.com^
-|www.bing.com^
-|licensing.mp.microsoft.com^
-|maps.windows.com^
-|msedge.api.cdp.microsoft.com^
-|iecvlist.microsoft.com^
-|go.microsoft.com^
-|img-prod-cms-rt-microsoft-com.akamaized.net^
-|livetileedge.dsx.mp.microsoft.com^
-|storecatalogrevocation.storequality.microsoft.com^
-|displaycatalog.mp.microsoft.com^
-|pti.store.microsoft.com^
-|www.msftconnecttest.com^
-|config.edge.skype.com^
-|wdcp.microsoft.com^
-|checkappexec.microsoft.com^
-|emdl.ws.microsoft.com^
-|adl.windows.com^
-|tsfe.trafficshaping.dsp.mp.microsoft.com^
+@@||windowsupdate.com^
+@@||delivery.mp.microsoft.com^
+@@||prod.do.dsp.mp.microsoft.com^
+@@||update.microsoft.com^
+@@||pipe.aria.microsoft.com^
+@@||config.skype.com^
+@@||gallery.vsassets.io^
+@@||gallerycdn.vsassets.io^
+@@||smartscreen.microsoft.com^
+@@||*smartscreen-prod.microsoft.com^
+@@|oneocsp.microsoft.com^
+@@|tile-service.weather.microsoft.com^
+@@|checkappexec.microsoft.com^
+@@|api.bing.com^
+@@|bing.com^
+@@|www.bing.com^
+@@|bing.fr^
+@@|msftconnecttest.com^
+@@|www.msftconnecttest.com^
+@@|msftncsi.com^
+@@|dns.msftncsi.com^
+@@|code.visualstudio.com^
+@@|update.code.visualstudio.com^
+@@|visualstudio-devdiv-c2s.msedge.net^
+@@|visualstudio.com^
+@@|app.vsaex.visualstudio.com^
+@@|adl.windows.com^
+@@|maps.windows.com^
+@@|licensing.mp.microsoft.com^
+@@|msedge.api.cdp.microsoft.com^
+@@|iecvlist.microsoft.com^
+@@|go.microsoft.com^
+@@|livetileedge.dsx.mp.microsoft.com^
+@@|storecatalogrevocation.storequality.microsoft.com^
+@@|store-images.microsoft.com^
+@@|store-images.s-microsoft.com^
+@@|displaycatalog.mp.microsoft.com^
+@@|pti.store.microsoft.com^
+@@|emdl.ws.microsoft.com^
+@@|wdcp.microsoft.com^
+@@|tsfe.trafficshaping.dsp.mp.microsoft.com^
+@@|img-prod-cms-rt-microsoft-com.akamaized.net^
+@@|statics-*.onestore.ms^
+@@|config.edge.skype.com^
+@@|avatar.skype.com^
+@@|pipe.skype.com^
+@@|msgsearch.skype.com^
+@@|beaz.tr.skype.com^
+@@|api.aps.skype.com^
+@@|options.skype.com^
+@@|api.asm.skype.com^
+@@|static.asm.skype.com^
+@@|api3.cc.skype.com^
+@@|people.skype.com^
+@@|contacts.skype.com^
