@@ -629,6 +629,7 @@
 ||matomo.*^
 ||supportmetrics.*^
 ||wpad^
+||ads.youtube.com
 ||aan.amazon.com^
 ||data.mistat.intl.xiaomi.com^
 ||cadtm.org^
