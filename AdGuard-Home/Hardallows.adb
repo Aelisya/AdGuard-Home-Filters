@@ -53,6 +53,7 @@
 @@||roulartamail.be^
 @@||roularta.be^
 @@||mlsend.com^
+@@||star-mini.c10r.facebook.com
 @@||lencr.org^
 @@||phncdn.com^
 @@||pornhub.com^
