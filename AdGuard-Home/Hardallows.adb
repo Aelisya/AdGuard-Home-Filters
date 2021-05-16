@@ -1,9 +1,9 @@
 ! Title: Macqael Hardallow
 ! Description: Filter composed of several Allowed domain unlocked with Adblock Plus Syntax for DNS.
-! Version: 4.3
+! Version: 4.4
 ! Homepage: https://github.com/macqael/AdGuard-Home-Filters
 ! License: https://github.com/macqael/AdGuard-Home-Filters/blob/main/LICENSE
-! Last modified: 2021-05-15
+! Last modified: 2021-05-16
 @@||feedproxy.google.com^
 @@||adblock-tester.com^
 @@||mega.io^
@@ -22,7 +22,6 @@
 @@||fonts.googleapis.com^
 @@||www.googleapis.com^
 @@||ajax.googleapis.com^
-@@||youtube.com^$important
 @@||youtube-nocookie.com^
 @@||ggpht.com^
 @@||ytimg.com^
@@ -37,10 +36,7 @@
 @@||ocsp.pki.goog^
 @@||edge-chat.facebook.com^
 @@||l.facebook.com^
-@@||star.c10r.facebook.com^
 @@||www.facebook.com^
-@@||login.facebook.com^
-@@||graph.facebook.com^
 @@||fbcdn.net^
 @@||fbcdn.com^
 @@||9hentai.ru^
@@ -53,7 +49,6 @@
 @@||roulartamail.be^
 @@||roularta.be^
 @@||mlsend.com^
-@@||star-mini.c10r.facebook.com
 @@||lencr.org^
 @@||phncdn.com^
 @@||pornhub.com^
@@ -61,3 +56,9 @@
 @@||hanime.tv^
 @@||f95zone.com^
 @@||f95zone.to^
+@@|star-mini.c10r.facebook.com
+@@|login.facebook.com^
+@@|graph.facebook.com^
+@@|star.c10r.facebook.com^
+@@|youtube.com^
+@@|www.youtube.com^
